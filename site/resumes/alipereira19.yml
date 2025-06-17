@@ -1,0 +1,105 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: Ali
+  last_name: Pereira
+  motto: I like programming.
+  focus: Learning everything I can about programming.
+  summary: |
+    I am an active person who really enjoys playing sports, such as tennis and padel.
+    I started learning about programming last year when I decided to be part of the Full-Stack Web development course in 4geeks Academy.
+    I'm currently getting into Data Science and Machine Learning and I would love to be part of a big AI project.
+  avatar: https://cdn2.iconfinder.com/data/icons/random-outline-3/48/random_14-512.png
+  email: aliper1908@gmail.com
+  github: alipereira19
+  linkedin: alipereiracastillo
+  languages:
+    - idiom: English
+      level: Professional
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Tennis
+    - item: Padel
+    - item: Programming
+
+education:
+  - degree: Full Stack Developer
+    university: 4Geeks Academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2024 - 2025
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+
+experiences:
+  - role: Virtual Receptionist
+    time: 2024 - Present
+    company: The Smile Mission, Florida
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+  - role: Sales Representative
+    time: 2020 - 2021
+    company: Pereira Motors, Venezuela
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Via Sacra
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "https://github.com/alipereira19/Via-Sacra"
+      tagline: "A web app made for immigrants who wants more safety."
+
+skills:
+  toolset:
+    - name: Python & Flask
+      level: 80%
+
+    - name: JavaScript
+      level: 70%
+
+    - name: React.js
+      level: 80%
+
+    - name: HTML5 & CSS
+      level: 85%
+
+    - name: Git
+      level: 80%
+
+    - name: PosgreSQL, SQL & SQLAlchemy
+      level: 70%
+
+    - name: Bootstrap
+      level: 85%
+
+    - name: JSON Web Token (JWT)
+      level: 70%
