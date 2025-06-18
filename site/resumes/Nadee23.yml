@@ -1,0 +1,108 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Nader
+  last_name: Aboud Cubero
+  motto: I like music and games
+  focus: id like to be a recognized game developer
+  summary: >
+    I’ve spent the last six years of my life dedicating all my time and
+    effort to my 
+
+    professional goals, studying and working at the same time with the aim of becoming 
+
+    a great developer and making a living from it. 
+
+    Right now, I’m looking to gain professional experience to grow 
+
+    both as a developer and as a person. That’s why I’m currently studying full-stack 
+
+    development—to gain new knowledge that will help me achieve my goals.
+  avatar: http://sep.breatheco.de/static/profile-images/Perfil-foto-Nader.JPG
+  email: naderaboud23@gmail.com
+  phone: 610138775
+  website: https://naderaboud23.wixsite.com/nader-aboud-cubero
+  linkedin: https://www.linkedin.com/in/nader-aboud-cubero-80a566190/
+  github: Nadee23
+  twitter: notengoygraciasaellosoyfeliz
+  stack-overflow: Nadev
+  languages:
+    - idiom: English
+      level: Professional
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Anime
+    - item: Games
+    - item: Music
+education:
+  - degree: Game development Master’s
+    university: none
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2022 - 2024
+    details: |
+      I studied a two-year advanced program in game development and completed 
+      a two-year Master’s degree, which made me fall in love with programming 
+      and design.
+  - degree: Game develpment high grade
+    university: none
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2020 - 2022
+    details: |
+      I studied a two-year advanced program in game development and completed 
+      a two-year Master’s degree, which made me fall in love with programming 
+      and design.
+experiences:
+  - role: Delivery-man
+    time: 2015 - 2022
+    company: Burger King
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      That job gave me the opportunity to study because it 
+      allowed me to balance my schedule and helped me pay 
+      for my education. In that role, I learned a lot about 
+      people and the importance of teamwork.
+  - role: Videogames level designer
+    time: 2022 - 2023
+    company: Viva games
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >
+      This role was part of the internship component of my advanced 
+
+      program in video game design and development. It provided me with 
+
+      valuable insights into real-world development processes, industry dynamics, 
+
+      work methodologies, and development frameworks.
+projects:
+  intro: >
+    you can find all my games in the next link: https://nadee23.itch.io Or
+    check my webside and/or my github
+  assignments:
+    - title: Ballrun
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://nadee23.itch.io/ballrun
+      tagline: 2D infinite runner game
+    - title: Willy Sloth
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://zorkat.itch.io/willy-sloth
+      tagline: 3D platform game where you are a SLoth
+    - title: Nowadays
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://nadee23.itch.io/nowadays
+      tagline: Top down ta
+skills:
+  toolset:
+    - name: Python
+      level: 70%
+    - name: JavaScript
+      level: 70%
+    - name: C#
+      level: 98%
+    - name: HTML5 & CSS
+      level: 80%
+    - name: Github & Gitlab
+      level: 80%
+    - name: Photoshop
+      level: 60%
