@@ -1,0 +1,76 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carlos Alfonso
+    last_name: Moreira Chavez
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta mucho los videojuegos
+    
+    # Focus
+    focus: La puntualidad, ser constante en mi trabajo
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy una persona tranquila, me gusta mucho concentrarme en mi trabajo, la puntualidad es una virtud que llevo desde pequeño
+      me gusta jugar con mis amigos, cualquier tipo de juego, me gusta reljarme cuando tengo tiempo libre, despejar la mente es algo importante.
+      Tambien me gusta mucho trabajar, ahora mismo estoy realizando un curso programacion, porque me encanta la informatica y quiero ejercer como programador.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/Fotodeperfil.png
+
+    # Contact Information
+    email: CarlosM099C@gmail.com #optional
+    phone: +34-653071808 #optional
+    linkedin: Carlos Moreira Chavez #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ByCarlosS
+
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Videojuegos
+
+      - item: Cocinar
+
+      - item: Programar
+
+# Your previous education
+education:
+    - degree: Bachiller en Ciencias Generales
+      university: Unidad Educativa Eloy Alfaro
+      # optional
+      university_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToH9gBcgd_RbUHxNlcyAlsNPMsgof471buRg&s
+      time: 2013 - 2019
+      details: |
+        Me forme en este instituto como estudiante en ciencias generales, no fui muy sobresaliente, pero fui un estudiante estandar
+        Forme parte de equipo de Basquet de mi instituto.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Chofer Privado
+      time: 2023 - 2025
+      company: TWH Quality Services. S.L
+      # optional
+      company_logo: https://media.licdn.com/dms/image/v2/D4D0BAQF_4QGHTMzccA/company-logo_200_200/company-logo_200_200/0/1710501436232/twh_quality_services_sl_logo?e=2147483647&v=beta&t=G86p63fNRMV5HQUxfSSwlA4-c4SYR7Wb0xhAr6p35JE
+      details: |
+        Fui chofer privado, realizaba traslado de personal de empresa, y celebridades, me destaque mucho en mi conducción Professional,
+        en mi puntualidad, mi formalidad a la hora de tratar con los clientes.
