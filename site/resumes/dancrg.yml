@@ -1,0 +1,253 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+
+
+
+template: "online-cv"
+skin: "blue"
+
+
+
+
+
+
+
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jesús Daniel
+    last_name: Céspedes Rojas
+    
+    # Define yourself in 4-5 words
+    motto: Let's improve every day!
+    
+    # Focus
+    focus: Now - to be a great Data Scientist!
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+
+      Petroleum Engineer with field experience as a Wireline Assistant and Electric and Fiber Optic 
+      Logging Engineer in producers and injectors wells in Colombia. Responsible for: 
+      the operations planning and developing, inside and outside the wellbore location; 
+      management of specialized log acquisition and interpretation software; 
+      creation of hour-by-hour reports; management of big databases; 
+      working under constant pressure with the co-workers, the clients and staff of the others involved companies. 
+      Proactive, gentle, communicative with an intermediate level of English. 
+      With willing to learn and improve daily.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/C4E03AQEwD9v8C9elIw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1555871674551?e=1755734400&v=beta&t=zNREB8lTS5IqkbuiJ9Dn5dOgyemrANyRyeMa_w6WYHk
+
+    # Contact Information
+    email: jdcespedesrojas@gmail.com
+    phone: 313 702 3575
+    #website: #optional
+    linkedin: https://www.linkedin.com/in/jesuscespedesrojas/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: dancrg
+    
+    #twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermediate
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Learning
+
+      - item: Sports
+
+      - item: Movies
+
+      - item: English
+
+
+
+
+
+
+
+
+
+
+
+# Your previous education:
+
+education:
+    - degree: Bachelor of Science in Petroleum Engineering
+      university: Surcolombiana University
+      university_logo: https://campusvirtual.usco.edu.co/administrador_campus/ofertaAcademica/imagen?id=2430
+      time: 2012 - 2018
+      details: |
+        
+        - Creation of paper: Escobar, F.H., Céspedes, J.D. & Ruiz, A.G. (2018). 
+        Pressure and pressure derivative interpretation in radial 
+        non-Newtonian/nonNewtonian composite reservoirs. ARPN Journal of
+        Engineering and Applied Sciences, 13(9)
+
+        - Member of the research group: Geosciences, Infraestructure, Productivity and Environment
+
+        - Half scholarship - 50% tuition waiver in the 2015-2 period of Petroleum Engineering
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Your previous job experiences or volunteer:
+
+experiences:
+    - role: Electric and Fiber Optic Logging Engineer
+      time: 2021 - Present
+      company: Maxim & Fishing Solutions Provide S.A.S
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW_W-OKeVkIupmg-ku3bg_DKkCGYHtve8sDQ&s
+      details: |
+        Main duties:
+
+        - Accomplish real time and memorized logging jobs in producers and injectors wells, with wireline conventional tools and with fiber optic (DTS)
+        - Carry out Braided Line services 
+        - Manage numerous software about logging acquisition and interpretation during the operations
+        - Coordinate with the client and the other involved companies, for the correct development of the operations
+        - Lead the crews with the majors required security standards
+
+        Achievement:
+        - "Recognition for leadership, teamwork, assertive communication, stress management, 
+        decision-making, healthy lifestyle habits, and fulfillment of QHSE responsibilities 
+        in the year 2022."
+
+
+
+    - role: Wireline Operations Assistant
+      time: 2018 - 2019
+      company: Maxim & Fishing Solutions Provide S.A.S
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW_W-OKeVkIupmg-ku3bg_DKkCGYHtve8sDQ&s
+      details: |
+        Main duties:
+        - Prepare the logging truck, the pressure control equipment and the remaining tools for the operations
+        - Carry out the rig up and rig down of the previously mentioned equipment in the wellbore location
+        - Inspect and clean the logging trucks and work areas 
+        - Drive the company vehicles
+        
+        Contributions to the company:
+        - Design the document ‘Analysis of safe Wireline operations’;
+        - Replace temporarily a Slickline Coordinator
+
+
+
+    - role: Environmental Intern
+      time: 2017 - 2018
+      company: Neiva Town Hall - Secretariat of Environment and Sustainable Rural Development
+      company_logo: https://www.alcaldianeiva.gov.co/SiteAssets/V2/images/LOGO%20ALCALDIA%202024.png
+      details: |
+          Main duties:
+          - Assist, maintain open dialogue, and collaborate with the artisanal mining community
+          - Elaborate mining reports and projects
+          - Organize documentation
+          - Support the monitoring and control processes of illegal mining activities
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Projects in progress...
+
+    #assignments:
+      #- title: Velocity
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#hook"
+        #tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      #- title: DevStudio
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        #tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      #- title: Tempo
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        #tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      #- title: Atom
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        #tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      #- title: Delta
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        #tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skills:
+    toolset:
+      - name: Python for Data Science
+        level: 30% and in progres...
+
+      - name: SQL
+        level: In progress...
+
+      #- name: Angular
+        #level: 98%
+
+      #- name: HTML5 & CSS
+        #level: 95%
+
+      #- name: Ruby on Rails
+        #level: 85%
+
+      #- name: Sketch & Photoshop
+        #level: 60%
