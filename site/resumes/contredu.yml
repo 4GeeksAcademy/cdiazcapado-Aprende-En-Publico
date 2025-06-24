@@ -1,0 +1,130 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carlos Enrique
+    last_name: Contreras Duque
+    
+    # Define yourself in 4-5 words
+    motto: I am decisive, focused and always wanting to improve myself.
+    
+    # Focus
+    focus: Full stack.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: No tengo una gran carrera en el mundo de la programcion pero si que tengo algo increible que puede que a muchos les falte
+            y son las ganas de salir adelante con todo lo que me he propuesto sin opcion a rendirme y a seguir fuerte de la mano de Dios.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://github.com/Contredu
+
+    # Contact Information
+    email: carlos.contredu@gmail.com #optional
+    phone: +34 641 288 169 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/carlos-enrique-contreras-duque-8bb208116/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Contredu 
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+    # Interests or hobbies
+    interests:
+      - item: Soccer
+
+      - item: video games
+
+      - item: Read.
+
+# Your previous education
+education:
+    - degree: Electromecánico de Vehiculos.
+      university: IES Luis Vives
+      
+      time: 2015 - 2017
+      details: Mecánico de vehiculos para la reparacion de todo tipo de fallos, como en electrónica como en lo mecánico.
+
+    - degree: Protege tu negocio ciberseguridad.
+      university: Google Actívate.
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023.
+      details: Conceptos basicos a tener en cuenta para la ciberseguridad de un negocio.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Waiter
+      time: 2022 - Present
+      company: Meliä Hotels, Valencia- España
+      # optional
+      details: 
+        Encargado de hacer que la estancia de nuestros clientes sea lo
+        mas agradable posible prestandole todas nuestras comodidades y dando
+        nuestro mejor servicio tanto en la zona de restaurante piscina y zonas comunes.
+
+    - role: Instalador de fibra optica.
+      time: 2021
+      company: Fortelecom
+      details: 
+        Encargado de la instalacion de un pueblo para el cableado de la fibra
+        óptica para luego el facil montaje del internet.
+
+
+# Your project portfolio
+projects:
+    intro: 
+      Aquí presentaré la lista de proyectos que hemos realizado en 
+      nuestro Bootcamp de 4GeeksAcademy.
+
+    assignments:
+      - title: Posta Card
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Contredu/exercise-postcard"
+        tagline: "Proyecto de simulación de una Post Card."
+
+      - title: Form
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Contredu/crea-un-form-solrac"
+        tagline: "Creando un formulario de pago."
+
+      - title: Pagina colaborativa.
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Contredu/fs-pt-115-Colaborativo-Rafa-Carlos-Juanje-Marcos"
+        tagline: "Trabajo en conjunto para la pagina web."
+
+skills:
+    toolset:
+      - name: Python
+        level: 10%
+
+      - name: JavaScript 
+        level: 30%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 70%
