@@ -1,0 +1,146 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Gabriela Denice
+    last_name: Chavez Toledo
+    
+    # Define yourself in 4-5 words
+    motto: I like learn new things
+    
+    # Focus
+    focus: help people
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+    Throughout my career in customer service, 
+    I have improved my customer service and performed my tasks and tasks with greater efficiency and productivity.
+
+    I am a team-oriented person, decisive, and analytical.
+
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: site/src/static/foto perfil.jpg
+
+    # Contact Information
+    email: denice.toledo00@gmail.com #optional
+    phone: +34 663597976 #optional
+  
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Gaby00806
+    
+  
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: 65%
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Kitesurf
+
+      - item: Rugby
+
+      - item: Cooking
+
+# Your previous education
+education:
+
+    - degree: marketing and advertising
+      university: Universidad Francisco Gavidia Republica de El Salvador.
+      # optional
+      time: 2008 - 2014
+      details: |
+      I studied marketing and advertising in El Salvador so I could develop my skills and knowledge,
+       in many companies in the commercial and telecommunications sectors.
+
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: manager
+      time: 2023 - Present
+      company: meliá hotels international
+      # optional
+      details: |
+       
+     Assist in managing and monitoring the income statements for the different points of sale, as well as implementing the necessary action plans to address any budget deviations at each location.
+    Support the achievement of the company’s established quality standards and objectives.
+
+    Help ensure compliance with the HACCP quality program, along with all operational standards and procedures.
+    Assist in overseeing purchase orders and inventory control at each point of sale.
+    Contribute to maintaining optimal staffing levels in Restaurants and Bars, in accordance with the authorized Staffing Guide.
+    Support the creation and organization of work schedules for each team.
+    Assist in managing the work schedules for the food and beverage team.
+    Collaborate in handling payroll-related issues for the food and beverage department.
+    Provide operational support for the Bars and Restaurants.
+
+
+# Your project portfolio
+projects:
+
+    intro: >
+   As an active student, I haven't collaborated on any major projects yet, but I would like to showcase my progress, 
+   what I'm learning, and how I'm putting it into practice.
+     
+
+    assignments:
+
+      - title: Instagram Photo Feed con Bootstrap
+        # optional
+        link: https://github.com/4GeeksAcademy/Feed-con-Bootstrap.correccion-4
+        tagline: A responsive website template 
+
+      - title: Crea un form HTML5
+        # optional
+        link: https://github.com/4GeeksAcademy/form-html5.Gabriela
+        tagline: With this exercise I learned
+        How to use text inputs, text areas, date inputs and numeric inputs.
+        How to use dropdowns.
+        How to form preventive validations.
+        The difference between GET and POST.
+        Styling a form.
+
+      - title: Building an HTML/CSS Website Collaboratively using Git and GitHub
+        # optional
+        link: https://github.com/4GeeksAcademy/exercise-collaborative-html-website-Gabriela-Jos--Angel
+        tagline: 
+        skills in Git while developing a typical website, Each student worked on a different file of the website, 
+        and at the end they put all the pieces together so that the project takes shape.
+
+      - title: AtoDomain Name Generator
+        # optional
+        link: https://github.com/4GeeksAcademy/fs-pt-115.generador-de-dominios.gabriela
+        tagline: 
+        Create a script that generates all the possible domain name combinations from a list of pronouns, adjectives and nouns, for example:
+        let pronoun = ['the', 'our'];
+        let adj = ['great', 'big'];
+       let noun = ['jogger', 'racoon'];
+
+
+skills:
+    toolset:
+
+      - name: JavaScript
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 20%
+
+     
