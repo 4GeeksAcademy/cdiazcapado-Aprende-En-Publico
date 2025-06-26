@@ -1,0 +1,59 @@
+
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Salvador
+  last_name: Gómez Moya
+
+  # Define yourself in 4-5 words
+  motto: Sociable, organizado, tranquilo, proactivo
+
+  # focus
+  focus: Aprendiendo a programar.
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: 
+    Actualmente aprediendo a programar con 4Geeks y trabajando de técnico en trazabilidad.
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: http://sep.breatheco.de/static/profile-images/
+  # Contact Information
+  email: salvadorgomezmoya@gmail.com
+  linkedin:
+    Salvador Gómez
+    # This github username will be use to generate your public profile URL like this: https://github.com/Vulcanvm
+  github: https://github.com/Vulcanvm
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: Inglés
+      level: Medio
+
+    - idiom: Alemán
+      level: Medio
+
+    - idiom: Español
+      level: Nativo
+
+    # Interests or hobies
+  interests:
+    - item: Videojuegos
+
+    - item: Leer
+
+    - item: Senderismo
+
+  education:
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2025
+      details: 
+        -HTML5
+        -CSS
+        -Bootstrap
+        -Javascript
