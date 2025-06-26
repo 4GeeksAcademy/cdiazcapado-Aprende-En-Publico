@@ -1,0 +1,98 @@
+template: "online-cv"
+skin: "green"
+
+basic_info:
+    first_name: Raúl
+    last_name: Bordón Prieto
+    motto: Desarrollador web con visión creativa y técnica
+    focus: Front-end Developer
+    summary: |
+      Desarrollador web junior con enfoque en front-end, formado en 4Geeks Academy.
+      Experto en HTML, CSS, JavaScript, React y Python. Alta capacidad de resolución 
+      de problemas, detalle visual y trabajo en equipo. Experiencia en hostelería liderando equipos en entornos de alta presión. 
+      Busco incorporarme al sector tech con actitud proactiva y aprendizaje constante.
+
+    avatar: https://photos.fife.usercontent.google.com/pw/AP1GczPgTgQ1Jo0zRe-9RbnT0mvR0rRUq9Lyx_eZ-NOC-0ENVFIENcgKCYmQ9Q=w1011-h1347-s-no-gm?authuser=0
+    email: raulbordon2002@hotmail.es
+    phone: 615969168
+    website: ""
+    linkedin: raúl-bordon-prieto-42b28a304
+    github: raulbordon
+    twitter: ""
+    stack-overflow: ""
+
+    languages:
+      - idiom: Español
+        level: Nativo
+      - idiom: Inglés
+        level: Competente
+
+    interests:
+      - item: Programación
+      - item: Diseño Web
+      - item: Coctelería Creativa
+      - item: Cine y fotografía
+
+education:
+    - degree: Máster-Bootcamp en Desarrollo Web
+      university: 4Geeks Academy España
+      time: 11/2024 - 07/2025
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Formación intensiva en tecnologías web: HTML, CSS, JavaScript, React, Python. Proyecto final en equipo con enfoque en e-commerce.
+
+    - degree: Curso Superior Experto en Coctelería y Mixología
+      university: Cámara de Comercio de Madrid
+      time: 09/2022 - 06/2023
+
+    - degree: Ciclo Formativo Grado Medio en Gestión de Restaurantes y Hostelería
+      university: CIFP Simone Ortega
+      time: 09/2019 - 06/2021
+
+experiences:
+    - role: Head Bartender
+      time: 09/2024 - 08/2025
+      company: Manifesto 13, Madrid
+      details: |
+        Liderazgo de equipo, diseño de carta de cócteles, y gestión de barra en un entorno de alta exigencia.
+
+    - role: Head Bartender
+      time: 05/2024 - 09/2024
+      company: Evranto, Calle Génova 7
+      details: |
+        Responsable de operativa de barra, control de stock y formación de nuevos bartenders.
+
+    - role: Barman
+      time: 01/2023 - 05/2024
+      company: StreetXO, Madrid
+
+    - role: Barman Jefe
+      time: 09/2022 - 01/2023
+      company: Grupo Fisher's, Madrid
+
+    - role: Bar Back
+      time: 04/2022 - 07/2022
+      company: Club Matador, Madrid
+
+projects:
+    intro: >
+      A continuación se presentan algunos de mis proyectos personales y colaborativos realizados durante mi formación en desarrollo web.
+
+    assignments:
+      - title: SneakPeek
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/ProyectoFinalTiendaDeSneekers
+        tagline: Proyecto final colaborativo de e-commerce de zapatillas, desarrollando completamente la parte de front-end.
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 95%
+      - name: JavaScript
+        level: 90%
+      - name: React & React-Bootstrap
+        level: 85%
+      - name: Python
+        level: 70%
+      - name: Bootstrap
+        level: 85%
