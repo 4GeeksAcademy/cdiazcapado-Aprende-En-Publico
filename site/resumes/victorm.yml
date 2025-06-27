@@ -1,0 +1,94 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: Victor Manuel
+  last_name: González Hernández
+  motto: "Por donde quiera que camine ahí habrá camino"
+  focus: "Data Science"
+  summary: |
+    Ingeniero en formación apasionado por los datos, el backend y el aprendizaje constante.
+    Con experiencia en desarrollo de software para el sector bancario, así como en análisis y ciencia de datos.
+
+    Interesado en seguir creciendo profesionalmente en tecnología, idiomas y oportunidades globales.
+  avatar: https://randomuser.me/api/portraits/men/24.jpg  # Puedes cambiarla por tu propia foto en el futuro
+
+  email: victorquick135@gmail.com
+  phone: "+52 2219439900"
+  website: ""
+  linkedin: https://www.linkedin.com/in/victornth135gonzalezdev
+  github: VictorNTH135
+  twitter: ''
+  stack-overflow: ''
+
+  languages:
+    - idiom: Español
+      level: Nativo
+    - idiom: Inglés
+      level: Intermedio
+
+  interests:
+    - item: Idiomas
+    - item: Desarrollo de Software
+    - item: Viajar
+
+education:
+  - degree: Data Science & Machine Learning
+    university: 4Geeks Academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2022 - actual
+    details: |
+      Bootcamp orientado a resolver problemas reales del mercado con herramientas de Python, SQL y Machine Learning.
+
+  - degree: Ingeniería Electrónica
+    university: Universidad Autónoma Metropolitana
+    university_logo: https://upload.wikimedia.org/wikipedia/commons/b/b7/Universidad_Aut%C3%B3noma_Metropolitana_Logo.svg
+    time: 2022 - 2026
+    details: |
+      Tesis: Desarrollo de un sistema ERP para la empresa Casa Oliveira C.A.
+
+experiences:
+  - role: Backend Java Developer
+    time: 2024 - 2024
+    company: Babbel Group - México
+    company_logo: https://upload.wikimedia.org/wikipedia/commons/f/fd/Babbel_Logo.svg
+    details: |
+      Desarrollo de sistemas backend para la tesorería digital internacional de BBVA.
+      Enfocado en automatización de procesos financieros con Java y Spring Boot.
+
+projects:
+  intro: >
+    Algunos proyectos personales y desarrollos en los que he trabajado o colaborado, enfocados en desarrollo backend y análisis de datos.
+
+  assignments:
+    - title: ERP Casa Oliveira
+      project_logo: https://cdn-icons-png.flaticon.com/512/4221/4221419.png
+      link: "#"
+      tagline: "Sistema integral para la gestión de inventarios y operaciones en una empresa venezolana."
+
+    - title: Análisis de precios de vivienda
+      project_logo: https://cdn-icons-png.flaticon.com/512/4341/4341139.png
+      link: "#"
+      tagline: "Análisis estadístico con Python para detectar zonas con mayor plusvalía en la CDMX."
+
+    - title: Clasificador de Fraude Financiero
+      project_logo: https://cdn-icons-png.flaticon.com/512/4743/4743033.png
+      link: "#"
+      tagline: "Modelo de machine learning entrenado para detectar fraudes en tarjetas de crédito."
+
+skills:
+  toolset:
+    - name: Java
+      level: 95%
+    - name: Spring Boot
+      level: 70%
+    - name: Python
+      level: 80%
+    - name: HTML5 & CSS
+      level: 100%
+    - name: Scrum
+      level: 100%
+    - name: MongoDB
+      level: 70%
+    - name: Github
+      level: 95%
