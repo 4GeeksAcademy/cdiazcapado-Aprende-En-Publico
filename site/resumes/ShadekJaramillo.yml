@@ -1,0 +1,51 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Shadek
+  last_name: Jaramillo
+  motto: The simpler the answer, the better, but complex answers beat no answer.
+  summary: >
+    I am an Astronomy student from Colombia, fast learner, and extremely
+    curious. Good at math.
+  avatar: null
+  email: shadekjaramillo@gmail.com
+  linkedin: https://www.linkedin.com/in/shadek-jaramillo-4297a336a/
+  github: ShadekJaramillo
+  languages:
+    - Language: English
+      level: Advanced
+    - idiom: Spanish
+      level: Native
+  Hobbies:
+    - item: Sport shooting
+    - item: chess
+    - item: Guitar
+education:
+  - degree: Astronomy (in progress)
+    university: Universidad de Antioquia
+    time: 2023 - 2025
+    details: Astronomy is affine to physics, so much that in - Bullet point - Bullet
+      point
+experiences:
+  - role: null
+    time: null
+    company: null
+    details: null
+projects:
+  intro: You can list your side projects or open source libraries in this section.
+  assignments:
+    - title: null
+      project_logo: null
+      link: null
+      tagline: null
+skills:
+  toolset:
+    - name: Python
+      level: 70%
+    - name: SQL
+      level: 40%
+    - name: HTML5 & CSS
+      level: 20%
+    - name: Autodesk Fusion
+      level: 20%
