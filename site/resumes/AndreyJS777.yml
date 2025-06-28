@@ -1,0 +1,49 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jorge Andrey
+    last_name: Hidalgo
+    
+
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+
+      - idiom: Spanish
+        level: Nativo
+
+    github: AndreyJS777
+
+
+education:
+    - degree: Tecnico servicios de TI
+      university: Cenfotec
+      time: 2022 - actualidad
+      
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Tecnico servicios de TI
+      time: 2015 - Present
+      company: Financiera
+      details: |
+        Encargado de revisar incidentes y requerimientos en el service desk a nivel BD, redes, hardware, software, programación, entre otros
+
+
+skills:
+    toolset:
+      - name: html & CSS
+        level: 30%
+
+      - name: JavaScript
+        level: 20%
+
+
