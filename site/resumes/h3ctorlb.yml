@@ -1,0 +1,105 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: hector
+    last_name: lb
+    
+    # Define yourself in 4-5 words
+    motto: “Siempre aprendiendo, creando con sentido”
+    
+    # Focus
+    focus: "Pensamiento crítico con propósito"
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+        Soy una persona en constante aprendizaje, con una fuerte inclinación al pensamiento crítico y a encontrar sentido en cada paso que doy. 
+        Actualmente estoy enfocado en aprender Inteligencia Artificial con el objetivo de aplicarla en soluciones que realmente generen impacto. 
+        Me interesan los proyectos con propósito, el diseño minimalista, y la tecnología como medio para mejorar la vida cotidiana.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/h3ctorlb.jpg    
+    # Contact Information
+    email:  #optional
+    phone:  #optional
+    website: SOON #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: h3ctorlb
+    
+    
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: Professional
+
+
+    # Interests or hobbies
+    interests:
+      - item: Leer
+
+      - item: Cocinar
+
+      - item: Aprender algo nuevo
+
+# Your previous education
+education:
+    - degree: Ingeniera en IA
+      university: Hybridge Education
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 -
+      details: |
+        
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: 
+      time: 
+      company:
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+
+
+# Your project portfolio
+projects:
+    intro: >
+
+    assignments:
+      - title:
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: 
+        tagline: 
+
+     
+skills:
+    toolset:
+      - name: Python 
+        level: 
+
+      - name: JavaScript 
+        level: 
+
+      - name: HTML5 & CSS
+        level: 
+
+      - name: Photoshop
+        level: 
