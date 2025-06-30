@@ -1,0 +1,183 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Pablo
+    last_name: Ezeta
+    
+    # Define yourself in 4-5 words
+    motto: Just Do It
+    
+    # Focus
+    focus: IN THE PRESENT
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+        Desarrollador Front-End y Diseñador Web con experiencia comprobada en la creación, desarrollo y gestión de sitios web responsivos y optimizados, principalmente utilizando WordPress. Mi experiencia como freelance me ha permitido trabajar en diversos proyectos, desde sitios estáticos hasta e-commerce y sistemas de reservas, gestionando todas las etapas desde la conceptualización hasta el lanzamiento. Además, cuento con habilidades en diseño gráfico básico y edición de video, lo que enriquece mi capacidad para crear contenido web atractivo y funcional. Busco una posición donde pueda aplicar mi creatividad, habilidades técnicas y mi enfoque proactivo para contribuir al éxito de proyectos web impactantes.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: pablo.ezeta.watts@gmail.com #optional
+    phone: +52 55 4817 4642 #optional
+    website: https://design.pabloezeta.com/ #optional
+    linkedin: https://www.linkedin.com/in/pablo-ezeta/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/dzulha
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: 19848580/dzul-ha # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2
+
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Scuba Diving
+
+      - item: Photograph
+
+# Your previous education
+education:
+  - institution: Universidad de Londres, CDMX
+    degree: Licenciatura en Mercadotecnia
+    date: "Enero 2014 - Enero 2018"
+
+  - institution: Coursera (en línea)
+    course: Google UX Design Certificate
+    date: "Junio 2021 - Enero 2022"
+
+  - institution: Platzi (en línea)
+    course: Motivación y liderazgo para equipos de trabajo
+    date: "Febrero 2023"
+
+  - institution: Gimnasio de Arte, CDMX
+    course: Diplomado de Fotografía Digital
+    date: "Octubre 2017 - Marzo 2018"
+
+# Your previous job experiences or volunteer
+experience:
+  - position: Diseñador Web
+    company: Freelance
+    location: Ciudad de México, México
+    date: "Noviembre 2023 – Actualidad"
+    responsibilities:
+      - Desarrollo de 8 proyectos web incluyendo sitios estáticos, e-commerce y sistemas de reservas.
+      - Comunicación directa con clientes y traducción de requerimientos en soluciones web.
+      - Diseño, desarrollo y lanzamiento completo de sitios web adaptados a distintas plataformas.
+      - Asesoramiento a clientes sobre presencia digital y gestión de contenido en la nube.
+      - Gestión de presupuestos, edición de contenido, fotografía y redacción web.
+      - Proyectos Destacados: 
+        - xmartaja.com
+        - cetusscubacenter.com
+        - cetusscubarepair.com
+        - rehtm.wordpress.com
+
+  - position: Diseñador Web
+    company: Escuela de Buceo ABISMO
+    location: Ciudad de México, México
+    date: "Julio 2011 - Julio 2023"
+    responsibilities:
+      - Diseño y mantenimiento del sitio abismoesbuceo.com en WordPress.
+      - Estrategias de SEO que posicionaron el sitio en los primeros resultados de Google.
+      - Creación de contenido visual y multimedia para sitio y redes sociales.
+      - Gestión de campañas de publicidad online (Google Ads, Facebook Ads).
+
+  - position: Diseño Editorial y Maquetador
+    company: Freelance
+    location: Ciudad de México, México
+    date: "Agosto 2023 – Mayo 2024"
+    responsibilities:
+      - Diseño y maquetación del libro infantil 'Sinfonía' para Amazon KDP.
+      - Generación de 31 imágenes mediante ilustración generativa con Adobe Firefly.
+      - Desarrollo de identidad visual de la autora para Amazon, sitio web e Instagram.
+      - link: "https://linktr.ee/ezwa76"
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+     - WordPress:
+     - Desarrollo de temas personalizados
+     - Personalización de temas con Elementor
+     - Gestión de plugins
+     - Resolución de conflictos
+     - Optimización de rendimiento
+     - UX/UI Design:
+     - Traducción de mockups a código
+     - Wireframes básicos
+     - Principios de usabilidad
+     - Front-End:
+     - HTML5
+     - CSS3 (SASS/SCSS)
+     - JavaScript (Vanilla JS)
+     - Responsive Design
+     - Accesibilidad Web
+     - Herramientas de Diseño:
+     - Figma
+     - Adobe Photoshop
+     - Canva
+     - Hosting y Dominios: Gestión básica
+     - Control de Versiones: Git
+     - SEO Básico:
+     - Meta tags
+     - Estructura de URLs
+     - Optimización de contenido
+     - Idiomas:
+     - Español: Nativo
+     - Inglés: Fluido (conversación y lectura)
