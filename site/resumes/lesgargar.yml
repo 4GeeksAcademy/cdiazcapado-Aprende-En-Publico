@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Leslie
+    last_name: Garcia
+    
+    # Define yourself in 4-5 words
+    motto: I really love animals
+    
+    # Focus
+    focus: Hard coding
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     wide experience with customers and administrative tasks, good at comunication, polite, respectful and responsible
+     always learning
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2025/05/chopper-one-piece-4325869.jpg?tf=1200x900
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/leslie-garcia-garcia/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: lesgargar
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: 
+        level: 
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Playing TCG
+
+      - item: Boardgames
+
+      - item: Desserts
+
+# Your previous education
+education:
+    - degree: Administration
+      university: Humanitas
+      # optional
+      university_logo: 
+      time: 2019 - 2022
+      details: |
+        Business Administration 
+
+
+      
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Customer service specialist
+      time: 2021 - 2022
+      company: Conteyor
+      # optional
+      company_logo: 
+      details: |
+       Inform customers about their requests, follow up projects to be produced, shipped and delivered.
+
+          - Creation of purchase orders in SAP
+          - Daily meetings with customers and team in order to update all the info.
+
+    - role: Administrative analyst
+      time: 2015-2020
+      company: Qualitas
+      # optional
+      company_logo: 
+      details: |
+        Insurance policy analysis, contact customers and coworkers to follow up the crash or special cases of car accidents.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      JS and TS Jr developer
+
+    assignments:
+      - title: Expat App
+        # optional
+        project_logo: 
+        link: 
+        tagline: "An expo app insurance for expats to manage their isurance policy (Home / Car / Healt / Travel)"
+
+
+skills:
+    toolset:
+
+      - name: JavaScript 
+        level: 65%
+
+      - name: React & React Native
+        level: 55%
+
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: Typescript
+        level: 40%
