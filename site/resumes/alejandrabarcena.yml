@@ -1,0 +1,32 @@
+basic_info:
+  first_name: Alejandra
+  last_name: Barcena
+  github_username: alejandrabarcena
+  linkedin_username: null
+  portfolio: null
+  twitter_username: null
+  personal_website: null
+  email: alejandrabarcena2024@gmail.com
+  short_description: |
+    Techie-feminista en transición al mundo del software. Creativa, comunicadora y full-stack developer en formación.
+  location: Ciudad de México, México
+
+skills:
+  - HTML
+  - CSS
+  - JavaScript
+  - React
+  - Python
+  - Git/GitHub
+  - QA Testing
+  - UX/UI
+
+goals:
+  - Terminar el bootcamp Full Stack
+  - Desarrollar un portafolio profesional
+  - Conseguir una oportunidad laboral en Alemania
+
+projects:
+  - title: Luminous Mood Planner
+    description: Planificador diario con tareas, estado de ánimo, Pomodoro e íconos personalizados.
+    link: https://github.com/alejandrabarcena/LuminousMoodPlanner
