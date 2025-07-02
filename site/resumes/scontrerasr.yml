@@ -1,0 +1,134 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+    first_name: Saulo Andrés
+    last_name: Contreras Riera
+    motto: "Mechanical Engineer driven to contribute to team success through hard work and attention to detail."
+    focus: "Innovation, New Business Development, Data Analysis"
+    summary: |
+      Mechanical Engineer motivated to contribute to team success through hard work, attention to detail, and excellent organizational skills. 
+      Over 3 years of experience across multiple fields, accumulating professional and technical skills. Fast learner with a strong interest 
+      in technology, engineering, and finance projects. Committed to learning, growing, and excelling in dynamic environments.
+
+    avatar:  https://media.licdn.com/dms/image/v2/D4E03AQEc0Uby0PHzTg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1697141895348?e=1756944000&v=beta&t=4oq8_DYfPtXYL0656VLqcu1rfyNXVMcvPZ48aD4GYwo
+    email: "scontrerasriera@gmail.com"
+    phone: "+58 414 8385614"
+    linkedin: "linkedin.com/in/saulo-contreras-954717233/"
+    website:  # (Not provided)
+    github:  # (Not provided)
+    twitter:  # (Not provided)
+    stack-overflow:  # (Not provided)
+
+    languages:
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: Medium-Advanced
+      - idiom: German
+        level: Medium-Advanced
+
+    interests:
+      - item: "Mountaineering (climbed 3 of Venezuela’s 5 highest peaks)"
+      - item: "Karate (2nd Dan Black Belt, former national team member)"
+      - item: "Reading"
+      - item: "Cooking"
+      - item: "Running & CrossFit"
+
+# Education
+education:
+    - degree: "BSc in Mechanical Engineering"
+      university: "Universidad Metropolitana de Caracas"
+      time: "2018 - 2023"
+      details: |
+        - Minors: Mechanical Maintenance, Thermal Projects, Graphic Design, Mechanical Design, Financial Engineering.
+        - Research Thesis (Honors): *"Design of a Sustainable Hydroponic Nursery."* (Tools: Excel, MATLAB, Revit).
+        - Teaching Assistant: Industrial Process Control (2022, ZelioSoft).
+        - Coordinator: Mechanical Engineering Student Center (2021-2022).
+
+# Certifications
+    - degree: "Data Science & Big Data Certification"
+      university: "MIT xPro"
+      time:  # (Not specified)
+      details: "Data-driven decision making."
+
+    - degree: "Business Intelligence & Data Analysis Certification"
+      university: "Corporate Finance Institute"
+      time: "(In Progress)"
+      details:  # (No details provided)
+
+    - degree: "Agile Project Management Certification"
+      university: "IESA & Unikemia"
+      time:  # (Not specified)
+      details:  "Agile Project Management"
+
+# Work Experience
+experiences:
+    - role: "Innovation & Operations Processes Coordinator"
+      company: "Farmatodo"
+      time: "Mar 2025 - Present"
+      details: |
+        - Review and adapt processes to optimize company operability, achieving measurable efficiency gains.
+        - Lead internal needs assessments and design tailored technological solutions for operational departments.
+        - Develop and execute implementation strategies for new systems, including:
+          * Large-scale training programs for 5,000+ employees across diverse processes.
+          * Change management plans to ensure smooth adoption of operational transformations.
+          * Performance tracking systems to monitor post-implementation effectiveness.
+        - Collaborate with cross-functional teams to identify pain points and deploy scalable improvements.
+        - Design digital tools to automate workflows, reducing manual errors by [X]%.  # (Add metric if available)
+        
+    - role: "Innovation & New Business Coordinator"
+      company: "C.A. Cervecería Regional"
+      time:  "May 2023 - Feb 2024"
+      details: |
+        - Built and managed innovative business strategies to diversify revenue streams and strengthen competitive positioning.
+        - Negotiated with Premium/Mass Consumption suppliers, ensuring weighted distribution models.
+        - Analyzed KPIs for distribution initiatives (Tools: SAP, Excel, Tableau).
+        - Supervised cross-departmental teams (Operations, Sales, Supply Chain, TMK, Controlling).
+        - Led 2025 departmental budgeting.
+
+    - role: "Distribution Centers, Fleet & Cold Operations Specialist"
+      company: "C.A. Cervecería Regional"
+      time:  "Oct 2023 - Apr 2024"
+      details: |
+        - Generated BI reports to evaluate B2B performance (Tools: SAP, Excel, Tableau).
+        - Monitored operational costs vs. budgets for Fleet/Cold departments.
+        - Optimized secondary fleet routes using ArcGIS Pro.
+        - Automated logistical processes.
+
+    - role: "Operations & Automation Intern"
+      company: "Pedidos Ya"
+      time: "Jan 2023 - Aug 2023"
+      details: |
+        - Analyzed data to improve B2P operational performance (Tools: Salesforce, Excel, Tableau).
+        - Provided technical support for POS systems (Tools: Radmi, VBO).
+        - Facilitated partner onboarding and negotiation.
+
+    - role: "Management & Workshop Maintenance Intern"
+      company: "Bix Oil S.A."
+      time: "Jul 2022 - Sep 2022"
+      details: |
+        - Designed an inventory interconnection system between departments (Tools: Excel, Profit+).
+        - Created preventive maintenance plans for machining equipment.
+
+    - role: "Packaging & Distribution Maintenance Intern"
+      company: "Destilerías Unidas S.A."
+      time: "Sep 2021 - Dec 2021"
+      details: |
+        - Planned maintenance activities for liquor packaging plant (Tools: Excel, JD Edwards).
+        - Digitized maintenance workflows in JD Edwards.
+
+# Skills (Inferred from CV)
+skills:
+    toolset:
+      - name: "Data Analysis"
+        level: "90%"
+      - name: "SAP, Excel, Tableau"
+        level: "90%"
+      - name: "ArcGIS Pro"
+        level: "60%"
+      - name: "Project Management"
+        level: "90%"
+      - name: "Process Automation"
+        level: "80%"
