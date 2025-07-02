@@ -17,7 +17,7 @@ basic_info:
     phone: "+58 414 8385614"
     linkedin: "linkedin.com/in/saulo-contreras-954717233/"
     website:  # (Not provided)
-    github:  # (Not provided)
+    github:  scontrerasr
     twitter:  # (Not provided)
     stack-overflow:  # (Not provided)
 
@@ -48,6 +48,11 @@ education:
         - Coordinator: Mechanical Engineering Student Center (2021-2022).
 
 # Certifications
+    - degree: "Data Science & Machine Learning"
+      university: "4geeks Academy"
+      time:  # (Not specified)
+      details: "Python algorithms, data analysis, and machine learning."
+
     - degree: "Data Science & Big Data Certification"
       university: "MIT xPro"
       time:  # (Not specified)
@@ -76,7 +81,7 @@ experiences:
           * Change management plans to ensure smooth adoption of operational transformations.
           * Performance tracking systems to monitor post-implementation effectiveness.
         - Collaborate with cross-functional teams to identify pain points and deploy scalable improvements.
-        - Design digital tools to automate workflows, reducing manual errors by [X]%.  # (Add metric if available)
+        - Design digital tools to automate workflows, reducing manual errors.  
         
     - role: "Innovation & New Business Coordinator"
       company: "C.A. Cervecería Regional"
@@ -85,7 +90,7 @@ experiences:
         - Built and managed innovative business strategies to diversify revenue streams and strengthen competitive positioning.
         - Negotiated with Premium/Mass Consumption suppliers, ensuring weighted distribution models.
         - Analyzed KPIs for distribution initiatives (Tools: SAP, Excel, Tableau).
-        - Supervised cross-departmental teams (Operations, Sales, Supply Chain, TMK, Controlling).
+        - Supervised cross-departmental teams (Operations, Sales, Supply Chain, Trademkt, IT).
         - Led 2025 departmental budgeting.
 
     - role: "Distribution Centers, Fleet & Cold Operations Specialist"
