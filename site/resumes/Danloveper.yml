@@ -1,0 +1,80 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: William
+  last_name: Vargas
+  motto: Full stack Developer
+  focus: Aprendizaje automatizado y Desarrollo web
+  summary: >
+    Ingeniero en telecomunicaciones apasionado por el desarrollo web y
+    despliegue
+
+    de aplicaciones, actualmente trabajo como desarrollador mid en el ERP Odoo implementando
+
+    y optimizando modulos en el sistema; entusiasta en aprender aprendizaje automatizado para 
+
+    implementar modelos de ia. 
+  email: wvargasacevedo@gmail.com
+  phone: 2+57 3219861779
+  github: Danloveper
+  languages:
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Videojuegos
+    - item: Peliculas
+    - item: Futbol
+education:
+  - degree: Tecnólogo en Electrónica
+    university: Universidad Distrital Francisco José de Caldas
+    university_logo: https://fciencias.udistrital.edu.co/lic-lenguas/sites/lic-lenguas/files/imagen-general/2023-09/image_gallery_1.gif
+    time: 2018 - 2022
+  - degree: Ingeniero en Telecomunicaciones
+    university: Universidad Distrital Francisco José de Caldas
+    university_logo: https://fciencias.udistrital.edu.co/lic-lenguas/sites/lic-lenguas/files/imagen-general/2023-09/image_gallery_1.gif
+    time: 2022 - 2025
+experiences:
+  - role: Developer MID Odoo
+    time: 2022 - Present
+    company: Agofer S.A.S
+    company_logo: https://lirp.cdn-website.com/9fec2152/dms3rep/multi/opt/Logo+azul+png-640w.png
+    details: >
+      Como desarrollador del ERP Odoo mis labores abarcan el mantenimiento e
+      integración de nuevas aplicaciones 
+
+      al sistema, diseñando y estructurando modulos automatizados que promuevan la optimización de procesos en 
+
+      la compañia. Ademas he integrado apis al sistema como la de google sheets para extraer e importar información
+
+      del ERP, dentro de mis habilidades se destaca:
+
+        - Generación de reportes por medio de SQL y python.
+        - Diseño e implementación de modulos en el sistema ERP Odoo
+        - Creación de widgets personalizados para aumentar la funcionalidad de las aplicaciones
+projects:
+  intro: >
+    A continuación listo algunos de los proyectos que he llevado a cabo a lo
+    largo de mi carrera profesional.
+  assignments:
+    - title: Anticipos
+      tagline: Desarrollo del modulo anticipos en Odoo enfocado en administrar todo el
+        proceso de solicitud de dinero de los empleados, donde se evidencia la
+        trazabilidad del registro para automatizar tanto la solicitud como la
+        contabilización.
+    - title: Certificados Tributarios
+      tagline: Automatización del proceso para generar certificados tributarios de
+        proveedores donde se plantea el desarrollador de un menu en el portal de
+        Odoo para que cada proveedor genere los certificados, el desarrollo
+        incorporo tanto consultas a la base de datos como manipulación de
+        plantilla xml para extraer el reporte en pdf
+skills:
+  toolset:
+    - name: Python
+      level: 98%
+    - name: JavaScript
+      level: 90%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Odoo
+      level: 85%
