@@ -22,7 +22,7 @@ basic_info:
     summary: |
       Empathetic and adaptable RN and Medical Interpreter, now transitioning into tech as a passionate aspiring full stack developer with strong critical thinking and problem-solving skills.
 
-      Second paragraph if required.
+
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -113,9 +113,9 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: 
+      time: 
+      company: 
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
@@ -128,9 +128,9 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: 
+      time: 
+      company: 
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
