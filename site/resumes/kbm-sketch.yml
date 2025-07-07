@@ -13,7 +13,7 @@ basic_info:
     last_name: Araya
     
     # Define yourself in 4-5 words
-    motto: A compassionate nurse and interpreter transitioning into tech, driven by curiosity and growth.
+    motto: Driven by curiosity and growth
     
     # Focus
     focus: Building Tech Skills with Purpose
@@ -22,11 +22,11 @@ basic_info:
     summary: |
       Empathetic and adaptable RN and Medical Interpreter, now transitioning into tech as a passionate aspiring full stack developer with strong critical thinking and problem-solving skills.
 
-      
+      Second paragraph if required.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://images.unsplash.com/photo-1493612276216-ee3925520721?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tfGVufDB8fDB8fHww
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
     email: a@a.com #optional
@@ -55,19 +55,18 @@ basic_info:
 
     # Interests or hobbies
     interests:
-      - item: Avid reader with a commitment to lifelong learning.
-
-      - item: Passionate about artistic hobbies such as guitar playing and drawing
+      - item: Avid reader with a commitment to lifelong learning
 
       - item: 
 
+      - item: Passionate about artistic hobbies such as guitar playing and drawing
 # Your previous education
 education:
     - degree: BSc in Nursing
       university: Asmara College of Health Science
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 2014 - 2018
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -78,8 +77,8 @@ education:
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: 
+      university: 
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2007 - 2011
@@ -114,9 +113,9 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: Registered Nurse
-      time: 2019 - 2021
-      company: Orrota hospital
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
