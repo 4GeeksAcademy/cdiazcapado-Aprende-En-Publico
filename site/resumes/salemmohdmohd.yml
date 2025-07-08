@@ -1,0 +1,135 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+  first_name: Salem
+  last_name: Mohd
+
+  motto: Full Stack Engineer
+  focus: Digital Transformation & Automation
+
+  summary: |
+    Results-driven professional with extensive experience in digital transformation, software development, E-learning, and data automation. Proven ability to lead cross-functional teams, streamline operations, and deliver scalable solutions across corporate and government sectors.
+
+  avatar:
+
+  email:
+  phone:
+  website: linkedin.com/in/salem
+  linkedin: salem
+  github: salemmohdmohd
+  twitter: ""
+  stack-overflow: ""
+
+  languages:
+    - idiom: English
+      level: Professional
+
+    - idiom: Arabic
+      level: Native
+
+  interests:
+    - item: Ceramics and sculpting
+    - item: Video editing
+    - item: Digital strategy
+    - item: UX design
+
+education:
+  - degree: Business & Computer Science (Scholarship Program)
+    university: Jacksonville State University
+    time: 2013 - 2015
+    details: |
+      Participated in the JSU International House Program under a scholarship focusing on business and computer science.
+
+experiences:
+  - role: Data Analysis & Automation Consultant
+    time: 2023 - Current
+    company: Robert Half, Irving, TX
+    details: |
+      - Built custom automation solutions using Google Apps Script and Google Sheets.
+      - Designed internal tools and websites with a focus on usability.
+      - Trained clients on data automation and dashboard tools.
+
+  - role: Digital Team Senior Associate
+    time: 2020 - 2022
+    company: PwC, Dubai, UAE
+    details: |
+      - Managed cloud platforms including Azure, GCP, Moodle, and Articulate 360.
+      - Delivered e-learning and live production for government clients.
+      - Led content workflows, SEO optimization, and analytics integration.
+
+  - role: Project Manager Associate
+    time: 2019 - 2020
+    company: PwC, Dubai, UAE
+    details: |
+      - Scoped and managed digital products for major clients.
+      - Delivered prototypes and digital sales demos.
+      - Led agile ceremonies and optimized digital operations.
+
+  - role: Digital Projects Specialist
+    time: 2017 - 2019
+    company: Naspers, Dubai, UAE
+    details: |
+      - Centralized data collection and forecasting systems.
+      - Improved startup integration and training efficiency.
+      - Executed targeted social media and data campaigns.
+
+  - role: Customer Support Specialist
+    time: 2015 - 2017
+    company: Naspers, Dubai, UAE
+    details: |
+      - Resolved multi-channel customer issues for startup acquisitions.
+      - Analyzed feedback trends to reduce churn.
+
+  - role: Resident Assistant
+    time: 2013 - 2015
+    company: Jacksonville State University, Jax, AL
+    details: |
+      - Facilitated student orientation and support services.
+      - Promoted community building in residence halls.
+
+projects:
+  intro: >
+    A selection of projects and systems I've built to streamline operations, train teams, and support digital strategy for startups, governments, and enterprises.
+
+  assignments:
+    - title: Workflow Automator
+      tagline: "Built Google Apps Script automation for approval workflows and document management."
+
+    - title: LMS Video Pipeline
+      tagline: "Designed full video production and integration system using OBS, DaVinci Resolve, and Articulate 360."
+
+    - title: Power BI Adoption Toolkit
+      tagline: "Trained and enabled teams on enterprise BI tools with interactive dashboards."
+
+    - title: E-learning for Government Sector
+      tagline: "Built scalable Moodle-based platform supporting hundreds of learners with bilingual content."
+
+skills:
+  toolset:
+    - name: Google Apps Script / G-Suite Automation
+      level: 95%
+
+    - name: Articulate 360, Moodle, Brightspace
+      level: 90%
+
+    - name: JavaScript, HTML, CSS
+      level: 85%
+
+    - name: React Native & Firebase
+      level: 80%
+
+    - name: SQL, Alteryx
+      level: 75%
+
+    - name: UX Design & Wireframing
+      level: 75%
+
+    - name: Video Editing (OBS, DaVinci Resolve, vMix)
+      level: 85%
+
+    - name: Facebook/Google Ads
+      level: 70%
+
+    - name: Copywriting & Scriptwriting
+      level: 80%
