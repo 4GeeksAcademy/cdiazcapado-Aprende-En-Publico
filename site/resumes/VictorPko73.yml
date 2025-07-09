@@ -1,0 +1,84 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Victor
+  last_name: Moreno Cabello
+  motto: Insist and never give up
+  focus: constancy
+  summary: >
+    Desarrollador de software con Grado Superior en Desarrollo de
+    Aplicaciones
+
+    Multiplataforma (DAM) finalizado, y experiencia previa como técnico electricista.
+
+    Especializado en tecnologías como Java, Python, PHP, Drupal y bases de datos relacionales
+
+    como MySQL y PostgreSQL. Experiencia en desarrollo Full-Stack, migración de plataformas
+
+    web y trabajo en equipo con metodologías ágiles. Mi objetivo es aportar soluciones
+
+    innovadoras que conecten la tecnología con las necesidades reales de las empresas
+  avatar: null
+  email: victormorenocabello@gmail.com
+  phone: 637 042 058
+  linkedin: https://www.linkedin.com/in/victor-manuel-moreno-cabello/
+  github: VictorPko73
+  languages:
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Padel
+    - item: Gym
+    - item: Viajar
+education:
+  - degree: Tecnico Superior en Desarrollador de Aplicaciones Multiplataforma
+    university: CESUR
+    university_logo: null
+    time: 2023 - 2025
+    details: >
+      Durante este ciclo formativo, he adquirido conocimientos sólidos en
+      desarrollo de software, tanto en el ámbito del backend como en el
+      frontend.
+
+      He trabajado con tecnologías como Java y SQL, además de bases de datos relacionales como MySQL y PostgreSQL.
+experiences:
+  - role: Desarrollador en Practicas
+    time: 2025 - 2025
+    company: CodeArts solution
+    details: >
+      Desarrollo y Migración: Participé en la migración de la página web de
+      la CAFD de WordPress a Drupal, mejorando la funcionalidad y la experiencia
+      del usuario.
+
+      Trabajo en Equipo: Colaboré en un entorno ágil, utilizando tecnologías como PHP, JavaScript, HTML, CSS, Drupal, Docker y GitHub.
+
+      Implementación de Funcionalidades: Contribuí a la implementación de nuevas funcionalidades, optimizando el rendimiento de la plataforma.
+
+      Metodologías Ágiles y Scrum: Apliqué buenas prácticas de desarrollo y metodologías ágiles, incluyendo Scrum, para asegurar la calidad y eficiencia del proyecto.
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: null
+      project_logo: null
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+skills:
+  toolset:
+    - name: null
+      level: null
+    - name: null
+      level: null
+    - name: null
+      level: null
+    - name: null
+      level: null
+    - name: null
+      level: null
+    - name: null
+      level: null
+
