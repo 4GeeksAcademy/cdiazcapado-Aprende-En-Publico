@@ -1,0 +1,70 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+  first_name: Jaime
+  last_name: Barajas
+  
+  motto: Curious. Driven. Real-world Builder.
+  
+  focus: Full Stack & Embedded Systems
+  
+  summary: | 
+    I've built real-time flight tracking systems, Arduino-controlled interfaces, and anomaly detection systems using ONNX Runtime. 
+    I'm seeking to apply my skills in a software engineering role where I can continue solving meaningful problems across data, infrastructure, and hardware integrations.
+
+  avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+  email: jaimebara24@gmail.com
+  phone: (123) 456-7890
+  website: 
+  linkedin: jaimebarajas
+  github: jaimeb24
+  twitter: N/A
+  stack-overflow: N/A
+
+  languages:
+    - idiom: English
+      level: Native
+
+    - idiom: Spanish
+      level: Native
+
+  interests:
+    - item: Microcontroller Projects
+    - item: Weight Training
+    - item: Urban Exploration
+
+# Education
+education: N/A
+  - degree: N/A
+    university: N/A
+    university_logo: N/A
+    time: N/A
+    details: N/A
+
+# Experience
+experiences:
+  - role: Pharmacy tech
+    time: 2022
+    company: CVS pharmacy tech
+    company_logo: 
+    details: |
+      
+
+  - role: Backend Developer (Project-Based)
+    time: 2023 - Present
+    company: Personal/Independent
+    details: |
+      Built real-world solutions using C#, Arduino, Python, and Docker.
+        - Real-Time Flight Tracker and Data Visualizer using ASP.NET Core, SignalR, and AviationStack API.
+        - Embedded anomaly detection system using ONNX Runtime and edge-computing devices.
+        - File storage platform with AES-encrypted SQL file chunking and GitLab CI/CD integration!
+
+# Projects
+projects:
+  intro: >
+    Below
+
