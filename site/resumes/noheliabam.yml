@@ -1,0 +1,87 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: Nohelia Yamiklet
+  last_name: Chavez Vera
+  email: noheliabam1980@gmail.com
+  linkedin: https://www.linkedin.com/in/nohelia-yamiklet-chavez-vera-a656241a8/
+  location: Barcelona, España
+  summary: >
+    Apasionada por la tecnología, con formación en Ingeniería de Sistemas y 
+    actualmente en transición desde el sector de la gastronomía, donde fui Chef Ejecutivo, 
+    hacia el desarrollo web Full Stack. Me entusiasma crear soluciones digitales útiles, 
+    combinando creatividad y lógica. Estudiante activa de 4Geeks Academy.
+
+languages:
+  - name: Spanish
+  - name: English
+    level: Advanced
+  - name: German
+    level: Intermediate
+  - name: Catalan
+    level: Intermediate
+
+education:
+  - degree: Ingeniería de Sistemas (Técnico)
+    institution: Universidad Bicentenaria de Aragua (UBA)
+    dates: 1998 - 2001
+  - degree: Técnico Agroindustrial 
+    institution: Universidad Central de Venezuela (UCV)
+    dates: 2002 - 2005
+  - degree: Full Stack Developer (en curso)
+    institution: 4Geeks Academy
+    dates: 2025
+
+experiences:
+  - role: Chef Ejecutivo
+    company: Diversos restaurantes en España
+    dates: 2010 - 2025
+    description: >
+      Gestión de personal, diseño de menús, supervisión de operaciones de cocina, 
+      planificación de horarios y control de inventarios. 
+      Desarrollé habilidades en liderazgo, organización y atención al detalle.
+
+  - role: Grabadora de datos / Gestora de declaraciones
+    company: Autónomo, Barcelona
+    dates: 2018 - 2025
+    description: >
+      Responsable de registro y gestión de datos, procesos de declaración de renta,
+      uso de certificado electrónico para trámites oficiales.
+
+projects:
+  - name: LexaSystem
+    description: Sistema de gestión de inventario y punto de venta para pequeños negocios, desarrollado en Laravel y PHP.
+    url: https://github.com/noheliabam/lexasystem
+
+  - name: InventarioApp
+    url: https://github.com/noheliabam/inventarioapp
+    description: Sistema de inventario con Laravel y PHP, registro de productos, reportes de ventas y manejo de stock.
+  
+  - name: Axel Airlines: Air Crash
+    description: Videojuego educativo en desarrollo para niños, centrado en simulación de vuelo y misiones.
+
+  - name: Espectra
+    description: App en desarrollo para apoyo a familias con niños autistas. Rutinas, botón SOS, comunidad y seguimiento.
+
+skills:
+  - name: HTML5
+    level: 80
+  - name: CSS3
+    level: 70
+  - name: Bootstrap
+    level: 70
+  - name: JavaScript
+    level: 60
+  - name: PHP
+    level: 65
+  - name: Laravel
+    level: 60
+  - name: Git & GitHub
+    level: 75
+  - name: MySQL
+    level: 60
+  - name: Gestión de equipos
+    level: 90
+  - name: Organización de tareas
+    level: 85
