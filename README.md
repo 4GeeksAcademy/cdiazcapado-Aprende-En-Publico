@@ -5,7 +5,6 @@
 		src="https://github.com/4GeeksAcademy/About-4Geeks-Academy/blob/master/site/static/background_art.jpg?raw=true">
 </p>
 
-
 <h1 align="center">Welcome to 4Geeks Academy</h1>
 
 <h3 align="center">&lt;\ Time To Code&gt;</h3>
@@ -29,7 +28,6 @@
   </a>
 </p>
 
-  
 ## Contents
 
 - [About](#about).
@@ -39,16 +37,16 @@
 
 ## About
 
-4Geeks Academy is the place where developers grow and thrive. We are licensed by the USA Dep. of Education in Florida. 
+4Geeks Academy is the place where developers grow and thrive. We are licensed by the USA Dep. of Education in Florida.
 
-- 👨‍👩‍👧‍👦 **Community**: 4Geeks Academy has graduated 3000+ people, all of them have access to our [slack channel](https://4geeksacademy.slack.com/) and [online platform 4Geeks.com](https://4Geeks.com). 
+- 👨‍👩‍👧‍👦 **Community**: 4Geeks Academy has graduated 3000+ people, all of them have access to our [slack channel](https://4geeksacademy.slack.com/) and [online platform 4Geeks.com](https://4Geeks.com).
 - 💻 **Platform**: [4Geeks.com](https://4Geeks.com) is where developers meet, network, and learn. Currently, in private beta, the platform members can throw coding parties, ask for 1-1 mentorships in one click, join live workshops every week, take live classes a couple of times a week, meet new developers, and more.
 - 🎖 **Certifications and Courses**: We currently offer Introduction to coding, [Full Stack Web Developer](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), [Software Engineering](https://4geeksacademy.com/us/coding-bootcamps/software-engineer-bootcamp) (for senior software architects), [Data Science Engineer](https://4geeksacademy.com/us/coding-bootcamps/data-science-engineer) and [Machine learning and AI Engineering](https://4geeksacademy.com/us/coding-bootcamps/machine-learning-engineering). You can find the [full list of our programs here](https://4geeksacademy.com/programs).
 - 💼 **Find or improve your current job**: Our primary focus is to make developers succeed: A great network of hiring partners, resume building, interview preparation, and many other essential workforce-oriented features are what make us rank among the best coding institutions in the world.
 
 ## Team
 
-4Geeks Academy was founded by [Marcelo](https://www.linkedin.com/in/marcelo-ricigliano-32440379/) and [Alejandro](https://twitter.com/alesanchezr), best friend's [since high school](https://www.4geeksacademy.co/4geeks-academy-history/).  
+4Geeks Academy was founded by [Marcelo](https://www.linkedin.com/in/marcelo-ricigliano-32440379/) and [Alejandro](https://twitter.com/alesanchezr), best friends [since high school](https://www.4geeksacademy.co/4geeks-academy-history/).  
 You will fall in love with our teachers that work in top companies and have many years of experience.  
 Every location has a full hands on team with -almost- full independence:
 
@@ -57,7 +55,7 @@ Every location has a full hands on team with -almost- full independence:
 
 ## Awards
 
-- Chosen as one of the top 35 bootcamps of the world and top coding bootcamp in Miami according to SwitchUp and Course Report. 
+- Chosen as one of the top 35 bootcamps of the world and top coding bootcamp in Miami according to SwitchUp and Course Report.
 - Recognized as the top 10 coding bootcamps in the United States according to Newsweek.
 - And [many other awards](https://4geeksacademy.com/us/awards).
 
