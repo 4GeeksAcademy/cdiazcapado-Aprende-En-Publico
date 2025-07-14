@@ -1,0 +1,168 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Zaiulani
+    last_name: Jackson
+    
+    # Define yourself in 4-5 words
+    motto: Manifestation is physical. WORK!
+    
+    # Focus
+    focus: To build my dreams with code. 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am extremely excited to bring 23 years of sales, marketing, business development and audiovisual production experience with me into my new career as a Full Stack Software Engineer! When I was young, one had to attend a top technical university in order to become a software engineer, and since I was discouraged from attending MIT to attend Louisiana State Univerity for a track scholarship, I have been dreaming of what life would be like to be an actual software engineer. Now that I have the opportunity to fullfil that dream, and I will utilize the drive of an athlete, the strategy of a coach, the networking abilities of a business development executive, and the swagger of a salesperson to be an impactful presence on any team I have the privilege of being a part of. So, put me in coach! I'm ready to build our dreams in code!
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/ZaiAlmightyProfilePic.jpg
+    avatar: http://sep.breatheco.de/static/profile-images/ZaiAlmightyProfilePic.jpg
+
+    # Contact Information
+    email: zaiulani.zantidi@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: https://www.linkedin.com/in/zaiulani-jackson/ #optional
+    linkedin: zaiulani-jackson #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ZaiulaniZantidi
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Caring for my fellow humans
+
+      - item: Recreational Sports
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: BS in Kinesiology - Sports Medicine
+      university: Louisiana State University
+      # optional
+      university_logo: https://www.lsu.edu/_resources_fierce/svgs/lsu-logo.svg
+      time: 2003 - 2008
+      details: |
+        Y'all know what it is, and if you don't... Google LSU!!
+
+          - Top research university
+          - 2025 World Series Champions!
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Licensed Sales Agent
+      time: 2022 - 2025
+      company: ResultsCX, Remote, Texas
+      # optional
+      company_logo: https://resultscx.com/wp-content/uploads/2023/02/logo.svg
+      details: |
+        An international telecommunications company that facilitates the provision of various services throughout several industries, gobally. 
+          - Healthcare
+          - Technology
+          - Telecom & Media
+          - Retail
+
+    - role: Business Development Executive
+      time: 2018 - 2020
+      company: NovaLash Inc., Houston
+      # optional
+      company_logo: https://novalash.com/wp-content/uploads/2020/06/logo-header-white-345px-resized.png
+      details: |
+        NovaLash Eyelash Extensions are available in thousands of salons and spas across the United States and in over 40 other countries worldwide. NovaLash training courses are available online and in all 50 states with the most experienced professionals in the industry.
+
+          - Created by biochemist Sophy Merszei
+          - Passed HB 2727 for Specialty License Requirement
+
+    - role: Franchise Manager
+      time: 2014 - 2021
+      company: Kinesiwell, LLC., Texas, Louisiana, Florida
+      # optional
+      company_logo: https://scontent-hou1-1.cdninstagram.com/v/t51.2885-19/183344920_1150498962083209_2871423093574653147_n.jpg?_nc_ht=scontent-hou1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2QF2VPBl-D-pgKWVn6Zpo1cJIKOJTkIBBG_6tVuznNkXG8Z3ZsZkitmNNMA_afsrg3H9nwAg-9lPj6gvBpmRRZ7Q&_nc_ohc=8Z5xFTFFFTQQ7kNvwH-8FPA&_nc_gid=aqSQKaWOLPhFAnvr2bdtTg&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AfPa7IAJza6wMkhDA0gS1zUL9KNM6YCVA5McRXlGfP0Kug&oe=686CE43D&_nc_sid=7a9f4b
+      details: |
+        Contracted with various companies including; Total Athlete LLC (2014 - 2015), NASA Starport Fitness (2016 - 2017), VS Sports LLC (2017 - 2018) & SK Fitness LLC (2020 - 2021) to provide Franchise Management and Consulting services for their respective wellness facilities. Services rendered to each included but were not limited to; staff recruitment, facility build-out and maintenance oversight, course scheduling, employee scheduling, employee sales training, P&L accounting, payroll, vendor liaison, retail product management, community outreach and promotional engagement, etc. In addition, offered injury recovery and prevention services (inclusive of educational activities) to Sports Performance clients and employees (respectively) while completing all necessary administrative duties.
+
+          - From build-out to opening and beyond
+          - Brands: Spenga, iLoveKickboxing, Title Boxing Club, Total Athlete 
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
