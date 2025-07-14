@@ -1,0 +1,181 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "purple"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Keithrick
+    last_name: Pennie
+    
+    # Define yourself in 4-5 words
+    motto: I am confident in myself
+    
+    # Focus
+    focus: learning different coding language to be a Full stack Software Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: I have been in logistics business for a couple of years. I started school in 2001 for computer Infomation systems
+      I only completed 2 semester. So I want to return too where I first started and focus on learning how to become a 
+      Full Stack Developer and getting a job after I complete the 4Geeks Academy Bootcamp.    
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: Kpennie.fullstackdeveloper@gmail.com #optional
+    phone: 214 624 0596 #optional
+    website:  #optional
+    linkedin: Perfectrouteenterprise #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Kpennie
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: 
+        level: 
+
+      - idiom: 
+        level: 
+
+    # Interests or hobbies
+    interests:
+      - item: Basketball, Football
+
+      - item: learning new things
+
+      - item: Being outside in Nature/fishing
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2025 -
+      details: |learning Front end, Back end coding Java Script, Html/CSS,
+       Python, SQL, React, Flask 
+        
+
+          - Bullet point
+          - Bullet point
+
+    - degree: 
+      university: 
+      # optional
+      university_logo: 
+      time: 
+      details: |
+        Describe your study here.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Operations Manager
+      time: Jan 2021 - may 2024
+      company: Perfect Route Enterprise Ltd.co
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: Coordinated freight Scheduling to optimize route efficiency, ensuring timely pickups
+      and deliveries. Managed payroll accurate documentation of shipments and resolved billing issues.
+        
+
+          - Bullet point
+          - Bullet point
+
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+        Describe your role here.
+
+          - Bullet point
+          - Bullet point
+
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+        Describe your role here.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. 
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: Delta
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: 
+
+skills:
+    toolset:
+      - name: Python 
+        level: 0%
+
+      - name: JavaScript 
+        level: 5%
+
+      - name: React.js
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 15%
+
+      - name: flask
+        level: 0%
+
+      - name: SQL
+        level: 0%
