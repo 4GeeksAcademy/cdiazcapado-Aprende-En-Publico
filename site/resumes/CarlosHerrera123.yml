@@ -1,0 +1,173 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carlos David
+    last_name: Herrera Cruz
+    
+    # Define yourself in 4-5 words
+    motto: ¿?¿?
+    
+    # Focus
+    focus: Managing business while developing my coding skills
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Senior industrial & software engineer with a strong background in operations & business management in international delivery and ultrafast groceries.
+      I have worked 10 years in total, 02 years located in Singapore as supply chain manager for foodpanda (Delivery Hero).
+      
+      I want to increase my portfolio of skills by strengthening my coding skills to manage the execution of projects that can develop my area of knowledge.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.postimg.cc/Y25mbrF4/photo-linkedin-carlos.jpg
+
+    # Contact Information
+    email: carlos.herreracruz@gmail.com
+    phone: +51949346337
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/carlos-david-herrera-cruz-b77b2b78/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Grilling
+
+      - item: Swimming
+
+      - item: Boxing
+
+# Your previous education
+education:
+    - degree: MSc in Supply Chain Management
+      university: Universidad del Pacífico
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022 - 2024
+      details: |
+          - Logistics
+          - Supply chain management
+          - The Fresh connection simulator
+          - Finance & accounting
+          - Project management (PMI)
+          
+    - degree: BSc in industrial and systems engineering
+      university: Universidad de Piura
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2016
+      details: |
+          - Basic sciences (Maths, physics, chemistry)
+          - Software developing (C++, Java, SQL, Html)
+          - Enginnering (electric, mecanics, thermodynamic)
+          - Business (accounting, finance, project management) 
+          - Operations (simplex, forecasting, queueing theory, production, replenishment)
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Head of Delivery
+      time: 2022 - Present
+      company: Yango, Perú
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Responsible of courier operations B2B/C2C from Yango in Perú.
+        Main target is to overachieve business metrics like GMV, deliveries, net inflow and EBIDTA.  
+
+    - role: Supply Chain Manager LATAM
+      time: 2021 - 2022
+      company: Rappi, Perú
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+          𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐢𝐛𝐥𝐞 𝐨𝐟 𝐬𝐮𝐩𝐩𝐥𝐲 𝐜𝐡𝐚𝐢𝐧 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐟𝐨𝐫 𝐑𝐚𝐩𝐩𝐢 𝐓𝐮𝐫𝐛𝐨 𝐟𝐫𝐨𝐦 𝐚𝐥𝐥 𝐠𝐞𝐨𝐠𝐫𝐚𝐩𝐡𝐢𝐞𝐬 (𝐬𝐢𝐱 𝐜𝐨𝐮𝐧𝐭𝐫𝐢𝐞𝐬). 
+          Main target is to find best balance between quality (availability) and economics (stock turnover, expired goods%).
+
+    - role: Supply Chain Manager APAC
+      time: 2020 - 2021
+      company: foodpanda, Singapore
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+          𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐢𝐛𝐥𝐞 𝐨𝐟 𝐬𝐮𝐩𝐩𝐥𝐲 𝐜𝐡𝐚𝐢𝐧 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐟𝐨𝐫 𝐅𝐨𝐨𝐝𝐩𝐚𝐧𝐝𝐚 (𝐏𝐚𝐧𝐝𝐚𝐦𝐚𝐫𝐭 𝐯𝐞𝐫𝐭𝐢𝐚𝐥) 𝐟𝐫𝐨𝐦 𝐚𝐥𝐥 𝐠𝐞𝐨𝐠𝐫𝐚𝐩𝐡𝐢𝐞𝐬 (𝐭𝐞𝐧 𝐚𝐬𝐢𝐚𝐧 𝐜𝐨𝐮𝐧𝐭𝐫𝐢𝐞𝐬). 
+          Main target is to find best balance between quality (availability) and economics (stock turnover, expired goods%).
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
