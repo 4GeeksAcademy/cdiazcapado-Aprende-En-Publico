@@ -1,0 +1,75 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+  first_name: Viviana
+  last_name: Feijoo
+  motto: Junior Web Developer
+  avatar: profile.png
+  summary: |
+    Apasionada por la tecnología. Actualmente me estoy formando como desarrolladora Full Stack para incorporarme al equipo de IT en mi empresa. Tengo experiencia en automatización, control de calidad y desarrollo de proyectos web con React, Python y SQL.
+  email: vivfeijoo@email.com
+  phone: ''
+  website: ''
+  linkedin: https://www.linkedin.com/in/viviana-feijoo-05411a19a
+  github: vivfeijoo
+  twitter: ''
+  stack-overflow: ''
+
+languages:
+  - idiom: Spanish
+    level: Native
+  - idiom: English
+    level: Professional
+  - idiom: German
+    level: Intermediate
+
+education:
+  - degree: FP Superior en Desarrollo de Aplicaciones Web
+    institution: Universae (España)
+    time: 2024 - 2025
+  - degree: Bootcamp Full Stack Developer
+    institution: 4Geeks Academy
+    time: 2024 - 2025
+
+experiences:
+  - role: Reinraum Operantin
+    time: 2023 - Present
+    company: Coherent, Zürich
+    details: |
+      Producción en sala limpia de semiconductores. Me estoy formando para integrarme al equipo de IT.
+
+  - role: Control de calidad
+    time: 2020 - 2022
+    company: Alemania – Instrumentos quirúrgicos
+    details: |
+      Inspección visual y bajo microscopio de instrumentos médicos.
+
+projects:
+  - name: Contact List App
+    description: App React con Context API y conexión a API externa.
+    url: https://github.com/vivfeijoo/vivfeijoo-Contact-List
+
+  - name: ToDo List
+    description: Lista de tareas con React y sincronización a API REST.
+    url: https://github.com/vivfeijoo/vivfeijooTodoListAPI
+
+  - name: Simple Counter
+    description: API RESTful con Flask y SQLAlchemy.
+    url: https://github.com/vivfeijoo/vivfeijoo-Simple-Counter
+
+skills:
+  - name: JavaScript
+    level: 80%
+  - name: React
+    level: 70%
+  - name: Python
+    level: 75%
+  - name: SQL
+    level: 60%
+  - name: Git & GitHub
+    level: 80%
+  - name: HTML/CSS
+    level: 90%
+
+
