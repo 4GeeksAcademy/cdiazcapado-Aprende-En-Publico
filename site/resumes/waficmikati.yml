@@ -1,0 +1,133 @@
+---
+template: online-cv
+skin: turquoise
+basic_info:
+  first_name: Wafic Ryan
+  last_name: Mikati
+  motto: A nomad with a love for audiovisual interactive experiences
+  focus: Web Development & Sound Design
+  summary: >
+    My passion for web development bloomed from a seed planted by The
+    Coding Train. His tutorials for p5js, 
+
+    along with his book "The Nature of Code", inspired me to keep learning and expanding my knowledge of 
+
+    programming. After exploring game engines like Unreal Engine, Godot, and Gamemaker Studio, I realized
+
+    I needed to learn more about programming in general. For that, I ran through Harvard's free CS50 course, 
+
+    which was incredible.
+
+
+    Eventually I discovered my passion for developing web apps and website for my friends' art as well as
+
+    my own, and have decided to pursue a career in web development. One day, I hope to unite my immense
+
+    experience in as an audio engineer, sound designer and music producer, with my ever-growing knowledge
+
+    of development.
+  avatar: https://avatars.githubusercontent.com/u/212936276?v=4
+  email: wrmikati@proton.me
+  phone: (undisclosed)
+  website: sikuthenomad.com
+  linkedin: waficmikati
+  github: waficmikati
+  twitter: waficmikati
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Native
+    - idiom: Arabic
+      level: Native
+    - idiom: Spanish
+      level: Professional
+    - idiom: French
+      level: Professional
+  interests:
+    - item: Music Production
+    - item: History
+    - item: Cooking
+education:
+  - degree: Diploma of Audio Engineering
+    university: SAE Dubai
+    university_logo: https://cdn1.thelivechatsoftware.com/assets/liveadmins/dubai.sae.edu/resources/sae%20logo%20small_2022-02-02.07-40-25.png
+    time: 2010 - 2012
+    details: |
+      I learned audio engineering with some of the most advanced
+      studios at the time, thanks to SAE's amazing studios. I grew
+      my passion for art and creation there, and it has been with me ever since.
+  - degree: Electronic Music Production & Sound Design Summer Course
+    university: Berklee College of Music
+    university_logo: https://yt3.googleusercontent.com/gD8LETjv7H2qybFCx5arCdLl_24_ZG8EP3j8Wriadzd46jV5rPDomR07rMsgKaaKffA4THvqddQ=s900-c-k-c0x00ffffff-no-rj
+    time: 2014
+    details: |
+      Studying at Berklee was a surreal experience. Learning from mentors
+      who are at the highest levels of their craft, surrounded by some of
+      the most talented students I've ever had the honor to meet, was an
+      experience that had a deep impact on my career, perspective, and work
+      ethic. I cannot express enough gratitude for the lessons learnt in
+      such a short time there.
+experiences:
+  - role: Audio Director
+    time: 2020 - 2022
+    company: OOBConcept
+    company_logo: https://images.squarespace-cdn.com/content/v1/5cd9cee8f8135a7434512794/d08876ec-4754-46da-8609-458140a25f42/OOB-logo.png?format=1500w
+    details: |
+      Working with an independent media company like OOBConcept was
+      a great teaching experience. I learned to work in a team, make 
+      compromises, handle teams with heave stress loads and long work
+      hours. It was deep insight into the mechanisms at play in team
+      projects, and I worked on honing my skills over the course of my
+      independent contract with them.
+  - role: Freelance
+    time: 2012 - Present
+    company: Siku the Nomad
+    company_logo: https://avatars.githubusercontent.com/u/68606343?v=4
+    details: |
+      My artist name is Siku the Nomad, and I have been a nomad both 
+      geographically and sonically. I have contributed to many projects
+      over the years across many countries and cultures. Some have been
+      credited, which you can find on my website, and other uncredited
+      due to various reasons. In my life I have learned to work with people
+      from all walks of life. I have shed prejudice and envy and focus on
+      always growing as a person and reflecting on through the lessons
+      taught from all who I encounter.
+projects:
+  intro: >
+    All my projects are viewable on my website, and require a web browser to
+    interact/view.
+  assignments:
+    - title: Circul8
+      project_logo: https://sikuthenomad.com/p5js/images/Circul8.png
+      link: https://sikuthenomad.com/p5js/Circul8.html
+      tagline: An experiment of visual oscillations with 8 circles.
+    - title: Hue Trails
+      project_logo: https://sikuthenomad.com/p5js/images/HueTrails.png
+      link: https://sikuthenomad.com/p5js/HueTrails.html
+      tagline: A project of infinite randomness using Perlin noise.
+    - title: Tapestry
+      project_logo: https://sikuthenomad.com/p5js/images/Tapestry.png
+      link: https://sikuthenomad.com/p5js/Tapestry.html
+      tagline: Use your keyboard arrow keys to regenrate zoomed versions of the image.
+    - title: Blur Paint
+      project_logo: https://sikuthenomad.com/p5js/images/BlurPaint.png
+      link: https://sikuthenomad.com/p5js/BlurPaint.html
+      tagline: A painting tool based on limitation and minimal control.
+    - title: Delta
+      project_logo: https://sikuthenomad.com/p5js/images/Shadow.png
+      link: https://sikuthenomad.com/p5js/Shadow.html
+      tagline: My first ever visual & interactive code
+skills:
+  toolset:
+    - name: JavaScript
+      level: 89%
+    - name: Bootstrap
+      level: 72%%
+    - name: HTML5 & CSS
+      level: 98%
+    - name: Python & Flask
+      level: 14%
+    - name: Ruby on Rails
+      level: 85%
+    - name: Sketch & Photoshop
+      level: 60%
