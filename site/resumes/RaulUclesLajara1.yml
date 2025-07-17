@@ -1,0 +1,94 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Raul
+    last_name: Ucles
+    
+    # Define yourself in 4-5 words
+    motto: Lo más importante es aprender
+    
+    # Focus
+    focus: Obtener nuevas habilidades y disfrutar de mi trabajo 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Tengo 19 años y Actualmente estudio Ingeniería en IA por la universidad de Alicante.
+      Busco formarme como desarrollador web para así complementar con los estudios universitarios 
+      y dedicarme 100% al mundo tech.
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjG1Qmxfaxf90ALJS4FtMsOdV0rO0MOmfMFfV6sp8rGTwWpiRMPL2oatD92yXXd7sDh7X-3FrjIE5jZO11zvteTMCuuKY6Nqb5cqF8IG6J2w
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: RaulUclesLajara
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Gym
+
+      - item: Reading
+
+# Your previous education
+education:
+    - degree: Ing.IA
+      university: University of Alicante
+      # optional
+      university_logo: data:image/png;base64,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
+      time: 2011 - 2012
+      details: |
+        Grado en ingenieria en Inteligencia Artificial. De momento nos centramos en python con librerias como numpy, networkx y pandas.
+
+
+ 
+
+# Your previous job experiences or volunteer
+experiences:
+    
+
+    
+skills:
+    toolset:
+      - name: Python
+        level: 100%
+
+      - name: JavaScript
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Assembly
+        level: 70%
