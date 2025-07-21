@@ -1,0 +1,65 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Bryggytte Lorena
+    last_name: Serrano Martínez
+    motto: 
+    avatar:
+    summary: I decided to take the way of programming, because I have always been a person who likes to learn and, although it is hard, I feel that it is a gratifying job
+      
+    email: lore.0492@hotmail.com
+    phone: 600-335244
+    website: 
+    linkedin: 
+    github: Lorena9208
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish 
+        level: Native
+        
+      - idiom: English
+        level: A2
+    interests:
+      - item: Traveling
+
+      - item: Calistenic
+
+      - item: Music and dance
+
+education:
+    - degree:
+      university: 
+      time: 
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: full-stack Developer
+      
+projects:
+    intro: 
+      I have some prejects in my repository of my github, this are some I did and I'm doing in the course 
+      of 4Geeks Academy
+    
+    assignments:
+      - title: Instagram Feed
+        link: https://github.com/Lorena9208/Lorena9208-html-hello
+        tagline: A responsive website where can input information on a Postcard
+    
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 20%
+
+      - name: Javascript
+        level: 10%
+
+      - name: Boostrap
+        level: 30%
