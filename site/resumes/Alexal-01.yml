@@ -1,0 +1,85 @@
+template: "online-cv"
+skin: "blue"
+
+
+basic_info:
+
+   
+    first_name: Alejandro
+    last_name: Arjona Lopez
+    
+   
+    motto: Full Stack Developer
+    
+    
+
+    
+    
+   
+    summary: |
+      Después de +5 años trabajando en el sector de la hosteleria (Jefe de cocina y administrador de restaurantes) decidí reinventarme profesionalmente y apuntarme a un Bootcamp en modalidad Fulltime de Desarrollador Web Full-Stak en 4Geeks Academy España ya que la programación siempre ha sido un campo que me ha llamado la atención y en donde siempre he querido trabajar.
+
+      En cuanto a mi vida laboral, puedo decir que gracias a mi carrera profesional y mi rango he adquirido conocimientos en la gestión de pedidos, stock, planificación, organización y administración de establecimiento y personal, control del trabajo bajo presión y del estrés, capacidad de trabajo en equipo, capacitación y educación, realización de entrevistas y contratación, negociación con proveedores, liderazgo, adaptación y multitarea, entre otras. . 
+
+      Actualmente me encuentro estudiando el curso de Full stack Developer aunque también hice un curso de auditorías en cibersegruidad.
+      
+    
+ 
+    avatar: https://avatars1.githubusercontent.com/u/70212775?s=460&u=bede8cff61bca0a28ff3b2517c97b1d4f1b9ba0f&v=4
+
+ 
+    email: alex.arjona@hotmail.com
+    phone: 722107339
+    linkedin: En creación.
+    
+  
+  
+    github: En creación.
+    
+   
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: inglés
+        level: básico
+
+ 
+    interests:
+      - item: Tecnología
+
+      - item: Fotografía
+
+      - item: Cocina
+
+
+education:
+    - degree: Bach. CC.SS y Humanidades, varios cursos de hostelería, ciberseguridad, Desarrollador full stack
+      university: Ninguna
+      time: 2010 - 2025
+      
+experiences:
+    - role: Jefe Cocina
+      time: 2019 - 2024
+      company: Restaurante
+      details: |
+        Detallados arriba. 
+    
+          
+
+skills:
+    toolset:
+      - name: HTML
+        level: 50%
+
+      - name: CSS
+        level: 50%
+
+      - name: Bootstrap
+        level: 50%
+
+      - name: Git
+        level: 40%
+
+      - name: Github
+        level: 40%
