@@ -6,20 +6,19 @@ skin: "blue"
 
 basic_info:
   # Profile information
-  first_name: Franky
-  last_name: Lopez
-  motto: Goals don't get closer if you dont chase them.
+  first_name: jorge
+  last_name: vila
+  motto: ser el un programador de full stack
   avatar: https://scontent-mia3-1.xx.fbcdn.net/v/t1.6435-9/146208674_5312318962126639_6244084036489217581_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=yYgSvGPQuMEAX9v0XDc&_nc_ht=scontent-mia3-1.xx&oh=f43baf832867826f68841138ca6fefba&oe=60926C7B
   summary: |
-    I've been working on costumer service for around 2 years (same time i have in US) and i'm looking 
-    for a growth opportunity as a Developer.
+    he estado trabajando como programador de PLCdurante 12 años de mi carrera.. y ahora soy mecanico
 
   # Sidebar links
-  email: frankyjlb123@gmail.com
+  email: jorgevilatimor@gmail.com
   phone: 786 873 9436
   #website: alesanchezr.com
-  linkedin: https://www.linkedin.com/in/franky-lopez-developer/?locale=en_US
-  github: 99lalo
+  linkedin: https://www.linkedin.com/in/jorge-vila-timor-a57691116?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+  github: jorgevila
   stack-overflow: # Number/Username, e.g. 123456/alandoe
 
   languages:
@@ -27,7 +26,7 @@ basic_info:
       level: Native
 
     - idiom: English
-      level: Native
+      level: level c1
 
   interests:
     - item: Gaming
