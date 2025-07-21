@@ -1,0 +1,106 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alejandro
+    last_name: Gonzalez
+    
+    # Define yourself in 4-5 words
+    motto: Autosuficiente con lo que hago
+    
+    # Focus
+    focus: Estudiar FS Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: Todavia no e creado mi carrera como tal , sigo en proceso.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: ~
+
+    # Contact Information
+    email: Al3jandrogonzalez@gmail.com
+    phone: 634567768
+    website: ~
+    linkedin: https://www.linkedin.com/in/alejandro-gonzalez-garcia-740244349/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: NymusIT
+    
+    twitter: ~
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: basic
+
+      - idiom: Korean
+        level: Basic 
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Computer Games
+
+      - item: Snowboarding
+
+      - item: Drive in Motorcycle
+
+# Your previous education
+education:
+    - degree: ESO
+      college: Anselm clave
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2010 - 2016
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: operario
+      time: 2017 - Present
+      company: Epos.ETT
+      # optional
+      details: 
+        Trabaje en varios sectores de la quimica del metal y de automocion y en diferentes puestos como encargado, ayudante de encargado y tecnico especialista.
+
+# Your project portfolio
+projects:
+    intro: >
+      Aunque hice los proyectos de la academia no considero ningun proyecto mio como tal, a la espera de algo propio
+
+    assignments:
+      - title: ~
+        # optional
+        project_logo: ~
+        link: ~
+        tagline: ~
+
+     
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 10%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
