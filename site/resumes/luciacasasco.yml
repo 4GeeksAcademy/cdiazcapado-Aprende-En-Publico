@@ -1,0 +1,230 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lucia
+    last_name: Casasco
+    
+    # Define yourself in 4-5 words
+    motto: I love mental challenges
+    
+    # Focus
+    focus: Content creation and mental health support
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Content writer specialized in neuroscience, leadership and wellbeing. I transform 
+      complex concepts into clear and engaging texts, adapting to different audiences 
+      while maintaining scientific rigor. My multilingual profile allows me to create 
+      effective and quality content. Currently working as a workshop facilitator at a 
+      mental health center, designing and delivering workshops focused on job reintegration 
+      for people with severe mental disorders.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: lucia.casasco02@gmail.com
+    phone: +34 619203912
+    website: #optional
+    linkedin: luciacasasco
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: luciacasasco
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: French
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Italian
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Content writing
+
+      - item: Mental health advocacy
+
+      - item: Language teaching
+
+# Your previous education
+education:
+    - degree: BA in Philosophy, Politics and Law
+      university: University of Warwick
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/en/5/5b/University_of_Warwick_logo.svg
+      time: 2020 - 2023
+      details: |
+        I completed a Philosophy, Politics and Law degree at the University of Warwick, 
+        specializing in Philosophy and International Law. My studies focused particularly 
+        on Logic within the philosophical domain, providing me with strong analytical and 
+        reasoning skills while exploring the intersection of philosophical thought and 
+        international legal frameworks.
+
+          - Specialized in Philosophy and International Law
+          - Focused on Logic studies within Philosophy
+          - Graduated with honors (matrícula)
+
+    - degree: BSc in Psychology
+      university: Universidad de Amsterdam / Universidad Camilo José Cela
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - Present
+      details: |
+        Currently pursuing a Bachelor's degree in Psychology, expanding my understanding 
+        of human behavior and mental processes. This academic pursuit complements my 
+        professional work in mental health support and content creation in neuroscience 
+        and wellbeing.
+
+          - Currently enrolled
+          - Focus on mental health and human behavior
+          - Complementing professional experience
+
+    - degree: Scientific Baccalaureate
+      university: Liceo Francés de Madrid
+      time: 2018 - 2020
+      details: |
+        Completed Scientific Baccalaureate with honors (matrícula) at the French 
+        International School of Madrid, providing a strong foundation in sciences 
+        and multilingual education.
+
+          - Graduated with honors (matrícula)
+          - Strong scientific foundation
+          - Multilingual educational environment
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Workshop Facilitator
+      time: 2025 - Present
+      company: Mental Health Center
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Currently working as a workshop facilitator at a mental health center, where I 
+        design and deliver specialized workshops focused on job reintegration for people 
+        with severe mental disorders. I develop therapeutic and educational content that 
+        helps individuals develop skills for successful workplace integration.
+
+          - Design therapeutic workshops for job reintegration
+          - Work with individuals with severe mental disorders
+          - Create educational content for skill development
+          - Support mental health recovery processes
+
+    - role: Content Writer
+      time: 2025 - Present
+      company: Human & Blooming
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Specialized content writer focusing on neuroscience, leadership and wellbeing. 
+        I transform complex scientific concepts into clear and engaging texts, adapting 
+        content for different audiences while maintaining scientific rigor. My work 
+        includes SEO optimization and content marketing strategies.
+
+          - Specialized in neuroscience and wellbeing content
+          - SEO and content marketing expertise
+          - Multilingual content creation
+          - Scientific accuracy and clarity
+
+    - role: Private Language Teacher
+      time: 2021 - Present
+      company: Online (Freelance)
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Private language instructor teaching French, Spanish and English to children, 
+        adults and adolescents through online platforms. I develop personalized learning 
+        programs adapted to different age groups and proficiency levels, utilizing my 
+        multilingual background and pedagogical skills.
+
+          - Teaching French, Spanish, and English
+          - Online and personalized instruction
+          - Students of all ages and levels
+          - Curriculum development and adaptation
+
+    - role: Event Organizer
+      time: 2020 - 2023
+      company: Student Committee of Warwick University, Coventry
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Lead organizer responsible for university events, both cultural (conferences, 
+        debates, university visits) and recreational (parties, matches, celebrations). 
+        Managed event planning, coordination, and execution while studying at Warwick 
+        University.
+
+          - Organized cultural and recreational events
+          - Event planning and coordination
+          - Team leadership and management
+          - Budget management and logistics
+
+# Your project portfolio
+projects:
+    intro: >
+      Here are some of the projects I've worked on, ranging from content creation
+      to educational initiatives and mental health support programs.
+
+    assignments:
+      - title: Mental Health Workshops
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Therapeutic workshop programs designed for job reintegration of individuals with severe mental disorders."
+
+      - title: Neuroscience Content Series
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Educational content series making complex neuroscience concepts accessible to general audiences."
+
+      - title: Multilingual Language Curriculum
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Personalized language learning programs for online students across different age groups and proficiency levels."
+
+      - title: University Event Management
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Comprehensive event planning and execution for cultural and recreational university activities."
+
+skills:
+    toolset:
+      - name: Content Writing & SEO
+        level: 95%
+
+      - name: Mental Health Support
+        level: 85%
+
+      - name: Language Teaching
+        level: 90%
+
+      - name: Event Organization
+        level: 88%
+
+      - name: Research & Documentation
+        level: 92%
+
+      - name: Microsoft Office Suite
+        level: 85%
