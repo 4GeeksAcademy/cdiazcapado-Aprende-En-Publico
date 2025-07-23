@@ -1,0 +1,87 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Patrick
+    last_name: Martin
+    motto: IPLANGESTION | dpt. Tecnic studies electrical
+    avatar: https://static.wikia.nocookie.net/joke-battles/images/d/df/Gigachad.png/revision/latest?cb=20230812064835
+    summary: |
+       At the moment studying Fullstack Developer at 4GeeksAcademy
+    # Sidebar links
+    email: zihark.80@gmail.com
+    phone: +34 673636145    
+    linkedin: Patrick Martin
+    github: Patrick3xB
+    
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Catalan
+        level: Native
+
+    interests:
+      - item: Go out with friends
+
+      - item: PC gamer
+    
+      - item: Sports
+
+university:
+    - degree: Electrical & Electronic systems
+      formation: Santa Eugenia
+      time: 2012 - 2014
+      details: |
+        I specialized in electricals and schematics design
+
+experiences:
+    - role: Brand Manager Assistant
+      time: 2019 - 
+      company: IPLAN  | Electrical industry 
+
+      details: |
+      Responsibilities: I establish eﬀective workflow involved in the workflow. Manage, organize and prioritize the team project backlog, monitor progression, make   reviews and reports, to deliver results.
+      Achievements:
+          -  Development new and methodlogy workflow making a workspace to navigate to internal page.
+
+        
+projects:
+    intro: >
+      These are some projects I done or I am working on. Some I did on my own and others with the collaboration of team members.
+
+    assignments:    
+
+      - title: TodoList-API_Flask
+        link: "https://github.com/Patrick3xBo/TodoList-API_Flask.git"
+        tagline: "I create an API using the Python Flask framework using Python and Pipenv."
+
+      - title: LandingReact
+        link: "https://github.com/APatrick3xB/landingReact.git"
+        tagline: "I build a landing page using React Function Components. The idea was to split Bootstrap components into different function Components"
+
+      - title: TodoList-Fetch
+        link: "https://github.com/Patrick3xB/TodoList-Fetch.git"
+        tagline: "I sync my todo list with a real database, using a RESTful and public API"
+
+skills:
+    toolset:
+      - name: Python
+        level: 80%
+
+      - name: Javascript
+        level: 90%
+
+      - name: React JS
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 100%
+
+      - name: SolidWorks 3D model
+        level: 60%
+
+      - name: Photoshop
+        level: 50%
