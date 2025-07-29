@@ -1,0 +1,161 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Daniel
+    last_name: Andueza
+    
+    # Define yourself in 4-5 words
+    motto: I like saving the world
+    
+    # Focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Profesional en Administración de Empresas y Desarrollador Full Stack con una sólida combinación de pensamiento estratégico y habilidades técnicas. Experiencia liderando proyectos colaborativos, optimizando procesos digitales y construyendo soluciones escalables orientadas al usuario.
+
+      Me apasiona resolver problemas complejos, trabajar en equipo y conectar el mundo del negocio con la tecnología de forma efectiva. Siempre
+      en búsqueda de desafíos que impulsen la innovación y generen impacto real.
+
+      Cuento con un diplomado en Emprendimiento Social y Gobernabilidad, lo que refuerza mi compromiso con el desarrollo sostenible, el liderazgo ético y la generación de valor con propósito.
+          
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://ibb.co/TqTSsVZt
+
+    # Contact Information
+    email: daniel00andueza@gmail.com #optional
+    phone: 627 937 392 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Danielmagn
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Viajar.
+
+      - item: Pasar tiempo con amigos y familia.
+
+      - item: Ver series.
+
+# Your previous education
+education:
+  - degree: Administrador de Empresas (en proceso de homologación)
+    university: Fundación Universitaria CEIPA
+    university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_CEIPA.svg/512px-Logo_CEIPA.svg.png
+    time: 2020 - Presente
+    details: |
+      Formación orientada a la gestión empresarial con énfasis en administración estratégica, procesos organizacionales, y toma de decisiones. En proceso de homologación en España.
+
+        - Desarrollo de habilidades en liderazgo y gestión de proyectos.
+        - Enfoque en mejora continua y optimización de procesos.
+
+  - degree: Análisis y Desarrollo de Sistemas de Información (en proceso de homologación)
+    university: SENA - Servicio Nacional de Aprendizaje
+    university_logo: https://upload.wikimedia.org/wikipedia/commons/3/3c/Logo_SENA_Colombia.png
+    time: 2019
+    details: |
+      Programa técnico enfocado en el diseño, desarrollo y mantenimiento de sistemas de información. Adquisición de competencias en lógica de programación, análisis de requerimientos y herramientas de desarrollo.
+
+        - Formación técnica con orientación a soluciones digitales.
+        - Proyectos aplicados y trabajo en equipo multidisciplinario.
+
+# Your previous job experiences or volunteer
+experiences:
+  - role: Director de Proyectos
+    time: Enero 2022 - Junio 2023
+    company: Soluciones Oryhel S.A.S, Barranquilla - Colombia
+    company_logo: https://upload.wikimedia.org/wikipedia/commons/9/9a/Briefcase_font_awesome.svg
+    details: |
+      Responsable de la gestión integral de proyectos, supervisando la ejecución, presupuesto y coordinación del personal involucrado. Enlace directo con los clientes para garantizar el cumplimiento de los objetivos y la satisfacción del servicio.
+
+        - Administración de proyectos y control presupuestario.
+        - Coordinación de tareas y equipos de trabajo.
+        - Atención directa al cliente y resolución de necesidades operativas.
+        - Seguimiento y control del avance de los proyectos asignados.
+
+  - role: Encargado de Obra
+    time: Enero 2021 - Julio 2021
+    company: Dimetal L.T.D.A, Barranquilla - Colombia
+    company_logo: https://upload.wikimedia.org/wikipedia/commons/3/30/Construction_font_awesome.svg
+    details: |
+      Supervisión de las obras asignadas, asegurando la correcta ejecución de los procesos en campo. Coordinación del personal y control de almacén e inventarios.
+
+        - Gestión del personal en obra y supervisión operativa.
+        - Control de almacén y caja menor.
+        - Manejo de inventarios y recursos materiales.
+
+  - role: Band Leader de Producción
+    time: Abril 2024 - Noviembre 2024
+    company: Marginpar, Países Bajos
+    company_logo: https://upload.wikimedia.org/wikipedia/commons/f/f3/Seedling_font_awesome.svg
+    details: |
+      Liderazgo en la línea de producción en una empresa internacional del sector floricultor. Coordinación de equipos de trabajo para cumplir objetivos diarios de calidad y rendimiento en entornos de alta demanda.
+
+        - Supervisión directa de operarios en la cadena de producción floral.
+        - Aseguramiento de estándares de calidad y cumplimiento de tiempos.
+        - Comunicación continua con supervisores y mejora de procesos operativos.
+
+
+# Your project portfolio
+projects:
+  intro: >
+    Aquí incluyo algunos proyectos personales y colaborativos que he desarrollado o en los que he participado, combinando habilidades administrativas, técnicas y de liderazgo.
+
+  assignments:
+    - title: Control de Inventarios Digital
+      project_logo: https://upload.wikimedia.org/wikipedia/commons/2/25/Database_font_awesome.svg
+      link: "#"
+      tagline: "Sistema básico de control de inventarios usando Excel avanzado y macros, implementado en obra para optimizar recursos y reducir pérdidas."
+
+    - title: Gestión de Proyectos con Excel
+      project_logo: https://upload.wikimedia.org/wikipedia/commons/4/47/Project-diagram_font_awesome.svg
+      link: "#"
+      tagline: "Plantilla avanzada de seguimiento de proyectos con control de tareas, presupuesto y cronogramas, utilizada en Soluciones Oryhel S.A.S."
+
+    - title: Página Personal en HTML/CSS (en desarrollo)
+      project_logo: https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg
+      link: "#"
+      tagline: "Sitio web personal creado como parte de mi aprendizaje en desarrollo web, incluye resumen profesional, contacto y portafolio."
+
+skills:
+  toolset:
+    - name: Microsoft Office (Excel, Word, PowerPoint)
+      level: 95%
+    - name: Gestión de Proyectos
+      level: 90%
+    - name: Herramientas Informáticas y Digitales
+      level: 90%
+    - name: Comunicación y Trabajo en Equipo
+      level: 90%
+    - name: Resolución de Problemas
+      level: 85%
+    - name: Adaptabilidad y Aprendizaje Rápido
+      level: 85%
+    - name: Control de Inventarios y Almacén
+      level: 80%
+    - name: HTML, CSS y JavaScript (en aprendizaje)
+      level: 40%
