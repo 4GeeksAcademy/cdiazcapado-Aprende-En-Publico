@@ -1,0 +1,170 @@
+
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Dina
+    last_name: Silva
+    
+    # Define yourself in 4-5 words
+    motto: I love to give
+    
+    # Focus
+    focus: Working hard
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      A results-driven and recent graduate with over a year of hands-on experience 
+      in the Educational Technology (EdTech) sector. At a pioneering robotics company, 
+      I contribute to the development and deployment of innovative learning tools for schools.
+      I am passionate about leveraging technology to enhance STEM education and am adept at working
+       in fast-paced environments to bring cutting-edge solutions to students and educators.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: dipsilva2002@gmail.com #optional
+    phone: 4141162156 #optional
+    website: asd.com #optional
+    linkedin: dipsilva2002 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: dipsilva2002
+    
+    twitter: 'dianasilva2002' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Low
+
+    # Interests or hobbies
+    interests:
+      - item: Cooking
+
+      - item: Singing
+
+      - item: Yoga
+
+# Your previous education
+education:
+    - degree: Computer Science
+      university: Universidad Metropolitana
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2020 - 2025
+      details: |
+        I completed a four-year degree in Computer Science, where 
+        I developed a strong foundation in programming, algorithms, 
+        data structures, and software development. Throughout my studies, 
+        I worked on hands-on projects involving web and mobile applications, 
+        database management, and emerging technologies like AI and cloud computing. 
+        This experience strengthened my problem-solving skills, teamwork, and ability 
+        to adapt to new tools and technologies, preparing me for real-world challenges 
+        in the tech industry.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: teacher
+      time: 2021 - 2023
+      company: English For Kids
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Designed and delivered engaging, age-appropriate lessons to support early 
+        childhood development in areas such as literacy, numeracy, and social-emotional 
+        skills. Created a safe, nurturing classroom environment that encouraged curiosity 
+        and creativity. Communicated regularly with parents to track progress and address 
+        individual needs, while fostering positive relationships and collaboration. Managed 
+        classroom activities, implemented behavior management strategies, and ensured compliance 
+        with educational standards and safety guidelines.
+
+
+    - role: Innovation and Development Analyst
+      time: 2024 - present
+      company: Kurios
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        As an Innovation and Development Analyst, I was responsible for 
+        researching emerging technologies, identifying opportunities for process 
+        improvement, and developing innovative solutions to enhance business efficiency. 
+        I collaborated with cross-functional teams to design and implement new strategies, 
+        conducted market and trend analysis, and supported the development of prototypes and 
+        pilot projects to drive continuous growth and innovation within the organization.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
