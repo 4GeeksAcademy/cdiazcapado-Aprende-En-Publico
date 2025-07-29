@@ -1,0 +1,158 @@
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alejandro
+    last_name: De Andrade
+    
+    # Define yourself in 4-5 words
+    motto: Conscious, bipedal, social, tool-making, evolving.
+    
+    # Focus
+    focus: being the best on my area 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+
+     Being a **soccer player** is my passion. 
+     It's a demanding journey where I constantly push my **athleticism**—my speed, endurance, and agility.
+      My connection with the **ball** is everything; I live to master every touch, pass, and shot.
+      On the field, I thrive on **tactical awareness**, working in sync with my teammates to execute plays. 
+      Most importantly, it's about **resilience**—getting back up, learning, and fighting for every win. 
+      This sport isn't just what I do; it's a fundamental part of who I am.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: theale@gmail.com
+    phone: 208762893737
+    website: jello.com
+    linkedin: aledone
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: alejandrode98
+    
+    twitter: 'jello' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Snowboarding
+
+      - item: soccer
+
+# Your previous education
+education: 
+    - degree: MSc in Computer Science
+      university: University of London
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+         As a Computer Science student, my world revolves around logic, problem-solving, and endless possibilities.
+          I'm immersed in the fascinating realm of algorithms, data structures, and programming languages, 
+          constantly pushing myself to understand how technology works at its core. 
+          My days are a blend of lectures on theoretical concepts and hands-on coding projects, where I bring those theories to life.
+
+          - As a Computer Science student, I'm focused on mastering coding and algorithms, bringing theories to life through practical application.
+          - It's a demanding but fulfilling journey, where I continuously sharpen my problem-solving skills to build innovative tech solutions.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+         Being a Lead Developer isn't just about writing code; 
+         it's about shaping a vision and empowering a team. 
+         I see myself as both an architect and a mentor, 
+         bridging the gap between big-picture business goals and the intricate details of software development.
+
+# Your project portfolio
+projects:
+    intro: >
+      Building a new microservices architecture for a legacy monolithic application: 
+      This involves designing the new system, defining API contracts, guiding the team in breaking down the old system,
+      and ensuring a smooth transition to the new, more scalable architecture.
+
+      Developing a real-time data analytics platform: 
+      This project would involve selecting the right technologies for data ingestion, processing, and visualization, 
+      leading the team in building robust data pipelines, and ensuring the platform provides timely and accurate insights.
+
+      Implementing a new e-commerce platform with custom features: 
+      Beyond the core e-commerce functionality, this could involve integrating with various third-party services 
+      (payment gateways, shipping, inventory), building custom recommendation engines, and ensuring a seamless user experience across devices.         
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
