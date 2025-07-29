@@ -1,0 +1,149 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: María José
+    last_name: Ferro Yepes
+    
+    # Define yourself in 4-5 words
+    motto: Looking to make the world a better place.
+    
+    # Focus
+    focus: Growing and changing
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      My name is María José and I have devoted the last 10 years of my life to becoming great in my field. I've come to realize that my skills are also well suited for programming and development, so I decided to add more skills to my roster. I am now devoting my energy into becoming great in this field, too, and I know I have the intelligence, talent and drive to accomplish my goal. My goal is to be able to unite my two passions; langugages and development, and work with LLMs and AI to help create and train the best tools in my industry.
+
+  
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/CV_mjfy.jpg
+
+    # Contact Information
+    email: maria.jose.ferro@hotmail.com
+    phone: +57 312 554 4404
+    website: https://www.linkedin.com/in/mariajoseferroyepes/
+    linkedin: mariajoseferroyepes
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: mjfy93
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Portuguese
+        level: Basic
+
+      - idiom: German
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Reading
+
+      - item: Scuba diving
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Cartification as Official Translator and Interpreter
+      university: Universidad Nacional de Colombia
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Logotipo_de_la_Universidad_Nacional_de_Colombia.svg/768px-Logotipo_de_la_Universidad_Nacional_de_Colombia.svg.png
+      time: 2017 - 2018
+      details: |
+        In colombia, Official Translators and Interpreters are certified by taking and passing an exam. I took the exam on 2017 after preparing for 6 months by taking a course taught by the Pontificia Universidad Javeriana, in Bogotá, Colombia.
+
+          - Dilpoma granted in 2018.
+          - License #515. (Official Translators in Colombia are allowed to sign and certify translations for international use.)
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Freelance Translator
+      time: 2016 - Present
+      company: Self-employed
+      # optional
+      details: |
+        Translate documents from Spanish to English and vice versa. Ensure that the message, intent, and tone of the original document is reflected in the target language. In addition, focused on offering excellent customer experience, from the first contact to the delivery of the documents.
+
+        Relevant projects:
+          - Book about Álvaro Barrios (Colombian artist) | On-going project (Expected publication: 2026) | 
+          - Board games & supporting materials. Pedagogical tools for raising awareness and spreading education on Gender Violence and Toxic Masculinities in Colombia. | On-going collaboration.
+
+    - role: Freelance Interpreter
+      time: 2016 - Present
+      company: Self-employed
+      # optional
+      details: |
+        Ensuring effective communication between parties speaking different languages. Primarily performe in an interpretation booth during conferences, meetings and other events where the main speaker and the audience speak different languages.
+
+        Relevant projects:
+          - Immigration Interviews for people seeking refugee status in the USA. | Feb. 2024 - Aug. 2024
+          - ISOC SCILLS Program | Apr. 2025.
+
+    - role: Translation Project Manager
+      time: 2022 - 2023
+      company: Oracle, Colombia
+      # optional
+      company_logo: https://logos-world.net/wp-content/uploads/2020/09/Oracle-Logo-1995-Present.png
+      details: |
+        Responsible for communicating with executives, creative leaders, and representatives of different organizations within the company interested in receiving translation services, to ensure that their requests were processed, reviewed, and delivered on time and of outstanding quality. We worked with a team of more than 15 translators and 9 languages.
+
+          - Optimized the review and upkeep of the internal and external translation memories for Spanish.
+          - ensured the correct and timely delivery of all translation projects related to the Oeacle website.
+
+# Your project portfolio
+projects:
+    intro: >
+      I'm currently taking the Full-Stack Developer Bootcamp at 4GeeksAcademy. I am learning a lot and I am proud of all the projects I've done so far.
+
+    assignments:
+      - title: Interactive Instagram Feed - A visual love letter to Istanbul
+        # optional
+        link: https://ig-photo-feed-three.vercel.app/
+        tagline: "A project completed using bootstrap. The original assignment was to replicate the layout for and instagram page, using generic images and descriptions, but I like to add my own style to these projects, so I included my favorite pictures from my trip to Istanbul earlier this year."
+
+      - title: Instagram Post - Happy Porcupine Fish
+        # optional
+        link: https://instagram-post-layout.vercel.app/
+        tagline: "An earlier instance of the previous project, where we were asked to recreate the layout of a single instagram post. this time I included a video of a Porcupine fish I recorded on a recent trip to the Santa Marta Aquarium."
+
+skills:
+    toolset:
+      - name: HTML5
+        level: 50%
+
+      - name: CSS
+        level: 45%
+
+      - name: bootstrap
+        level: 45%
+
+      - name: SmartCAT
+        level: 95%
+
+      - name: Wrike
+        level: 85%
+
+      - name: Github &VisualStudioCode
+        level: 60%

@@ -20,8 +20,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://avatars2.githubusercontent.com/u/72889569?s=460&u=0ebc9367023607f70b58c5e6591f23e4c95f4d8e&v=4
-
+    avatar: 
     # Contact Information
     email: chacon.mariae.ucv@gmail.com #optional
     phone: 584241687899 #optional
