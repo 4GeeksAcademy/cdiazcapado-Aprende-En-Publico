@@ -1,0 +1,142 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    first_name: Leon
+    last_name: Silva
+
+    motto: Aprender, mejorar, crear, compartir, crecer
+
+    focus: Convertirme en un desarrollador full stack profesional. 
+   
+    summary: |
+      Soy una persona curiosa y dedicada que disfruta resolviendo problemas y aprendiendo nuevas tecnologías. 
+      Tengo experiencia en proyectos web usando herramientas modernas del desarrollo frontend y backend. 
+      Busco oportunidades para crecer en el mundo tech y aportar en equipos colaborativos.
+
+    avatar: https://avatars.githubusercontent.com/u/00000000?v=4
+
+    email: leonsilva.dev@gmail.com
+    # phone: 000 000 0000 
+    # website: leonsilva.dev 
+    linkedin: https://www.linkedin.com/in/leonsilva-dev/
+    
+    github: leonsilva99
+    
+    twitter: 'LeonCodes' 
+    # stack-overflow: 123456/leonsilva
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+    interests:
+      - item: Desarrollo web
+
+      - item: Tecnología y gadgets
+
+      - item: Senderismo
+
+# education:
+#     - degree: Full Stack Developer Bootcamp
+#       university: 4Geeks Academy
+#       # optional
+#       university_logo: https://www.4geeksacademy.co/wp-content/uploads/2022/10/logo-4geeks.png
+#       time: 2025
+#       details: |
+#         Programa intensivo enfocado en desarrollo web frontend y backend. Uso de herramientas modernas como React, Node.js, Express y bases de datos relacionales y no relacionales.
+
+#           - Desarrollo de proyectos reales en equipo.
+#           - Control de versiones con Git y GitHub.
+#           - Buenas prácticas y metodología ágil.
+
+experiences:
+    - role: Desarrollador Full Stack Jr. 
+      time: 2025 - Presente
+      company: Proyecto Freelance Personal
+
+      # details: |
+      #     - Desarrollo de una aplicación CRUD de contactos usando React y una API en Python Flask.
+      #     - Implementación de diseño responsive con Tailwind CSS.
+      #     - Uso de Git para control de versiones y despliegue en Vercel y Render.
+
+#     - role: Soporte Técnico
+#       time: 2022 - 2024
+#       company: TechFix Solutions
+#       # optional
+#       company_logo: https://upload.wikimedia.org/wikipedia/commons/8/82/Kumon_Method_Logo.svg
+#       details: |
+       
+#           - Resolución de problemas técnicos de hardware y software para clientes.
+#           - Documentación de incidencias y soluciones en sistema de tickets.
+#           - Comunicación directa con usuarios para soporte remoto y presencial.
+#           - Gestión básica de redes y configuraciones de equipos.
+
+#     - role: Asistente Administrativo
+#       time: 2020 - 2022
+#       company: Oficina Local
+#       # optional
+#       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#       details: |
+#         Apoyo en tareas administrativas y atención al cliente en oficina local.
+
+#           - Manejo de agendas, documentos y llamadas.
+#           - Uso básico de hojas de cálculo y correo electrónico.
+#           - Organización de reuniones y coordinación de tareas internas.
+
+# # Your project portfolio
+# projects:
+#     intro: >
+#       Estos son algunos de los proyectos desarrollados durante el bootcamp y de forma personal.
+
+#     assignments:
+#       - title: Contact Manager App
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "Aplicación CRUD para gestionar contactos con React y Flask API."
+
+#       - title: Task List
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "To-do list interactiva con React y manejo de estado."
+
+#       - title: Star Wars Blog
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "Blog interactivo consumiendo la API pública de Star Wars."
+
+#       - title: Landing Page
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "Landing page responsive creada con HTML, CSS y Bootstrap."
+
+#       - title: API REST de Usuarios
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "API RESTful construida con Flask y SQLAlchemy para gestionar usuarios."
+
+# skills:
+#     toolset:
+#       - name: Python & Flask
+#         level: 80%
+
+#       - name: JavaScript & React
+#         level: 85%
+
+#       - name: Node.js & Express
+#         level: 75%
+
+#       - name: HTML5 & CSS3
+#         level: 90%
+
+#       - name: Git & GitHub
+#         level: 85%
+
+#       - name: PostgreSQL & MySQL
+#         level: 70%
