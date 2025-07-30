@@ -1,0 +1,70 @@
+# Be aware that even a small syntax error here can lead to failures in output
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Ruben
+  last_name: Martin
+
+  # Define yourself in 4-5 words
+  motto: Me gusta desarrollar
+
+  # Focus
+  focus: Desarrollo Web
+
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: |
+    Soy un desarrollador apasionado con formación en marketing y experiencia combinada en análisis, creatividad y ejecución digital. A mis 33 años, he enfocado mi carrera en construir soluciones digitales eficientes y bien diseñadas, que conectan negocios con sus usuarios de forma efectiva.
+    Siempre estoy en búsqueda de aprender nuevas tecnologías y mejorar la experiencia de usuario a través del código y la estrategia.
+
+  # Your profile picture URL
+  avatar: https://randomuser.me/api/portraits/men/33.jpg
+
+  # Contact Information
+  email: ruben@example.com #optional
+  phone: 123 4567 890 #optional
+  website: rubenmartin.dev #optional
+  linkedin: rubenmartin #optional
+
+  # ******** IMPORTANT *******
+  # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: Mnrubn
+
+  twitter: 'rubenwebdev' #optional
+  stack-overflow:
+
+# Languages you speak, levels include: Native, Professional
+languages:
+  - idiom: Español
+    level: Nativo
+  - idiom: Inglés
+    level: Intermedio
+
+# Interests or hobbies
+interests:
+  - item: Tecnología
+  - item: Lectura
+  - item: Senderismo
+
+# Your previous education
+education:
+  - university: Universidad de Granada
+    degree: Licenciatura en Marketing
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2010 - 2014
+    details: |
+      Formación en marketing digital, análisis de mercado y comportamiento del consumidor. Me especialicé en estrategias online, lo que despertó mi interés por el desarrollo web.
+        - Trabajo final sobre funnels de conversión
+        - Participación en campañas publicitarias simuladas
+
+# Your previous job experiences or volunteer experiences
+experience:
+  - role: Desarrollador Web Freelance
+    time: 2020 - Presente
+    company: Autónomo
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Desarrollo de sitios web a medida para clientes de diversos sectores, desde pequeños negocios hasta profesionales independientes.
+        - Diseño responsive
