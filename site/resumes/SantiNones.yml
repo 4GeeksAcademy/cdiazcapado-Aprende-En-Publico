@@ -1,0 +1,163 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Santiago  
+    last_name: Nones
+    
+    # Define yourself in 4-5 words
+    motto: I love creating new stuff
+    
+    # Focus
+    focus: Red Dot Sight
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Motivated, adaptable, and quality-driven professional with a
+      strong international background and a passion for continuous 
+      improvement. With experience in digital operations and human 
+      resources, I bring a strong sense of ownership, customer 
+      obsession, and bias for action. 
+
+      Currently transitioning into the logistics and tech field, 
+      I am eager to apply my problem-solving skills, multilingual 
+      communication, and detail orientation to a dynamic team that 
+      values innovation and operational excellence.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4D03AQFxABbCNEHBpw/profile-displayphoto-scale_400_400/B4DZhgmJ23HwAk-/0/1753967271907?e=1756944000&v=beta&t=aIx-K8eW4fTp-DN_GuHXersvPubplq0kEuekjU-YbZk
+
+    # Contact Information
+    email: santiagonones@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin: santiago-nones #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Santi Nones
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Professional
+
+      - idiom: German
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Music Production / Guitar playing
+
+      - item: Gym
+
+      - item: Climbing
+
+# Your previous education
+education:
+    - degree: BSc in Psychology 
+      university: Universidad Rafael Urdaneta
+      # optional
+      university_logo: https://pbs.twimg.com/profile_images/1727378356474138624/cZR-dXij_400x400.jpg
+      time: 2019 - 2023
+      details: |
+
+          - Bullet point
+          - Bullet point
+# Your previous job experiences or volunteer
+experiences:
+    - role: Full-stack developer 
+      time: 2025 - 
+      company: Self-employed
+      # optional
+      company_logo: 
+      details: |
+        - Desarrollé y mantuve aplicaciones web escalables utilizando React.js, Node.js y PostgreSQL, asegurando un rendimiento óptimo tanto en el front-end como en el back-end.
+        - Diseñé e implementé APIs RESTful e integré servicios de terceros, mejorando la funcionalidad de la aplicación y reduciendo los tiempos de carga en un 30%.
+        - Lideré el desarrollo de funcionalidades de principio a fin, desde wireframes hasta el despliegue, aplicando metodologías ágiles, control de versiones con Git y pipelines de CI/CD para una entrega continua y eficiente.
+
+    - role: Digital Trust and Safety Analyst 
+      time: 2024 - 2025
+      company: TELUS Digital, Barcelona
+      # optional
+      company_logo: https://hispanoisraeli.com/wp-content/uploads/2025/03/TELUS-Digital-logo.jpg
+      details: |
+        - Moderación de contenido digital en plataformas internacionales.
+        - Reconocimiento por obtención de métricas sobresalientes en materia de calidad y rendimiento.
+        - Aplicación de criterios técnicos y éticos para asegurar entornos digitales seguros.
+
+    - role: English Camps Monitor 
+      time: 2023 - 2024
+      company: Fundesplai, Barcelona
+      # optional
+      company_logo: https://fundesplai.org/test-joomla/wp-content/uploads/sites/26/2014/04/Fundesplai.jpg
+      details: |
+        - Diseño y ejecución de actividades educativas orientadas a estudiantes, con foco en el aprendizaje del idioma inglés.
+        - Gestión de grupos y planificación pedagógica en entornos multiculturales.
+        - Implementación de herramientas digitales de apoyo educativo.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Instagram Like Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/InstagramfeedSantiagoNones"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: Random Excuse Generator 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/SantiagoNonesExcuseGenerator"
+        tagline: "A fun and dynamic web app that instantly delivers creative excuses at the click of a button."
+
+      - title: Conditional Profile Card
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/SantiagoNonesexercise-conditional-profile-card"
+        tagline: "An interactive profile card that adapts to user input, showcasing dynamic rendering using JavaScript."
+
+    
+skills:
+    toolset:
+      - name: Python & Django
+        level: 95%
+
+      - name: JavaScript & jQuery
+        level: 95%
+
+      - name: React
+        level: 95%
+
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: React.js
+        level: 95%
+
+      - name: Sketch & Photoshop
+        level: 30%
