@@ -1,0 +1,92 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Catalina
+    last_name: Flores
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta la programación
+    
+    # Focus
+    focus: Desarrolladora web
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy una desarrolladora web con experiencia en la creación de aplicaciones
+      web modernas y eficientes. Me apasiona aprender nuevas tecnologías y
+      mejorar mis habilidades constantemente. Tengo un enfoque en la calidad del
+      código y la experiencia del usuario, y disfruto trabajando en equipo para
+      lograr objetivos comunes.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/216802565?s=400&u=d96e330af83b4d7d4805481f4d65401e5c94659c&v=4
+
+    # Contact Information
+    email: cataflores85@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: CataFlores19
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Basic
+
+   
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Bailar
+
+      - item: Escuchar musica
+
+      - item: Cocinar
+
+# Your previous education
+education:
+    - degree: Enseñanza basica y media 
+      university: Colegio creces
+      
+# Your previous job experiences or volunteer
+experiences:
+    - role: Promotora
+      time: 2021
+      company: Partido politico
+
+
+
+skills:
+    toolset:
+     
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      
+
+     
