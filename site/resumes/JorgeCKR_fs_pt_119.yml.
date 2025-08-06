@@ -1,0 +1,179 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "red"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: CoolKid
+    last_name: Rodríguez
+    
+    # Define yourself in 4-5 words
+    motto: Viviendo el aquí y el ahora
+    
+    # Focus
+    focus: Programador Junior 2026
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Bueno Ramones les comento que me impresiona que llevo un mes ya que no tengo vida social
+      y podria seguir así no se si es que me encanta estar solo o realmente me gusta programar...
+
+      Ya les comentare luego
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://preview.free3d.com/img/2018/10/2705068605057270880/d5tx2pvl.jpg
+
+    # Contact Information
+    email: JorgeCKR@Gmail.com #optional
+    phone: 642 434 613 #optional
+    website: LosRamones.com #optional
+    linkedin: El Joufri #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JorgeCKR
+    
+    twitter: '@JorgeCKR' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Venezolano
+        level: Native
+
+      - idiom: Santandereano
+        level: Medio
+
+      - idiom: Valenciano
+        level: Bajo
+
+    # Interests or hobbies
+    interests:
+      - item: Video Juegos
+
+      - item: Salir de Fiesta
+
+      - item: Aventuras improvisadas
+
+# Your previous education
+education:
+    - degree: Universiadad 
+      university: I.U. Nuevas Profesiones
+      # optional
+      university_logo: https://www.iunp.edu.ve/upload/logo_f467e572c014b94424afe5e821d6e645.JPG
+      time: 2006-2009
+      details: |
+        Titulo de tecnico superior universitario en informatica con especializacion en hardware y electronica
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Bootcamp
+      university: 4 Geeks Academy
+      # optional
+      university_logo: https://4geeksacademy.com/static/dc42e38caa9db517ddea28bea5e40d02/e6a88/4geeksacademy-logo-old.png
+      time: 2025 - 2025
+      details: |
+        Academia de programación e informática 
+
+          - Desarrollador Full Stack
+          - Especialización en Depuración de Códigos
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Responsable SAT 1
+      time: 2022 - Present
+      company: 3D Seguridad
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrK4R9WZFruHdabK41idrdjg7LW1EMZdQ-4Q&s
+      details: |
+        Responsable encargado del Equipo de atención telefónica de soporte técnico. SAT 1.  
+
+          - Solucionamos averías telfónicamente
+          - Birndamos una experiencia única y veloz al cliente.
+
+    - role: Help Desk
+      time: 2015 - 2022
+      company: Necomplus
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl7_5hUyfL9oZK6aSeC34O89h99Kv1dhL_Nw&s
+      details: |
+        Realizar soporte técnico interdepartamental, solucionar diversas fallas en los distintos departamentos de la empresa
+        enfocados a redes e informática
+
+          - Mantenimiento de ordenadores
+          - Mantenimiento de Redes
+
+    - role: Tecnico instalador
+      time: 2010 - 2015
+      company: Novenca Venezuela
+      # optional
+      company_logo: https://www.ventasdeseguridad.com/media/com_mtree/images/listings/m/20161212103843_Captura_de_pantalla_de_2016-12-12_10_36_00.png
+      details: |
+        Instalador de sistemas de seguridad CCTV, alarmas, central de incendios y cercos electricos
+
+          - Lider de equipo de instalacion
+          - Responsable de compras de almacen
+
+# Your project portfolio
+projects:
+    intro: >
+      Creador de API CashFlow para nuevos inversionistas
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Lógica
+        level: 90%
+
+      - name: Responsabilidad
+        level: 90%
+
+      - name: Bebedor de caña
+        level: 100%
+
+      - name: Lider
+        level: 93%
+
+      - name: Generador de Excusas
+        level: 50%
+
+      - name: Sexy and i Know it
+        level: 80%
