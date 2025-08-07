@@ -1,0 +1,101 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "ceramic"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Antonio Jose
+    last_name: Villarreal Rojas
+    
+    # Define yourself in 4-5 words
+    motto: I am a good pearson
+    
+    # Focus
+    focus: Find a job in tech
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a good pearson with passion for tech world, like games like a warzone, whatch movies, and other things in home, i am a quite person too.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/149917560?v=4
+
+    # Contact Information
+    email: antoniovillarrealr@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: antoniovillarrealr #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: avilarrealr
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Inglish
+        level: Basic
+
+      - idiom: Italian
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Tech
+
+      - item: Games
+
+      - item: Netflix
+
+# Your previous education
+education:
+    - degree: Industrial Engineer
+      university: Yacambu University
+      # optional
+      university_logo: https://www.uny.edu.ve/wp-content/uploads/2015/11/Logo-Yacambu1.jpg
+      time: 2014 - 2019
+      details: |
+        I study 5 years in Cabudare, estate Lara - Venezuela, it's the favorite part of my life
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead team in restorant
+      time: 2015 - Present
+      company: Andrea Chill and Bar
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Im the first point of conatact if something went wrong in the place, i came and fix everyting.
+
+          - Bullet point
+          - Bullet point
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: JavaScript
+        level: 10%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 65%
