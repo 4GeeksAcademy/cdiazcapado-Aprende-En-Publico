@@ -1,0 +1,136 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Aura Azul
+    last_name: Marbán Alarcón
+    
+    # Define yourself in 4-5 words
+    motto: No importa qué haces, sino cómo lo haces
+    
+    # Focus
+    focus: Aprender, imaginar e innovar
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy una persona apasionada por la naturaleza, la historia y la cultura, con un fuerte interés en el desarrollo web. Me motiva aprender constantemente y ampliar mis habilidades, manteniéndome en formación continua para explorar nuevas áreas de conocimiento y crecimiento personal.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://ca.slack-edge.com/T0BFXMWMV-U091G0XAW5U-698652d8551e-512
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: azul28marb
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativ
+
+      - idiom: Inglés
+        level: Profesional
+
+      - idiom: Alemán
+        level: Principiante
+
+    # Interests or hobbies
+    interests:
+      - item: Leer
+
+      - item: Cocinar
+
+      - item: Yoga
+
+# Your previous education
+education:
+    - degree: Química de Alimentos
+      university: Universidad Nacional Autónoma de México
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/c/ca/Escudo-UNAM-escalable.svg
+      time: 2023 - Present
+      details: |
+        Estudio de la composición, estructura y propiedades de los componentes de los alimentos, así como las reacciones que ocurren durante su procesamiento, almacenamiento y consumo.
+
+          - Prácticas de laboratorio
+          - Resolución de problemas
+
+    - degree: Diseño UX/UI
+      university: Coderhouse
+      # optional
+      university_logo: https://startupeable.com/directorio/wp-content/uploads/2021/03/1558441737613.png
+      time: 2021 - 2022
+      details: |
+        Crear productos y experiencias fáciles, eficientes, agradables y gratificantes para el usuario final.
+
+          - Productos digitales
+          - Innovación y diseño
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Customer service
+      time: 2023 - Present
+      company: Jacaranda, CDMX
+      # optional
+      company_logo: https://instagram.fmex2-2.fna.fbcdn.net/v/t51.2885-19/279269952_166124749171364_8446373893214476662_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MjguYzIifQ&_nc_ht=instagram.fmex2-2.fna.fbcdn.net&_nc_cat=108&_nc_oc=Q6cZ2QG6zbNcSDGjaFiNtipGsT8E0i0st_cZyVkSfSJOwrqpOPXk-BxFg3F0ROXtutfo5R25zblmajjhjluQEyZDTDSh&_nc_ohc=7l7VkFeA71YQ7kNvwHNZ11x&_nc_gid=I1oayVyCCWUgbhXwspiyvw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfWevEOqG2FLjtN6mAwDsfYv1ny_azQE_lndIwg8HJz7vg&oe=68973E19&_nc_sid=8b3546
+        Creación de piezas de joyería únicas y artesanales, y atención al cliente.
+
+          - Artesanía
+          - Atención al cliente
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Proyecto We Kare - App - Diseño UX/UI
+      Proyecto Renovación Waze - App - Diseño UX/UI
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
