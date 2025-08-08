@@ -1,0 +1,128 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jeremy
+    last_name: Keene
+    
+    # Define yourself in 4-5 words
+    motto: Understanding nature, empowering future generations.
+    
+    # Focus
+    focus: Botanist. Educator. Conservationist. Coder.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I’m a botanist and educator passionate about connecting science, conservation, coding, 
+      and public engagement. With a Ph.D. in Environmental & Plant Biology, I focus on systematics, 
+      ecology, evolution, and conservation genetics to better understand and protect biodiversity in 
+      the U.S. and beyond. I’ve taught and mentored undergraduate and graduate students for years, 
+      created data-driven curricula, and led field-based research initiatives. As director of a conservation 
+      center and herbarium, I worked to document plant diversity while developing tools—such as websites 
+      and data visualizations—to help the public better understand human impacts on the environment. 
+      I’m also expanding my experience in coding and computational tools to enhance my research and teaching. 
+      Above all, I’m driven by a commitment to empower the next generation through science, technology, and 
+      a deeper connection to nature.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i1.rgstatic.net/ii/profile.image/11431281241985069-1715299231776_Q128/Jeremy-Keene.jpg
+
+    # Contact Information
+    email: jeremy496@mac.com #optional
+    linkedin: jeremy-keene #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JermeK-79
+    
+   
+    stack-overflow: 31195599/jeremy-k
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Hiking
+
+      - item: Gardening
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: PhD Environmental & Plant Biology
+      university: Ohio University
+      # optional
+      university_logo: https://www.ohio.edu/sites/default/files/styles/max_2600x2600/public/2021-10/Ohio%20University-formal-green.png?itok=s3cY4akH
+      time: 2009 - 2013
+      details: |
+        During my Ph.D. in Environmental & Plant Biology, I focused on plant systematics and evolutionary 
+        biology. My research combined morphological, anatomical, and molecular data to investigate species 
+        relationships and reproductive patterns within an evolutionary framework. I used computational tools 
+        like R for data analysis and visualization to uncover patterns of diversification and species 
+        boundaries. My primary work centered on the Neotropical African violet genera (Gloxiniinae, Gesneriaceae).
+
+    - degree: MS in Biology
+      university: Missouri State University
+      # optional
+      university_logo: https://images.seeklogo.com/logo-png/49/2/missouri-state-bears-logo-png_seeklogo-491143.png
+      time: 2007 - 2011
+      details: |
+       For my master’s degree, I focused on plant ecology and population biology. My research 
+       explored how environmental factors influence ecological strategies in native plant 
+       species, combining fieldwork with lab-based analyses to better understand plant 
+       interactions and population dynamics. I gained experience in experimental design, 
+       statistical analysis, and ecological modeling, which laid the foundation for my later 
+       work in systematics and conservation.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Associate Professor of Biology
+      time: 2015 - 2025
+      company: Glenville State College
+  
+      details: |
+        At Glenville State, I served as a faculty member responsible for teaching 
+        courses in ecology, evolution, genetics, and organismal biology. I 
+        developed and led both introductory and advanced classes, including General
+        Botany, Experimental Design, and Conservation Biology, with a strong focus 
+        on active learning and data-driven inquiry. I co-led a major curriculum 
+        realignment to better align with Vision and Change, which included the 
+        creation of new genetics courses and updates to our evolution curriculum. 
+        I also directed the campus herbarium and conservation center, overseeing 
+        collections management, student research, and public outreach. My time at 
+        Glenville allowed me to mentor students closely, support undergraduate 
+        research, and advocate for the role of conservation and biodiversity in 
+        undergraduate education.
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 5%
+
+      - name: JavaScript & jQuery
+        level: 5%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 10%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 20%
