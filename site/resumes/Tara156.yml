@@ -1,0 +1,100 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    first_name: Cristian
+    last_name: Tarazona
+    
+    motto: Analista de datos en constante aprendizaje
+    
+    focus: SQL, Power Query y Ciencia de Datos
+    
+    summary: |
+      Ingeniero de Sistemas con 3 años de experiencia en el sector financiero, especializado en análisis de datos, generación de reportes con Oracle SQL y optimización de procesos en entornos de Data Warehouse. 
+      He trabajado en áreas como gestión de incidentes, soporte técnico, automatización de reportes y consultas de datos, integrando soluciones eficientes para el negocio.
+      
+      Actualmente, me encuentro ampliando mis habilidades en Ciencia de Datos, Python y herramientas de visualización para implementar análisis avanzados y aportar valor estratégico a las decisiones corporativas.
+    
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    email: ctarazona156@gmail.com.co
+    phone: +57 311 8892287
+    github: https://github.com/Tara156
+    linkedin: https://www.linkedin.com/in/cristian-ctarazona/
+    
+    
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Medio
+
+    interests:
+      - item: Ciencia de Datos
+      - item: Lectura
+      - item: Senderismo
+
+# Education
+education:
+    - degree: Ingeniería de Sistemas
+      university: Universidad Autónoma de Bucaramanga 
+      time: 2016 - 2021
+      details: |
+        Formación en desarrollo de software, bases de datos, redes y análisis de datos.
+        Participación en proyectos académicos orientados en el desarrollo web y app móviles.
+        
+          - Proyecto final sobre optimización de consultas SQL
+          - Desarrollo de soluciones con Python y Java
+
+# Experience
+experiences:
+    - role: Analista de Calidad en Data Warehouse
+      time: 2023 - Presente
+      company: Shareppy Sas (Fintench), Bucaramanga
+      details: |
+        Responsable de la generación de reportes estratégicos y análisis de información a partir de un Data Warehouse en Oracle.
+        Elaboración de consultas SQL optimizadas y creación de reportes automáticos en Excel y Power Query.
+        
+          - Reducción de tiempos de generación de reportes en un 40%
+          - Automatización de procesos de consulta y filtrado de datos
+
+    - role: Analista de Incidentes y Gestión Informática
+      time: 2021 - 2023
+      company: Shareppy Sas (Fintench), Bucaramanga
+      details: |
+        Gestión de incidentes y soporte técnico a sistemas críticos, asegurando la continuidad operativa.
+        Coordinación con equipos de desarrollo para la solución de problemas técnicos y optimización de procesos.
+        
+          - Mejora en tiempos de respuesta a incidentes críticos
+          - Documentación y estandarización de procedimientos
+
+# Projects
+projects:
+    intro: >
+      Algunos proyectos personales y académicos en análisis de datos y automatización.
+
+    assignments:
+      - title: Reporte automatizado de indicadores bancarios
+        link: "#"
+        tagline: "Automatización en Oracle developer para generación mensual y diaria de reportes con datos de Oracle."
+
+# Skills
+skills:
+    toolset:
+      - name: SQL (Oracle)
+        level: 80%
+
+      - name: Python (Pandas, Matplotlib)
+        level: 80%
+
+      - name: Power Query y Excel Avanzado
+        level: 80%
+
+      - name: Power BI
+        level: 40%
+
+      - name: Pentaho Data Integration
+        level: 20%
