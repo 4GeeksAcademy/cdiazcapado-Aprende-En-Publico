@@ -50,7 +50,7 @@
 
 4Geeks Academy was founded by [Marcelo](https://www.linkedin.com/in/marcelo-ricigliano-32440379/) and [Alejandro](https://twitter.com/alesanchezr), best friend's [since high school](https://www.4geeksacademy.co/4geeks-academy-history/).  
 You will fall in love with our teachers that work in top companies and have many years of experience.  
-Every location has a full hands on team with -almost- full independence:
+Every location has a full hands on team with full independence:
 
 - [Victor](https://www.linkedin.com/in/victormgomezp/) and [Marco](https://www.linkedin.com/in/marcogonzalo/) lead [🇪🇺 Europe](https://4geeksacademy.com/us/coding-campus/europe-online-coding-bootcamp).
 - [Jonathan](https://www.linkedin.com/in/jonathan-toledo/) and [Jennifer](https://www.linkedin.com/in/jennifer-toledo-vargas/) lead [🇨🇱 Chile](https://4geeksacademy.com/us/coding-campus/coding-bootcamp-santiago).
