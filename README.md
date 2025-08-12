@@ -32,10 +32,10 @@
   
 ## Contents
 
-- [About](#about).
-- [Team](#team).
-- [Awards](#awards).
-- [Alumni](#alumni).
+- [About](#about)
+- [Team](#team)
+- [Awards](#awards)
+- [Alumni](#alumni)
 
 ## About
 
