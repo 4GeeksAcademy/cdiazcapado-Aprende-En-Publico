@@ -1,0 +1,64 @@
+template: "online-cv"
+skin: "green"
+
+basic_info:
+  first_name: Daniela Alejandra
+  last_name: Maica Silva
+  motto: Coding enthusiast and lifelong learner
+  focus: Programming and movies
+  summary: |
+    I hold a technical degree in administration and commerce with a specialization in computer science. Currently, I am studying chemical engineering at Universidad de Chile and working as a full stack developer.
+  avatar: https://avatars.githubusercontent.com/u/200251406?v=4
+  email: danielamiaca43@gmail.com
+  phone: 04241230452
+  website:
+  linkedin: https://www.linkedin.com/in/daniela-maica-56a19337a/
+  github: danymaica
+  twitter:
+  stack-overflow:
+  languages:
+    - idiom: English
+      level: basic
+    - idiom: Spanish
+      level: native
+  interests:
+    - item: Health
+    - item: Nutrition
+    - item: Personal care
+
+education:
+  - degree: Technical Bachelor's Degree in Administration and Commerce with a specialization in Computer Science
+    time: 2017 - 2023
+    university: Instituto Técnico Jesús Obrero
+    details: |
+      This technical degree focuses on administration, commerce, and computer science,
+      providing skills in business management and IT applications.
+
+  - degree: Associate Degree in Computer Science (in progress)
+    time: 2023 - Present
+    university: Instituto Universitario Jesús Obrero
+    details: |
+      Currently studying the second semester of an Associate Degree in Computer Science,
+      focusing on software development and IT fundamentals.
+
+experiences:
+  - role: Insurance Sales Agent
+    time: 2020 - Present
+    company: Asociacion Cooperativa de Garantias 456
+    details: |
+      I work selling vehicle insurance policies and processing medical certificates.
+      I assist clients in selecting the best insurance plans to meet their needs,
+      ensuring excellent customer service and accurate documentation.
+
+projects: []
+
+skills:
+  toolset:
+    - name: HTML & CSS
+      level: 80%
+
+    - name: Python
+      level: 80%
+
+    - name: Bootstrap
+      level: 80%
