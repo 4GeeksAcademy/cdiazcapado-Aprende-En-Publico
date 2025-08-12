@@ -1,0 +1,138 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+
+template: "online-cv"
+skin: "blue"
+
+
+# Personal Information
+basic_info:
+
+
+    # Your full name
+    first_name: Josue
+    last_name: Ortega
+   
+    # Define yourself in 4-5 words
+    motto: I am a hardworking professional
+   
+    # Focus
+    focus: Developing my career
+   
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     
+      High-achieving professional with a postgraduate degree in geophysics from The University of Leeds.
+      With a keen eye for detail and a disciplined approach, excel at consistently improving processes and
+      documenting the work.
+     
+      Second paragraph if required.
+   
+    # Your profile picture URL
+   
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    # avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+
+    # Contact Information
+    email: josue.ortega.rivera@gmail.com #optional
+    phone: 55 8780 4131 #optional
+    #website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/josue-ortega-rivera/ #optional
+   
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/josue-ortega-rivera
+   
+    #twitter: 'webjeda' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+
+      - idiom: Spanish
+        level: Native
+
+
+    # Interests or hobbies
+    interests:
+      - item: Learning languages
+      - item: Doing Exercise
+ 
+
+
+# Your previous education
+education:
+    - degree: MSc in Exploration Geophysics
+      university: University of Leeds
+      # optional
+      university_logo: https://comms.leeds.ac.uk/our-visual-identity/the-logo/
+      time: 2018 - 2021
+      details: |
+        The master's program focuses on studying petroleum reservoirs by combining
+        seismic methods, gravity and magnetic studies, and geological analysis
+        for subsurface exploration.  
+       
+          - Seismic data processing and imaging
+          - Seismic interpretation/mapping
+          - Geological modelling.
+         
+
+
+    - degree: BSc in Geophysical Engineering
+      university: Instituto Politecnico Nacional (IPN)
+      # optional
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2009 - 2015
+     
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Self-employement
+      time: 2022 - Present
+      company: Own Business, Mexico City
+      # optional
+
+
+
+
+# Your project portfolio
+projects:
+    intro: >
+      3D seismic interpretation in Petrel (North Sea reservoir unit)
+     
+    assignments:
+      - title: Systematically interpreted a 3D seismic volume over an oilfield (Vega Field) in Petrel, including fault and seismic horizon delineation.
+       
+      - title: Built velocity models from well-log data for time to depth conversion, identifying the depth of a reservoir unit (Top Brent).
+   
+skills:
+    toolset:
+      - name: Python
+        level: 45%
+
+
+      - name: SQL
+        level: 25%
+
+
+      - name: SeisSpace/ProMAX
+        level: 70%
+
+
+      - name: MATLAB
+        level: 45%
+
+
+      - name: ArcGIS
+        level: 45%
+      -name: Petrel
+     
