@@ -5,198 +5,148 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Agustin Artuto 
+    first_name: Agustin Arturo
     last_name: Melian Su
     
     # Define yourself in 4-5 words
-    motto: I like music
+    motto: Data-driven problem solver
     
     # Focus
-    focus: Bad Boys
+    focus: Data Science & Backend Development
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      Engineering Physics student with strong foundations in mathematics, programming, 
+      and analytical thinking. Experienced in data science, machine learning, and backend 
+      development, with hands-on projects in business analytics, automation, and 
+      natural language processing. Skilled in Python, SQL, and web frameworks, with 
+      a passion for solving complex problems through data.
 
-      Second paragraph if required.
+      Actively expanding expertise in backend systems to complement data science skills, 
+      with a long-term goal of working in finance, consulting, or technology.
     
     # Your profile picture URL
-    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: agustin@example.com #optional
+    phone: +52 234 2342 342 #optional
+    website: aguamelsu.dev #optional
+    linkedin: agustin-melian-su #optional
     
-    #
     # ******** IMPORTANT *******
-    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: aguamelsu
     
-    twitter: 'webjeda' #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter: '' #optional
+    stack-overflow: # Number/Username
 
-    # Languages you speak, levels include: Native, Professional
+    # Languages you speak
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     # Interests or hobbies
     interests:
-      - item: Climbing
-
-      - item: Snowboarding
-
-      - item: Listening to music
+      - item: Calisthenics & Kickboxing
+      - item: Audio Production
+      - item: Machine Learning
+      - item: Backend Development
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      # optional
+    - degree: Machine Learning & Data Science Bootcamp
+      university: 4Geeks Academy
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 2025
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Intensive program covering supervised/unsupervised learning, data preprocessing,
+        statistical analysis, deployment, and real-world projects.
 
-          - Bullet point
-          - Bullet point
+          - Built predictive model for retail store success.
+          - Applied feature engineering and model evaluation techniques.
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+    - degree: Oracle One Next Education Program
+      university: Oracle
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg
+      time: 2025
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Specialization in backend development with complementary training in data science.
 
-          - Bullet point
-          - Bullet point
+          - Developed web applications integrating databases and APIs.
+          - Focused on efficiency, automation, and scalability.
+
+    - degree: BSc in Engineering Physics (in progress)
+      university: Tecnológico de Monterrey
+      university_logo: https://upload.wikimedia.org/wikipedia/en/4/4f/Tecnologico_de_Monterrey_Seal.svg
+      time: 2021 - Present
+      details: |
+        Strong foundation in mathematics, physics, programming, and systems analysis.
+
+          - Research and projects in electromagnetism, modeling, and simulation.
+          - Integration of scientific problem-solving into software solutions.
 
 # Your previous job experiences or volunteer
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    - role: Data Science & Machine Learning Analyst (Project)
+      time: 2024
+      company: Datathon - Tecnológico de Monterrey
+      company_logo: https://upload.wikimedia.org/wikipedia/en/4/4f/Tecnologico_de_Monterrey_Seal.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Developed a Random Forest regression model to predict the success of OXXO stores 
+        using socioeconomic, infrastructure, and location data.
 
-          - Bullet point
-          - Bullet point
+          - Conducted feature engineering using INEGI population density data.
+          - Achieved accurate classification of high and low performing stores.
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    - role: WhatsApp Bot Developer (Freelance)
+      time: 2024 - 2025
+      company: Independent Project
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Designed and deployed a WhatsApp bot for an adult seniors club to track class attendance 
+        and update a Google Sheets database in real-time.
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+          - Integrated Twilio, WAAPI, and n8n automation.
+          - Ensured 24/7 operation through cloud deployment.
 
 # Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Selected projects showcasing skills in data science, backend development, 
+      and automation.
 
     assignments:
-      - title: Velocity
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        # optional
+      - title: Retail Store Success Prediction
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Machine learning model predicting store success based on infrastructure, location, and socioeconomic data."
 
-      - title: Tempo
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      - title: WhatsApp Attendance Bot
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "Automated WhatsApp bot for attendance tracking and Google Sheets integration using Twilio and n8n."
 
-      - title: Atom
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      - title: Audio Spatialization Automation
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "REAPER Lua scripts for automating binaural spatial audio processing."
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: JavaScript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Python (Pandas, NumPy, Scikit-learn)
         level: 95%
 
-      - name: Ruby on Rails
+      - name: SQL
+        level: 90%
+
+      - name: Flask & Django
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: JavaScript & Node.js
+        level: 75%
+
+      - name: Git & GitHub
+        level: 90%
+
+      - name: REAPER Lua Scripting
+        level: 80%
