@@ -1,0 +1,152 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Agustin Arturo
+    last_name: Melian Su
+    
+    # Define yourself in 4-5 words
+    motto: Data-driven problem solver
+    
+    # Focus
+    focus: Data Science & Backend Development
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Engineering Physics student with strong foundations in mathematics, programming, 
+      and analytical thinking. Experienced in data science, machine learning, and backend 
+      development, with hands-on projects in business analytics, automation, and 
+      natural language processing. Skilled in Python, SQL, and web frameworks, with 
+      a passion for solving complex problems through data.
+
+      Actively expanding expertise in backend systems to complement data science skills, 
+      with a long-term goal of working in finance, consulting, or technology.
+    
+    # Your profile picture URL
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: agustin@example.com #optional
+    phone: +52 234 2342 342 #optional
+    website: aguamelsu.dev #optional
+    linkedin: agustin-melian-su #optional
+    
+    # ******** IMPORTANT *******
+    github: aguamelsu
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username
+
+    # Languages you speak
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Calisthenics & Kickboxing
+      - item: Audio Production
+      - item: Machine Learning
+      - item: Backend Development
+
+# Your previous education
+education:
+    - degree: Machine Learning & Data Science Bootcamp
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2025
+      details: |
+        Intensive program covering supervised/unsupervised learning, data preprocessing,
+        statistical analysis, deployment, and real-world projects.
+
+          - Built predictive model for retail store success.
+          - Applied feature engineering and model evaluation techniques.
+
+    - degree: Oracle One Next Education Program
+      university: Oracle
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg
+      time: 2025
+      details: |
+        Specialization in backend development with complementary training in data science.
+
+          - Developed web applications integrating databases and APIs.
+          - Focused on efficiency, automation, and scalability.
+
+    - degree: BSc in Engineering Physics (in progress)
+      university: Tecnológico de Monterrey
+      university_logo: https://upload.wikimedia.org/wikipedia/en/4/4f/Tecnologico_de_Monterrey_Seal.svg
+      time: 2021 - Present
+      details: |
+        Strong foundation in mathematics, physics, programming, and systems analysis.
+
+          - Research and projects in electromagnetism, modeling, and simulation.
+          - Integration of scientific problem-solving into software solutions.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Data Science & Machine Learning Analyst (Project)
+      time: 2024
+      company: Datathon - Tecnológico de Monterrey
+      company_logo: https://upload.wikimedia.org/wikipedia/en/4/4f/Tecnologico_de_Monterrey_Seal.svg
+      details: |
+        Developed a Random Forest regression model to predict the success of OXXO stores 
+        using socioeconomic, infrastructure, and location data.
+
+          - Conducted feature engineering using INEGI population density data.
+          - Achieved accurate classification of high and low performing stores.
+
+    - role: WhatsApp Bot Developer (Freelance)
+      time: 2024 - 2025
+      company: Independent Project
+      details: |
+        Designed and deployed a WhatsApp bot for an adult seniors club to track class attendance 
+        and update a Google Sheets database in real-time.
+
+          - Integrated Twilio, WAAPI, and n8n automation.
+          - Ensured 24/7 operation through cloud deployment.
+
+# Your project portfolio
+projects:
+    intro: >
+      Selected projects showcasing skills in data science, backend development, 
+      and automation.
+
+    assignments:
+      - title: Retail Store Success Prediction
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Machine learning model predicting store success based on infrastructure, location, and socioeconomic data."
+
+      - title: WhatsApp Attendance Bot
+        link: "#"
+        tagline: "Automated WhatsApp bot for attendance tracking and Google Sheets integration using Twilio and n8n."
+
+      - title: Audio Spatialization Automation
+        link: "#"
+        tagline: "REAPER Lua scripts for automating binaural spatial audio processing."
+
+skills:
+    toolset:
+      - name: Python (Pandas, NumPy, Scikit-learn)
+        level: 95%
+
+      - name: SQL
+        level: 90%
+
+      - name: Flask & Django
+        level: 85%
+
+      - name: JavaScript & Node.js
+        level: 75%
+
+      - name: Git & GitHub
+        level: 90%
+
+      - name: REAPER Lua Scripting
+        level: 80%
