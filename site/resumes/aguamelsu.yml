@@ -34,7 +34,7 @@ basic_info:
     # Contact Information
     email: a@a.com #optional
     phone: 234 2342 342 #optional
-    website: https://example.com #optional
+    website: "https://example.com" #optional
     linkedin: alandoe #optional
     
     #
