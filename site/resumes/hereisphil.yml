@@ -9,7 +9,7 @@ basic_info:
     last_name: Cantu
     
     # Define yourself in 4-5 words
-    motto: Building simple, modern web apps
+    motto: Stay humble. Keep a growth mindset.
     
     # Focus
     focus: Web Development & AI Automation
@@ -29,6 +29,7 @@ basic_info:
     # Contact Information
     email: thereisphil@gmail.com
     phone: 657-293-3756
+    website: https://phillipcantu.com
     linkedin: phillipcantu
     
     #
@@ -37,7 +38,7 @@ basic_info:
     github: hereisphil
     
     twitter: astroadastra
-    stack-overflow: # optional
+    # stack-overflow: # optional
 
     # Languages you speak, levels include: Native, Professional
     languages:
@@ -127,7 +128,7 @@ skills:
 
       - name: Video Editing (Adobe Premiere Pro)
         level: 80%
-        
+
       - name: JavaScript, TypeScript & React
         level: 60%
 
