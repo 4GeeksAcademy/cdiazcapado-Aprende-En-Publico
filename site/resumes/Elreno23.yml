@@ -1,0 +1,65 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: Rodolfo
+  last_name: Dalessandro
+  motto: Apasionado por aprender
+  focus: Full Stack + Data Science
+  summary: |
+    Estudiante de programación en 4Geeks Academy, enfocado en desarrollo web y data science.
+  avatar: https://i.imgur.com/507zsU7.jpeg
+  email: 
+  phone: 
+  website: 
+  linkedin: www.linkedin.com/in/elreno
+  github: https://github.com/Elreno23
+  stack-overflow:
+
+
+  languages:
+    - idiom: Español
+      level: Nativo
+    - idiom: Inglés
+      level: Profesional
+
+  interests:
+    - item: Programación
+    - item: Aprendizaje colaborativo
+    - item: Música
+    - item: Lectura
+
+education:
+  - degree: Full Stack Developer + Data Science
+    university: 4Geeks Academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2025
+    details: |
+      Formación intensiva en desarrollo web con enfoque en proyectos reales, Git, GitHub, JavaScript, Python y metodologías ágiles.
+
+        - Corrección de módulos y contribuciones vía Pull Request
+        - Aprendizaje en público y trabajo colaborativo
+
+projects:
+  intro: >
+    Aquí se muestran algunos de los proyectos y contribuciones realizadas durante mi formación en 4Geeks Academy.
+
+  assignments:
+    - title: E-commerce-app
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://github.com/Elreno23/ecommerce-app-stripe-react-flask
+      tagline: "Aplicacion de gestion de productos."
+
+
+skills:
+  toolset:
+    - name: Git & GitHub
+      level: 50%
+    - name: JavaScript
+      level: 50%
+    - name: Python
+      level: 50%
+    - name: HTML5 & CSS
+      level: 50%
+    - name: Comunicación y trabajo en equipo
+      level: 75%
