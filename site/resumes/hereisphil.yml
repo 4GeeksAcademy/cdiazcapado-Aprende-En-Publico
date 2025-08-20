@@ -1,0 +1,138 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Phillip
+    last_name: Cantu
+    
+    # Define yourself in 4-5 words
+    motto: Building simple, modern web apps
+    
+    # Focus
+    focus: Web Development & AI Automation
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a Web Development student at Full Sail University and an AI Automation student at Andrew Tate's The Real World program. 
+      My focus is on creating extremely user-friendly, straightforward, and modern web applications. 
+      I specialize in using tools like Visual Studio Code, Bolt.new/Lovable.dev, Supabase, Firebase, Voiceflow, and other no/low-code platforms to build 
+      functional solutions that solve real-world problems.
+
+      I want to build platforms that combine AI automation with simple design for marketers and entrepreneurs.
+
+    # Your profile picture URL
+    avatar: https://i.ibb.co/yFxNmTVZ/Profile-Picture.png
+
+    # Contact Information
+    email: thereisphil@gmail.com
+    phone: 657-293-3756
+    linkedin: phillipcantu
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: hereisphil
+    
+    twitter: astroadastra
+    stack-overflow: # optional
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Intermediate
+
+      - idiom: Mandarin Chinese
+        level: Intermediate
+
+    # Interests or hobbies
+    interests:
+      - item: Fitness & Nutrition
+      - item: Travel
+      - item: AI
+      - item: Anime
+      - item: Personal Development
+
+# Your previous education
+education:
+    - degree: B.S. in Web Development (In Progress)
+      university: Full Sail University
+      university_logo: https://www.fullsail.edu/assets/images/logos/brand/logo.svg
+      time: 2023 - 2027 [Currently Enrolled]
+      details: |
+        Currently pursuing a Bachelor’s degree in Web Development with a focus on creating accessible, semantic, and 
+        modern applications. Expected graduation in January 2027.
+
+          - Coursework in HTML, CSS, JavaScript, TypeScript, and React
+          - Focus on accessibility, semantic HTML, and ARIA standards
+
+    - degree: Associate of Occupational Studies in Culinary Arts
+      university: Le Cordon Bleu, Scottsdale, AZ
+      time: 2007 - 2009 [Graduated]
+      details: |
+        Completed professional training in Culinary Arts, developing discipline, precision, and creativity in a 
+        fast-paced environment.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Online English Teacher
+      time: 2024 - Present
+      company: LingoAce + HouHai English
+      details: |
+        Teaching English as a second language to children and young adults online. Leveraging technology to deliver 
+        engaging and interactive lessons across cultures.
+
+    - role: Interior Electrician, 21R
+      time: 2009 - 2015
+      company: U.S. Army National Guard
+      details: |
+        Served as an Interior Electrician with deployments including Operation Enduring Freedom (Afghanistan, 2011–2012).
+        Gained technical, leadership, and problem-solving skills under high-pressure environments.
+
+# Your project portfolio
+projects:
+    intro: >
+      Below are my hands-on front-end projects that showcase HTML, CSS, JavaScript, and Bootstrap. 
+      These projects demonstrate my growing skill set as a web developer.
+
+    assignments:
+      - title: HTML5 & Bootstrap Payment Form
+        link: https://github.com/hereisphil/html5-bootstrap-form
+        tagline: "A responsive payment form built with HTML5, Bootstrap 5, and Font Awesome for a clean, user-friendly checkout experience."
+
+      - title: Instagram Photo Feed
+        link: https://github.com/hereisphil/hereisphil-instagram-photo-feed-with-bootstrap
+        tagline: "A responsive Instagram-style photo feed built with Bootstrap, including grid layout, navigation, and modal for creating new posts."
+
+      - title: Instagram Post Layout
+        link: https://github.com/hereisphil/hereisphil-instagram-post-layout
+        tagline: "A semantic HTML5 + CSS3 Instagram-inspired layout, created as Project #1 for 4Geeks Academy’s Full Stack Developer Bootcamp."
+
+      - title: Excuse Generator
+        link: https://github.com/hereisphil/excuse-generator
+        tagline: "A fun project built with HTML, CSS, and JavaScript that generates random excuses at the click of a button."
+
+skills:
+    toolset:
+      - name: HTML5, Semantic Structure & Accessibility (ARIA)
+        level: 95%
+
+      - name: AI Tools (Bolt.new, Voiceflow, Bland.ai)
+        level: 90%
+
+      - name: Video Editing (Adobe Premiere Pro)
+        level: 80%
+        
+      - name: JavaScript, TypeScript & React
+        level: 60%
+
+      - name: Node.js & Supabase
+        level: 20%
+
+      - name: Firebase & Google Cloud
+        level: 20%
