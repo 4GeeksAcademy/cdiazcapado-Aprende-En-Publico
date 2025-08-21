@@ -1,0 +1,105 @@
+# Be aware that even a small syntax error here can lead to failures in output
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Iztlalitl
+  last_name: Padilla-Ramirez
+  
+  # Define yourself in 4-5 words
+  motto: Passionate Learner & Developer
+  
+  # Focus
+  focus: Becoming a Software Developer
+  
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: |
+    Hello! I am a current student at 4Geeks Academy learning how to become a software developer. 
+    I am committed to improving my skills every day and working hard toward a career I am passionate about!
+  
+  # Your profile picture URL
+  avatar: <blockquote class="imgur-embed-pub" lang="en" data-id="a/zNvgh1U"  ><a href="//imgur.com/a/zNvgh1U">Profile pIC</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+  # Contact Information
+  email: iztla1996@gmail.com
+  phone: "972-940-0246"
+  linkedin: www.linkedin.com/in/iztlalitl-padilla-ramirez-274b6437b
+  github: Cali2016-Pad   # only the username, not the full URL
+
+  # Languages you speak
+  languages:
+    - idiom: English
+      level: Native
+    - idiom: Spanish
+      level: Native
+
+  # Interests or hobbies
+  interests:
+    - item: Gardening
+    - item: Reading
+    - item: Playing video games
+
+# Your previous school
+# Your previous job experiences or volunteer work
+experiences:
+  - role: Secretary
+    time: 2015
+    company: AMS Law Firm
+    details: |
+      I worked as a Secretary for 3 months before being promoted to Case Manager. 
+      My tasks included answering phones, scheduling appointments, organizing the office, 
+      and managing correspondence.
+
+      - Great Customer Service
+      - Efficiency
+
+  - role: Case Manager
+    time: 2016-2018
+    company: Schorr Law Firm
+    details: |
+      Managed client case files, received medical records, created demand packages, 
+      and prepared cases for attorney review. Served as a liaison with insurance companies 
+      on behalf of clients.
+
+      - Strong Organizational Skills
+      - Communication
+
+  - role: Nanny
+    time: 2016-Present
+    company: Freelance
+    details: |
+      Provided care for multiple families, following parents' routines and wishes, 
+      and planning age-appropriate activities.
+
+      - Patience
+      - Responsibility
+
+# Will add projects along the way
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. This section will grow as I continue my learning journey.
+
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market, and sell their products."
+
+skills:
+  toolset:
+    - name: Python & Django
+      level: 0%  # Currently learning
+    - name: JavaScript & jQuery
+      level: 0%  # Currently learning
+    - name: Angular
+      level: 0%  # Currently learning
+    - name: HTML5 & CSS
+      level: 50% # Know the basics, still improving
+    - name: Ruby on Rails
+      level: 0%  # Currently learning
+    - name: Sketch & Photoshop
+      level: 0%  # Currently learning
