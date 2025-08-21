@@ -1,0 +1,135 @@
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Travone
+    last_name: Butler
+    
+    # Define yourself in 4-5 words
+    motto: Dedicated IT Support Specialist
+    
+    # focus
+    focus: Building a career in IT
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a U.S. Navy veteran and IT professional with experience in desktop support, networking, and customer service. 
+      I am seeking to grow into the tech industry, specializing in IT support and system administration while continuing 
+      to expand my skills in hardware/software troubleshooting, networking, and cloud technologies.
+    
+    # Your profile picture URL
+    avatar: http://sep.breatheco.de/static/profile-images/travone-butler.jpg
+
+    # Contact Information
+    email: travone.bulter@gmail.com
+    phone: 832-358-6020
+    
+    github: travonebutler
+
+    # languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Technology
+      - item: Problem-Solving
+      - item: Gaming
+      - item: Fitness
+      - item: Learning New Tools
+      - item: Traveling
+
+# Your previous education
+education:
+    - degree: Information Technology Systems Administration
+      university: MyComputerCareer.edu
+      time: 2017
+      details: |
+        Completed coursework in networking, system administration, cybersecurity, and IT fundamentals.
+        Certifications earned: Linux, MTA Security Fundamentals. Certifications in progress: CompTIA A+, Network+, Server+.
+
+    - degree: F-14 Avionics Systems & Wire Connector Repair
+      university: NAMTRA NAS Oceana, VA
+      time: 2003
+      details: |
+        Specialized training in avionics, electronics troubleshooting, and wiring systems for U.S. Navy aircraft.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Amazon Flex Helper
+      time: Jan 2022 – Present
+      company: Amazon - Houston, TX
+      details: |
+        Delivered customer packages on time using route optimization tools. 
+        Maintained accurate records, scanned barcodes/QR codes, and inspected packages for quality. 
+        Applied organizational and quality control skills transferable to IT support and data clerk roles.
+
+    - role: Administrative Assistant
+      time: Feb 2021 – Dec 2023
+      company: Adriatic Freight - Houston, TX
+      details: |
+        Coordinated logistics operations, tracked shipments, and supported internal IT troubleshooting.
+        Maintained customer records and provided technical and administrative assistance.
+
+    - role: IT Administrator
+      time: Jun 2018 – Jan 2019
+      company: MyComputerCareer - Houston, TX
+      details: |
+        Provided Tier 1 IT support for staff and students.
+        Maintained student accounts in Salesforce CRM, configured hardware/software, and supported secure document management.
+
+    - role: Network Administrator / Test Proctor
+      time: Jun 2018 – Jan 2019
+      company: Pearson Vue Testing Center - Houston, TX
+      details: |
+        Managed testing center network, cameras, and systems.
+        Ensured testing integrity, provided technical support to students and staff, and handled inventory management.
+
+    - role: Aviation Electronics Technician
+      time: May 2002 – Jun 2006
+      company: U.S. Navy
+      details: |
+        Maintained, repaired, and tested electronic communication and navigation systems.
+        Performed detailed troubleshooting, soldering, and system replacements under mission-critical conditions.
+
+# Your project portfolio
+projects:
+    intro: >
+      Some examples of projects, coursework, and technical practice exercises that showcase my learning journey in IT and tech.
+
+    assignments:
+      - title: Desktop Support Knowledge Base
+        link: "#"
+        tagline: "Created documentation and step-by-step troubleshooting guides for common IT issues."
+
+      - title: Networking Lab Simulations
+        link: "#"
+        tagline: "Configured and tested LAN/WAN connections, subnets, and security protocols in a lab environment."
+
+      - title: Virtual Machine Lab
+        link: "#"
+        tagline: "Built and managed multiple operating systems in VMware and VirtualBox for hands-on practice."
+
+skills:
+    toolset:
+      - name: IT Support (Hardware/Software Troubleshooting)
+        level: 75%
+
+      - name: Networking (LAN/WAN, TCP/IP, Cisco)
+        level: 60%
+
+      - name: Active Directory & Windows Server
+        level: 65%
+
+      - name: Linux Systems
+        level: 50%
+
+      - name: Microsoft Office & Office 365
+        level: 80%
+
+      - name: Salesforce CRM
+        level: 50%
