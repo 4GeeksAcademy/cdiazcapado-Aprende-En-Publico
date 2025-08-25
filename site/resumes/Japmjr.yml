@@ -1,0 +1,105 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jesús Alberto
+    last_name: Perdomo Motta
+    
+    # Define yourself in 4-5 words
+    motto: Siempre me gusta aprender
+    
+    # Focus
+    focus: Adrenalina en el deporte
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+      Abogado colombiano con Máster Universitario en Recursos Humanos. Actualmente en formación en programación e inteligencia artificial, con enfoque en el aprendizaje continuo y la adaptación a nuevos entornos profesionales.
+
+       
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: chuchitoperdomo@gmail.com #optional
+    phone: 671552591 #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Japmjr
+    
+    twitter: "#optional"
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Básico
+
+      - idiom: French
+        level: No
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Motociclismo - Enduro - Turismo
+      - item: Fútbol
+      - item: Ciclomontañismo
+
+# Your previous education
+education:
+    - degree: Master en Dirección y Gestión de Recursos Humano
+      university: Universidad Alfonso décimo el Sabio
+      # optional      
+      time: 2024
+      
+
+    - degree: Pregrado Especialización en Derecho Penal y Criminologia
+      university: Universidad Libre de Colombia
+      # optional
+      time: 2014
+
+    - degree: Grado en Derecho
+      university: Universidad La Gran Colombia
+      # optional
+      time: 2005 - 2010
+        
+# Your previous job experiences or volunteer
+experiences_Spain:
+    - role: Auxiliar Mantenimiento Informático
+      time: 2024 - Present
+      company: Fundación Magdalena Moriche - Badajoz Extremadura
+      # optional
+      
+
+# Your project portfolio
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: "0%"
+
+      - name: JavaScript & jQuery
+        level: "0%"
+
+      - name: Angular
+        level: "0%"
+
+      - name: HTML5 & CSS
+        level: "50%"
+
+      - name: Ruby on Rails
+        level: "0%"
+
+      - name: Sketch & Photoshop
+        level: "0%"
