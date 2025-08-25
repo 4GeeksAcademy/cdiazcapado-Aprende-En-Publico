@@ -1,0 +1,137 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ana
+    last_name: Martinez Martinez
+    
+    # Define yourself in 4-5 words
+    motto: Soy una tia interesante
+    
+    # Focus
+    focus: Killing bad codes
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      He estudiado desarrollo de aplicaciones multiplataforma, 
+      como proyecto final hice la refactrización la aplicacion View&SonicCube del 
+      astrofisico Ruben García Benito del CSIC y realicé las prácticas en la empresa
+      Weitec una empresa de agrotecnología
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://static.wikia.nocookie.net/beluga/images/d/da/V8z0crk5gho71.webp/revision/latest?cb=20221103210216
+
+    # Contact Information
+    email: anamartinezmateo94@gmail.com #optional
+    phone: 679345038 #optional
+    website: asd.com #optional
+    linkedin: www.linkedin.com/in/ana-martinez-mateo- #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AnaJaneMM
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Valenciano
+        level: Profesional
+
+    # Interests or hobbies
+    interests:
+      - item: Gaming
+
+      - item: Sleep
+
+      - item: Eat
+
+# Your previous education
+education:
+    - degree: Filosofia
+      university: Universidad de murcia
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Desarrollo de aplicaciones multiplataforma
+      university: IES Las espeñetas
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Junior developer
+      time: 2015 - Present
+      company: Weitec
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+skills:
+    toolset:
+      - name: Java
+        level: 98%
+
+      - name: JavaScript
+        level: 98%
+
+      - name: MongoDB
+        level: 98%
+
+      - name: HTML5 & CSS & VUE & Tailwind & Bootstrap
+        level: 98%
+
+      - name: MySQL & Oracle
+        level: 85%
+
+      - name:  PHP & Laravel
+        level: 60%
