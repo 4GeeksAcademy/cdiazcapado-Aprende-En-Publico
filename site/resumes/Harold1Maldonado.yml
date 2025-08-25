@@ -1,0 +1,88 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Harold
+    last_name: Maldonado
+    motto: Full-stack Developer
+    avatar: https://cdn.jsdelivr.net/gh/alohe/avatars/png/upstream_4.png
+    summary: |
+     Me encantan los retos y las dificultades, decidí entrar al mundo de la programación para darle un giro a mi vida, me gusta aprender y compartir mi experiencia.
+     Aprender de los errores te hace mejorar, me gusta ser creativo y ver las cosas desde otro punto de vista.
+
+    email: Haroldmaldonado1@gmail.com
+    phone: 684 372 246
+    website: 
+    linkedin: https://www.linkedin.com/in/harold-maldonado-918935119/
+    github: Harold1Maldonado
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: C2
+        
+      
+
+    interests:
+      - item: Coding
+
+      - item: Gaming
+
+      - item: Movies
+
+      - item: Tv Shows
+
+education:
+    - degree: 
+      university: 
+      time: 
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Studying to become a full stack developer
+      
+projects:
+    intro: >
+      Some of my 4GA projects
+    
+    assignments:
+              
+      - title: Excuse Generator
+        link: https://github.com/Harold1Maldonado/proyectogeneradorexcusasJS
+        tagline: "Random excuse generator.   --"
+             
+      - title: Ballons Challenge
+        link: https://github.com/Tozzigh/baloonsChallenge
+        tagline: "This is a little challenge I created; pop all the ball that spawn before those hit the roof.   --"
+
+      - title: Instagram Boostrap
+        link: https://github.com/4GeeksAcademy/spain-fs-pt-120-HaroldMaldonado-Feed-ig-boostrap
+        tagline: "A responsive site representing ISTAGRAM galery grid and timeline.   --"
+
+      - title: Instagram CSS
+        link: https://github.com/Harold1Maldonado/post-de-instagram-harold
+        tagline: "A template created to display non-responsive instagram posts   --"
+
+      - title: Instagram CSS
+        link: https://github.com/4GeeksAcademy/post-de-instagram-harold2
+        tagline: "A template created to display non-responsive instagram posts   --"
+
+      - title: Postcard
+        link: https://github.com/Harold1Maldonado/exercise-postcard
+        tagline: "A responsive website template designed to input information on a postcard.   --"
+
+skills:
+    toolset:
+      - name: Javascript
+        level: 65%
+
+      - name: HTML5 & CSS
+        level: 85%
