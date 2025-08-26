@@ -1,0 +1,88 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Wonder
+    last_name: Woman
+    
+    # Define yourself in 4-5 words
+    motto: I like saving the world
+    
+    # Focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Dancing
+
+      - item: Music
+
+      - item: Cooking
+
+    - degree: Classical Dance Degree
+      university: Rey Juan Carlos University
+      # optional
+      university_logo: data:image/jpeg;base64,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
+      time: 2014 - 2018
+      details: |
+        Dance Degree Studies
+
+          - Bullet point
+          - Bullet point
+
+    - role: Character
+      time: 2024 - 2025
+      company: Disneyland, Paris
+      # optional
+      company_logo: data:image/jpeg;base64,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
+      details: |
+        Character animation
+
+          - Bullet point
+          - Bullet point
+
