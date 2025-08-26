@@ -1,0 +1,35 @@
+template: "online-cv"
+skin: "green"
+
+basic_info: 
+  name: Agustin Marquez
+  username: agumarquez10 
+  email: agu.marquez10@gmail.com
+
+education:
+  institucion: Universidad Del Aconcagua
+  carrera: Licenciatura en Publicidad
+  fechas: 2014 - 2018
+
+experience:
+  empresa: April
+  rol: Back Office
+  description: Gestion de datos
+  fechas: 2023 - actualidad
+
+projects:
+  nombre_proyecto: https://www.behance.net/agustinmarquez2
+  descripcion: campañas de comunicacion
+
+skills:
+  hab_tecnicas: 
+    lenguaje: Ingles
+    porcentaje_dominio: 90%
+    
+    lenguaje: Frances
+    porcentaje_dominio: 75%
+
+    
+    
+  
+  
