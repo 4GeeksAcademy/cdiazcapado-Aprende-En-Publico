@@ -1,0 +1,153 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Moises  
+    last_name: Esquivel
+    
+    # Define yourself in 4-5 words
+    motto: Me considero una persona trabajadora y paciente a la hora de realizar trabajos.
+    
+    # Focus
+    focus: Mi objetivo es mejorar como programador y mejorar mis tecnicas mientrar aporto a mi empresa.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: Me gradue en el grado desarrollo de aplicaciones web, hice mis practicas finales en una empresa nacional muy importante, me contrataron durante 2 años hasta que decidi renunciar para buscar nuevos retos.
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: moisesesq@gmail.com #optional
+    phone: 643939606 #optional
+    website: moisesel.com #optional
+    linkedin: moisesesq #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: moisesEL
+    
+    twitter: 'moisesEL' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: professional
+
+      - idiom: French
+        level: professional
+
+    # Interests or hobbies
+    interests:
+      - item: play videogames
+
+      - item: walking with my dog
+
+      - item: I like to cook
+
+# Your previous education
+education:
+    - degree: MSc in Computer Science
+      university: University Rey Juan Carlos III
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2020 - 2024
+      details: 
+            Durante la carrera me dediqué a mejorar mis conocimientos en programación y bases de datos, el trabajo en equipo y conseguir un enfoque mas colaborativo.
+          - Especialización en inteligencia artificial y ciencia de datos
+          - Base de datos
+
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Technical Assistant
+      time: 2022 - 2023
+      company: Los informaticos, Madrid
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: Estuve de prácticas como asistente técnico de informática, ayudando a los trabajadores a resolver problemas técnicos. Tambien ayude en tareas de soporte y mantenimiento de equipos.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 60%
+
+      - name: JavaScript & jQuery
+        level: 70%
+
+      - name: Angular
+        level: 64%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 30%
+
+      - name: Sketch & Photoshop
+        level: 56%
