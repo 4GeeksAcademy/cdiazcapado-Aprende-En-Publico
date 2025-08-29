@@ -1,0 +1,52 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info: ...
+
+    # Your full name
+    first_name: Ricardo
+    last_name: Castañeda G
+    
+    # Define yourself in 4-5 words
+    motto: love music
+    
+    # Focus
+    focus: Learning
+
+
+    # Contact Information
+    email: ricardo13@outlook.es
+    phone: 3326809333
+
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Ricastaneda13
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Music
+
+      - item: Traveling
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: MSc in Psychology
+      university: University of Guadalajara
