@@ -1,0 +1,97 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Diego
+    last_name: Santos Santana
+    
+    # Define yourself in 4-5 words
+    motto: La historia no recuerda a quienes se rindieron.
+    
+    # Focus
+    focus: En ser mejor persona
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Hice un técnico de informática, donde adquirí conocimientos sólidos en ciencias, tecnología y computación. Me apasiona aprender, resolver problemas y aplicar la tecnología para mejorar la vida de las personas.
+
+    # Your profile picture URL
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: diegosantosantana2008@gmail.com
+    phone: +1 849 657 9184
+    website: "" #optional
+    linkedin: "" #optional
+    
+    github: Diego-sci01
+    
+    twitter: "" #optional
+    stack-overflow: "" #optional
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Inglés
+        level: Básico
+
+    # Interests or hobbies
+    interests:
+      - item: Física
+      - item: Astronomía
+      - item: Computación
+
+# Your previous education
+education:
+    - degree: Bachillerato en Informática
+      university: Instituto Tecnológico Federico Henríquez y Carvajal
+      university_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmvYcLg1j0PE1eqml9NIv-DuwM4TaLMFQitw&s
+      time: 2020 - 2025
+      details: |
+        Durante mi formación adquirí competencias en informática, ciencias y tecnología. 
+        Desarrollé habilidades en resolución de problemas, análisis y trabajo en equipo, 
+        aplicando la teoría en proyectos prácticos.
+
+# Your previous job experiences or volunteer
+experiences: []
+
+# Your project portfolio
+projects:
+    intro: >
+      Algunos de los proyectos académicos que he desarrollado son:
+
+    assignments:
+      - title: Base de datos básica para registro de estudiantes
+        project_logo: "" #optional
+        link: "#"
+        tagline: "Sistema sencillo de almacenamiento y gestión de información de estudiantes."
+
+      - title: Feed visual estilo Instagram
+        project_logo: "" #optional
+        link: "#"
+        tagline: "Un prototipo visual que simula un feed similar a Instagram."
+
+      - title: Sistema de registro estudiantil en C#
+        project_logo: "" #optional
+        link: "#"
+        tagline: "Aplicación en C# para la gestión y control de registros de estudiantes."
+
+skills:
+    toolset:
+      - name: HTML
+        level: 30%
+
+      - name: CSS
+        level: 20%
+
+      - name: Git
+        level: 5%
