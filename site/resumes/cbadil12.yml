@@ -1,0 +1,224 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carlos
+    last_name: Badillo
+    
+    # Define yourself in 4-5 words
+    motto: AI-driven structural automation engineer
+    
+    # Focus
+    focus: Transforming structural engineering with data science and AI
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a Structural/Civil Engineer specialized in renewable energies with extensive international experience leading complex solar tracker projects and structural calculations.
+      Over the past years, I have combined engineering expertise with programming, developing automated tools that streamline FEM analysis and generate structural reports for large-scale solar plants.
+      My career spans from managing multimillion-euro projects in India to leading calculation departments in Europe, with a consistent focus on innovation, automation, and technical excellence.
+      
+      Today, I am evolving my career towards Artificial Intelligence and Data Science, aiming to integrate intelligent automation into structural engineering and renewable energy solutions.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://files.fm/u/jum66rq2uy
+
+    # Contact Information
+    email: cbadil12@gmail.com #optional
+    phone: +34 684 105 745 #optional
+    website: https://trackend.io/ #optional
+    linkedin: carlosluisbadillo #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: cbadil12
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Danish
+        level: Basic
+
+      - idiom: German
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Fitness
+
+      - item: Cinema
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Double Postgraduate Degree in Blockchain Engineering and Management
+      university: EBIS Business Techschool (Spain, remote)
+      # optional
+      university_logo: https://www.ebiseducation.com/assets/IEBISLogoSimple.webp
+      time: 2021 - 2022
+      details: |
+        Gained comprehensive knowledge of blockchain technologies from both a business and engineering perspective, including decentralized application design, infrastructure deployment, and smart contract development using Solidity.
+        The program provided hands-on experience in applying blockchain to real-world use cases within the renewable energy sector.
+
+        Proyects developed:
+
+          - Permissioned blockchain for tendering processes in photovoltaic projects.
+          - Public blockchain to tokenize exploitation rights for energy generation in solar plants.
+
+    - degree: MSc in Structural and Civil Engineering
+      university: Aalborg University (Denmark)
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/AAU_logo_2012.png/250px-AAU_logo_2012.png
+      time: 2012 - 2014
+      details: |
+        Specialized in the design and analysis of structures and infrastructures, with strong emphasis on problem-based learning (PBL), teamwork, and applied research.
+        Gained expertise in offshore installations, coastal protection, and structural solutions for renewable energy, with particular focus on safety against environmental hazards such as earthquakes, floods, and wind loads.
+
+          - Master’s Thesis: Advanced design of steel structures: optimization of frame design through numerical methods with FEM software, contrasting Eurocode analytical approaches.
+
+    - degree: Civil Engineering Degree (5-year program, equivalent to MSc)
+      university: UCLM (Spain)
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/f/f1/LogoUCLM.jpg
+      time: 2009 - 2014
+      details: |
+        Comprehensive 5-year degree accredited with the EUR-ACE® quality seal, providing full professional qualifications as a Civil Engineer.
+        The program covered a wide range of civil and territorial engineering disciplines, including hydrology, hydraulic works, transport infrastructure, urban planning, and structural design.
+        Strong emphasis on project-based learning, teamwork, and international mobility, complemented by practical training and fieldwork.
+
+          - Specialized in the design, planning, and management of transportation networks, hydraulic infrastructures, and urban systems.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Senior Structural Engineer - Tracker Calculation Automatization
+      time: 2021 - Present
+      company: Ideematec, Munich, Germany (Remote)
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_xDvgQuNF6B9tDm0uNKHyRJqSpXTFjmY2WQ&s
+      details: |
+        Lead the development of an automated software solution to perform the complete workflow of structural calculations for solar trackers,
+        generating standardized structural reports across international projects.
+        Work involves combining engineering expertise with programming,
+        to streamline FEM analyses and ensure design compliance under diverse load conditions.
+
+          - Program automated workflows using Visual Basic, python and tcl.
+          - Perform advanced analyses (modal, elastic, elasto-plastic, linear/non-linear static, fatigue).
+          - Conduct wind load assessments including aeroelasticity, instabilities, and stow positions.
+          - Utilize Hyperworks and SAP2000 for structural modeling and verification.
+
+    - role: Structural Engineer - Automatization
+      time: 2019 - 2021
+      company: Mecasolar, Guadalajara, Spain
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwGU54POZ_Y0Z5rfizaOqXAHuaZHxZIFeNPA&s
+      details: |
+        Responsible for structural design and optimization of solar plants ranging from 1 to 500 MWp,
+        combining engineering analysis with automation tools to improve efficiency in project delivery.
+        Contributed to both technical validation and commercial proposal development,
+        ensuring compliance with international standards.
+
+          - Developed automated calculation programs and algorithms for solar tracker FEM design, project offers, and BOM generation.
+          - Programmed Visual Basic macros to streamline contracts and proposal workflows.
+          - Performed Wind Tunnel's data treatment (aeroelastic iteration, dynamic amplification factors, load combinations).
+          - Verified structural performance using SAP2000 and ANSYS FEM software.
+
+    - role: Project Manager in India
+      time: 2018 - 2019
+      company: Biosun Consultors, India
+      # optional
+      company_logo: https://media.licdn.com/dms/image/v2/C560BAQGClP0fj9mNrw/company-logo_200_200/company-logo_200_200/0/1630591142042/biosun_consultors_logo?e=2147483647&v=beta&t=imds1D-q_gTs19nk6dKUZlJGZsxndUyZwqThmTKpDqY
+      details: |
+        Led the on-site supervision and execution of a 36 MW solar energy park in Tarana (Madhya Pradesh),
+        ensuring quality, safety, and timely delivery of works across a large-scale renewable project.
+        Acted as the main liaison between client and contractors, coordinating logistics, installation, and technical execution.
+
+          - Oversaw construction across 400 hectares, managing installation of 363 trackers and 112,000 solar modules.
+          - Coordinated project delivery for SunPharma, one of India’s leading corporations.
+          - Ensured compliance with technical, budgetary, and scheduling requirements in a €5M project.
+
+    - role: Structural Engineer
+      time: 2017 - 2018
+      company: ADELTE - The Boarding Company, Barcelona, Spain
+      # optional
+      company_logo: https://www.cruiseeurope.com/site/assets/files/33554/logotipo_adelte_con_tagline_grande.600x0.png
+      details: |
+        In charge of structural calculations and validations for Passenger Boarding Bridge (PBB) projects worldwide,
+        covering both airport and seaport installations.
+        Combined advanced FEM analysis with design tools to ensure safety, compliance, and performance;
+        under international standards.
+
+          - Performed global and local structural analyses using TRICALC (Arktec) and ANSYS.
+          - Designed structures in compliance with EUROCODE standards.
+          - Produced engineering sketches with AutoCAD and 3D designs with Solid Edge.
+          - Developed and implemented automated Excel macros to streamline engineering workflows.
+          - Coordinated technical documentation and structural validation for international projects.
+          
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Trackend Labs
+        # optional
+        project_logo: https://media.licdn.com/dms/image/v2/D4D0BAQGdHPDyXoFa4Q/company-logo_100_100/company-logo_100_100/0/1700768502650/trackend_labs_logo?e=1759363200&v=beta&t=2zzmBCOY-NksxZ0_nPs3anama5KTQszEfo6XPEX2TjE
+        link: "https://trackend.io"
+        tagline: "We develop software, based on Blockchain technology, to deliver disruptive, secure, scalable, and efficient solutions."
+
+skills:
+    toolset:
+      - name: VBA & EXCEL
+        level: 99%
+
+      - name: Python
+        level: 80%
+      
+      - name: MATLAB
+        level: 75%
+
+      - name: tcl
+        level: 70%
+      
+      - name: Solidity (Blockchain)
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: XLM
+        level: 30%
+      
+      - name: Java
+        level: 25%
+
+      - name: SAP2000 (Structural Engineerin software)
+        level: 99%
+
+      - name: Tricalc (Structural Engineerin software)
+        level: 85%
+      
+      - name: Hyperworks (Structural Engineerin software)
+        level: 70%
+      
+      - name: ANSYS (Structural Engineerin software)
+        level: 70%
