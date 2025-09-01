@@ -63,8 +63,8 @@ basic_info:
 
 # Your previous education
 education:
-    - title: Educación Secundaria Obligatoria
-      school: Colegio Salesiano San José
+    - degree: Educación Secundaria Obligatoria
+      university: Colegio Salesiano San José
       # optional
       time: 2019
 
