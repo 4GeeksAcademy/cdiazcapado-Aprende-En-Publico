@@ -1,0 +1,152 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Guisielo
+    last_name: ...
+    
+    # Define yourself in 4-5 words
+    motto: Soy una mujer sencilla.
+    
+    # Focus
+    focus: Desarrollar mi sitio web
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy ingeniera de sistemas.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    # avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://www.freepik.es/psd-gratis/ilustracion-3d-avatar-linea_171612680.htm#fromView=keyword&page=1&position=1&uuid=30ee43a2-b500-48e7-a147-e2cd5c116015&query=Avatares
+
+    # Contact Information
+    email: g@g.com #optional
+    phone: 999 999 999 #optional
+    website: ggg.com #optional
+    linkedin: guisielolinkedin #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: guisielo
+    
+    twitter: 'guisielotwitter' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Nativo
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: I enjoy exploring places full of nature and beautiful scenery
+
+      - item: Play volleyball
+
+      - item: Reading
+
+# Your previous education
+education:
+    - degree: Systems Engineering
+      university: University Pedro Ruiz Gallo
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2001 - 2006
+      details: |
+        Ingeniera de sistemas, de la UNPRG, de Lambayeque - Perú
+
+    #- degree: BSc in Applied Mathematics
+     # university: Bristol University
+      # optional
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #time: 2007 - 2011
+      #details: |
+       # Describe your study here lorem ipsum dolor sit amet, consectetuer
+       # adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+       # sociis natoque penatibus et magnis dis parturient montes, nascetur
+       # ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      #  pretium quis, sem.
+
+         # - Bullet point
+         # - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Ingeniera de Sistemas
+      time: 2025 - Present
+      company: Independiente
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Profesional independiente.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
