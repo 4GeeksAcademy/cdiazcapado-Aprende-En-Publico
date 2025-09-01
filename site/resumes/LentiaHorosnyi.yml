@@ -1,0 +1,88 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lentia
+    last_name: Horosnyi
+    
+    # Define yourself in 4-5 words
+    motto: Machine Learning student
+    
+    # Focus
+    focus: Becoming a great developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary:
+      I am currently learning to code with Pyhton, my goal is to develop AI projects using python and Machine Learning.
+      I speak 4 languages (English, Spanish, French, Romanian), and I have been teaching English for almost 7 years.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://files.fm/f/tbu34udwct
+
+    # Contact Information
+    email: horosnyilentia03@gmail.com #optional
+    phone: 642574743 #optional
+  
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: LentiaHorosnyi
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Romanian
+        level: Native
+
+      - idiom: English
+        level: Advanced
+      
+      - idiom: French
+        level: Professional
+
+
+    # Interests or hobbies
+    interests:
+      - item: Reading
+
+      - item: Nature
+
+      - item: Cinema
+
+# Your previous education
+education:
+    - title: Educación Secundaria Obligatoria
+      school: Colegio Salesiano San José
+      # optional
+      time: 2019
+
+        
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Logistic employee
+      time: April 2024- November 2024
+      company: Laboratorios Chemo
+      # optional
+
+      
+skills:
+    toolset:
+      - name: Python
+        level: 15%
+
+      - name: Microsoft Office
+        level: 80
+
