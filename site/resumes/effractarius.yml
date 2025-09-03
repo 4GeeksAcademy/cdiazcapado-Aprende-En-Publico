@@ -1,0 +1,29 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Mel
+    last_name: Romero
+    
+    # Define yourself in 4-5 words
+    motto: Endlessly interested in the world around me
+    
+    # Focus
+    focus: Learning programming 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: Executive officer with extensive experience in international management, project leadership, market research, project development & financing in government, multinational corporations, and non-profit organizations.  Specialist in Development Policies (mining policies emphasis) and International Relations. 
+
+        
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://static.vecteezy.com/system/resources/previews/006/487/912/original/hacker-avatar-ilustration-free-vector.jpg
+
+    # Contact Information
+    email: mromeros@fen.uchile.cl
+    phone: #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/melromero/
