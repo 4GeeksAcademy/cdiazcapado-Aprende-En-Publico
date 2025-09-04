@@ -1,0 +1,36 @@
+
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Laura Monica
+  last_name: Aguilar Corredor
+  motto: crecer con propósito, vivr con gratitud
+  focus: analizar datos.
+  summary: Analista de datos con experiencia en exploración, limpieza y
+    visualización de información para la toma de decisiones estratégicas.Manejo
+    de herramientas como Python, SQL, Excel y bibliotecas de machine learning
+    aplicadas a problem
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: aguilarjulian1208@gmail.com
+  phone: 3208476110
+  linkedin: Laura Monica Aguilar Corredor
+  github: monikaguilar
+  twitter: webjeda
+  stack-overflow: null
+  languages:
+    - idiom: Spanish
+      level: Professional
+  interests:
+    - item: Climbing
+    - item: Snowboarding
+    - item: Cooking
+skills:
+  toolset:
+    - name: Python & Django
+      level: 70%
+    - name: JavaScript & jQuery
+      level: 50%
+    - name: HTML5 & CSS
+      level: 60%
+    - name: Sketch & Photoshop
+      level: 60%
