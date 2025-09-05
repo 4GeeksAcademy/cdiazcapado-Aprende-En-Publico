@@ -1,0 +1,113 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lentia
+    last_name: Horosnyi
+    
+    # Define yourself in 4-5 words
+    motto: Machine Learning student
+    
+    # Focus
+    focus: Becoming a great developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am currently learning to code with Python, my goal is to develop AI projects using python and Machine Learning.
+      I speak 4 languages (English, Spanish, French, Romanian), and I have been teaching English for almost 7 years.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://files.fm/f/tbu34udwct
+
+    # Contact Information
+    email: horosnyilentia03@gmail.com
+    phone: 642574743
+    #website: asd.com #optional
+    #linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: LentiaHorosnyi
+    
+    #twitter: 'webjeda' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Romanian
+        level: Native
+
+      - idiom: English
+        level: Professional
+      
+      - idiom: French
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Reading
+
+      - item: Nature
+
+      - item: Cinema
+
+# Your previous education
+education:
+    - degree: ESO
+      university: Colegio Salesiano San Jose
+      # optional
+      university_logo: https://www.google.com/imgres?q=colegio%20san%20jos%C3%A9%20de%20guadalajara%20salesianos%20logo&imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D100057605302258&imgrefurl=https%3A%2F%2Fwww.facebook.com%2FSalesianosGuada%2F&docid=R3HPSwdeYTHvVM&tbnid=SXt4r9xG3SkxuM&vet=12ahUKEwi0y4LYxMGPAxU7UaQEHVUMH10QM3oECBkQAA..i&w=807&h=807&hcb=2&ved=2ahUKEwi0y4LYxMGPAxU7UaQEHVUMH10QM3oECBkQAA
+      time: 2015 - 2019
+      details: |
+        The cross-cutting pillars of the Quality Policy of the Salesianos School are:
+
+        Compliance with the Salesian Ideology and the legal and regulatory requirements applicable to the educational activity carried out.
+        Satisfying the needs, demands, and expectations of the educational community.
+        Continuously improving the effectiveness of the quality management system as a working tool.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Logistic employee
+      time: 2024 - 2025
+      company: Laboratorios Chemo
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0uBksCfYt_ZdsJm8-rQlEPgDtPGYEmWV1jA&s
+      details: |
+        Monitor the packaging process to meet health regulations and quality standards.
+
+# Your project portfolio
+projects:
+    intro: >
+      Here there is a list with some of the projects I have done during my life
+
+    assignments:
+      - title: Valencia massive floods - Team coordinator
+
+        project_logo: https://c8.alamy.com/comp/PYYC0K/emblem-of-valencia-city-of-spain-vector-illustration-PYYC0K.jpg
+        link: "#hook"
+        tagline: "Helping the people over there after the terrible floods in 2024."
+skills:
+    toolset:
+      - name: Python 
+        level: 15%
+
+      - name: Microsoft Office
+        level: 80%
+
+      - name: OBS Studio
+        level: 70%
+
+      - name: Canva
+        level: 75%
