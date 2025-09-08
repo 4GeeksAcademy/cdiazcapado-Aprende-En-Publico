@@ -1,0 +1,111 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lentia
+    last_name: Horosnyi
+    
+    # Define yourself in 4-5 words
+    motto: Current Machine Learning student
+    
+    # Focus
+    focus: Becoming a great developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am currently learning to code with Python, my goal is to develop AI projects using python and Machine Learning.
+      I speak 4 languages (English, Spanish, French, Romanian), and I have been teaching English for almost 7 years.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: "https://1.gravatar.com/avatar/8ce17d7969e6e9c6e116979b0de792fc747a96a75d0b944085aa00a04c1760e8?size=512&d=initials"
+
+    # Contact Information
+    email: horosnyilentia03@gmail.com
+    phone: 642574743
+    #website: asd.com #optional
+    #linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: LentiaHorosnyi
+    
+    #twitter: 'webjeda' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Romanian
+        level: Native
+
+      - idiom: English
+        level: Professional
+      
+      - idiom: French
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Reading
+
+      - item: Nature
+
+      - item: Cinema
+
+# Your previous education
+education:
+    - degree: ESO
+      university: Colegio Salesiano San Jose
+      # optional
+      #university_logo: 
+      time: 2015 - 2019
+      details: |
+        The cross-cutting pillars of the Quality Policy of the Salesianos School are:
+
+        Compliance with the Salesian Ideology and the legal and regulatory requirements applicable to the educational activity carried out.
+        Satisfying the needs, demands, and expectations of the educational community.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Logistic employee
+      time: 2024 - 2025
+      company: Laboratorios Chemo
+      # optional
+      #company_logo:
+      details: |
+        Monitor the packaging process to meet health regulations and quality standards.
+
+# Your project portfolio
+projects:
+    intro: >
+      My most recent project.
+
+    assignments:
+      - title: Valencia massive floods - Team coordinator
+        project_logo: ""
+        link: ""
+        tagline: "I coordinated the resources from Guadalajara to Valencia, helped the volunteers organize and keep track of many families' needs"
+skills:
+    toolset:
+      - name: Python 
+        level: 15%
+
+      - name: Microsoft Office
+        level: 80%
+
+      - name: OBS Studio
+        level: 70%
+
+      - name: Canva
+        level: 75%
