@@ -1,0 +1,103 @@
+template: "online-cv"
+skin: "blue"
+
+# Información de contacto
+basic_info:
+
+    # Nombre
+    first_name: Jesús
+    last_name: Jiménez Vargas
+    # Función
+    motto: Analista Económico | Data Scientist
+    # Sobre mí
+    summary: |
+      Apasionado por la ciencia de datos como motor para transformar información en conocimiento útil. 
+      Mi objetivo es desarrollar soluciones estadísticas y de machine learning que optimicen la toma de decisiones estratégicas, 
+      especialmente en el ámbito financiero.
+    #Foto
+    # avatar: http://sep.breatheco.de/static/profile-images/JJV.jpg
+    # Información de contacto
+    email: jjimenezvargas907@gmail.com 
+    phone: 651 755 625 
+    linkedin: https://www.linkedin.com/in/jesus-jimenez-vargas/ 
+    github: jjimvar
+    
+# Experiencia
+experiences:
+    - role: Consultor Junior (Prácticas)
+      time: Febrero 2025 - Mayo 2025
+      company: Acteon Advisory Partners
+      # optional
+      company_logo: https://cdn-64671f62c1ac1878f8493d82.closte.com/wp-content/uploads/2023/10/Acteon_Logo-46.png
+      details: |
+       - Identificación de oportunidades estratégicas mediante análisis de mercado bottom-up
+       - Auditoría comercial, desarrollo de clientes e informes de captación
+       - Logros: Apertura de 4 clientes
+
+    - role: Analista Económico (Becario)
+      time: Octubre 2024 - Abril 2025
+      company: Departamento Economía y Métodos Cuantitativos (Universidad Pablo de Olavide)
+      # optional
+      company_logo: https://aulafutbol.uca.es/wp-content/uploads/2020/10/logo-Pablo-de-Olavide.jpg
+      details: |
+        Conocimientos ampliados sobre econometría y estadística.
+
+    - role: Cofundador y COO
+      time: Abril 2023 - Diciembre 2023
+      company: PayBlock
+      # optional
+      company_logo: https://media.licdn.com/dms/image/v2/D4D0BAQFFyhHW1Mt1MA/company-logo_100_100/company-logo_100_100/0/1705236099733/payblock_fintech_logo?e=1759968000&v=beta&t=fn0nRqb9HxQOZLl4PUPXlpdXVdEtdQTOIF0AFYik8ss
+      details: |
+        - Implementación de soluciones financieras para la mejora de la liquidez de PYMES
+        - Uso de tecnologías innovadoras (Blockchain)
+        - Logros: participantes del programa Impulse III (aceleradora Espacio Res) y Ganadores del Concurso de Idea a Producto (Junta de Andalucía y Telefónica)
+
+# Formación
+education:
+    - degree: Grado en Análisis Económico
+      university: Universidad Pablo de Olavide
+      # optional
+      university_logo: https://aulafutbol.uca.es/wp-content/uploads/2020/10/logo-Pablo-de-Olavide.jpg
+      time: Septiembre 2021 - Mayo 2025
+      details: |
+       - Herramientas teóricas y prácticas para estudios económicos
+       - Minería de datos para la modelización
+       - Recopilación, análisis y visualización de datos
+
+# Habilidades
+skills:
+    toolset:
+      - name: Python (pandas, numpy, scikit-learn)
+
+      - name: SQL
+
+      - name: Visualización (Matplotlib, Power BI)
+
+      - name: Estadística aplicada
+
+      - name: Finanzas cuantitativas
+
+#Certificaciones
+certificates:
+      - item: Machine Learning en Stata
+      - item: Power Bi for Business
+      - item: Programa Emprendimiento Sputnik
+      - item: Programa Liderazgo (Vodafone)
+
+# Idiomas
+languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: B2 (Cambridge)
+
+
+# Portfolio
+projects:
+    intro: >
+      Desarrollo de un prototipo de robo-advisor que recomienda carteras de inversión 
+      personalizadas según el perfil de riesgo del usuario, integrando modelos estadísticos
+      y principios de teoría moderna de carteras.
+    
+    status: En diseño
