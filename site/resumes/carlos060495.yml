@@ -114,10 +114,11 @@ experiences:
 
 # Your project portfolio
 projects:
-    intro:>
-      Actualmente en proceso de formación en programación y ciencia de datos. Próximamente incluiré proyectos personales y colaborativos que reflejen mi evolución profesional.
+  intro: >
+    Actualmente en proceso de formación en programación y ciencia de datos. Próximamente incluiré proyectos personales y colaborativos que reflejen mi evolución profesional.
+  
+  assignments: []
 
-    assignments: []
 
 skills:
     toolset:
