@@ -1,0 +1,138 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carlos Alberto
+    last_name: Mairena Aguirre
+    
+    # Define yourself in 4-5 words
+    motto: Curioso por naturaleza
+    
+    # Focus
+    focus: Programación en Python y Data Science
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Licenciado en Contabilidad Pública y Finanzas con experiencia laboral en administración de almacenes y atención al cliente. Siempre me cautivó la tecnología, y aunque en un principio no tenía los medios para acceder a ella, nunca dejé de intentar comprender cómo funcionaban las cosas.
+
+      Actualmente estoy enfocado en aprender programación con Python y Data Science, con el objetivo de reinventarme profesionalmente y aportar soluciones desde el mundo digital.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    
+    # Contact Information
+    email: carlosmairena9516@gmail.com #optional
+    phone: +34 674592219 #optional
+    website: #optional
+    linkedin: Carlos Mairena #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: carlos060495
+    
+    twitter: #optional
+    stack-overflow: Carlos Mairena
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Profesional
+
+    # Interests or hobbies
+    interests:
+      - item: Música
+
+      - item: Series
+
+      - item: Videojuegos
+
+      - item: Anime
+
+      - item: Cocina
+
+# Your previous education
+education:
+    - degree: Licenciatura en Contabilidad Pública y Finanzas
+      university: Universidad de Managua, Nicaragua
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2013 - 2018
+      details: |
+        Formación en contabilidad, finanzas y gestión administrativa. Desarrollo de habilidades analíticas y organizativas aplicables a múltiples entornos laborales.
+
+          - Participación activa en procesos contables
+          - Enfoque en análisis financiero
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Recepcionista
+      time: 2013 - 2015
+      company: Aparthotel Los Robles
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Atención al cliente nacional e internacional, gestión de reservas, coordinación de personal, manejo de caja y arqueo, cobro y pago de facturas.
+
+          - Organización de turnos y tareas
+          - Gestión de pagos y facturación
+
+    - role: Administrador de Bodega
+      time: 2015 - 2017
+      company: HKND Group
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Levantamiento de inventarios, recepción de mercancía, elaboración de pedidos y albaranes de salida.
+
+          - Control de stock y logística
+          - Coordinación de entregas
+
+    - role: Administrador de Bodega
+      time: 2017 - 2018
+      company: Xinwei Intelcom
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Control de inventario, gestión de pedidos, recepción de mercancía y documentación de salida.
+
+          - Optimización de procesos de almacén
+          - Elaboración de reportes de entrada/salida
+
+# Your project portfolio
+projects:
+  intro: >
+    Actualmente en proceso de formación en programación y ciencia de datos. Próximamente incluiré proyectos personales y colaborativos que reflejen mi evolución profesional.
+  
+  assignments: []
+
+
+skills:
+    toolset:
+      - name: Python
+        level: Básico
+
+      - name: Data Science
+        level: En formación
+
+      - name: Gestión administrativa
+        level: Avanzado
+
+      - name: Microsoft Excel
+        level: Avanzado
+
+      - name: Comunicación interpersonal
+        level: Profesional
