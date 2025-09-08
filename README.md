@@ -1,4 +1,4 @@
-Hola, soy Diego Olivera. Tengo 24 años 
+#Hola, soy Diego Olivera. Tengo 24 años 
 
 Actualmente soy estudiante de 4geeks, años atrás obtuve el título de de Desarrollador de Aplicaciones Multiplataforma
 
