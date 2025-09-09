@@ -1,0 +1,68 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Manuel
+  last_name: Acosta
+
+  # Define yourself in 4-5 words
+  motto: Impulsando resultados y relaciones exitosas
+
+  # Focus
+  focus: Asesoría Inmobiliaria y Consultoría de Ventas
+
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: |
+    Asesor Inmobiliario y Consultor de Ventas con una sólida trayectoria en el sector residencial de alto valor. Ha demostrado su capacidad para superar objetivos de ventas, como lo hizo al superar las metas en un 125% en el Q3 2024. Es experto en la gestión del ciclo comercial completo, desde la prospección y la generación de leads hasta la negociación y el cierre de transacciones exitosas. También cuenta con experiencia en el manejo de relaciones con clientes, el liderazgo de equipos de ventas y el desarrollo de alianzas estratégicas. Su enfoque se centra en la orientación al cliente y la optimización de procesos para asegurar la satisfacción y transparencia
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+  # Contact Information
+  email: macosta.ia88@gmail.com
+  phone: "+52 55 3118 9512"
+  website:
+  linkedin: linkedin.com/manu.realestate
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: manuia88
+
+  twitter: 'webjeda'
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+# Languages you speak, levels include: Native, Professional
+languages:
+  - idiom: Español
+    level: Native
+
+  - idiom: Inglés
+    level: Profesional
+
+# Interests or hobbies
+interests:
+
+# Your previous education
+education:
+  - degree: Ingeniería en Inteligencia Artificial (En Curso)
+    university: Hybridge Education University
+    # optional
+    time: 2024 - Presente
+    details: |
+
+# Your previous job experiences or volunteer
+experiences:
+  - role: Sr. Investment Advisor
+    time: Septiembre 2024 - Marzo 2025
+    company: Dividenz
+    details: |
+      * Superó las metas de ventas en un 125% en el Q3 2024.
+      * Gestionó el proceso comercial completo, incluyendo prospección, seguimiento y cierre de ventas de alto valor
