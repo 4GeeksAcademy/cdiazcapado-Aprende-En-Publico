@@ -1,0 +1,57 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: dejupv
+  last_name: dejupv
+  motto: Learning to code every day
+  focus: Full Stack Web Development
+  summary: |
+    I am a 29-year-old aspiring Full Stack Developer. I am currently training at 4Geeks Academy to become a professional web developer. I am building real projects to practice HTML, CSS, and JavaScript, and sharing my learning in public through GitHub.
+
+    I enjoy solving problems, developing web applications, and staying consistent with my learning routine.
+  avatar: https://avatars.githubusercontent.com/u/130470333?v=4
+  email: example@example.com
+  github: dejupv
+  linkedin: dejupv
+  website: dejupv
+  twitter: ''
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: basic
+  interests:
+    - item: Programming
+    - item: Web Development
+    - item: Fitness / Outdoor activities
+
+education:
+  - degree: Full Stack Web Development Bootcamp
+    university: 4Geeks Academy, Madrid
+    time: 2025
+    details: |
+      Intensive training in HTML, CSS, and JavaScript. Working on practical projects and learning professional workflow with GitHub.
+
+experiences:
+  - role: Student / Trainee Developer
+    time: 2025 - Present
+    company: 4Geeks Academy
+    details: |
+      Learning web development and creating small projects to practice coding concepts. Applying Git and GitHub for version control and project management.
+
+projects:
+  - name: Instagram Post Generator
+    description: A JavaScript app that generates random Instagram-style posts.
+    url: https://github.com/dejupv/vanillajs-hello
+  - name: Personal Portfolio
+    description: My portfolio built with HTML, CSS, and JavaScript showcasing my skills and projects.
+    url: https://github.com/dejupv
+
+skills:
+  - name: HTML
+    percentage: 85
+  - name: CSS
+    percentage: 80
+  - name: JavaScript
+    percentage: 20
