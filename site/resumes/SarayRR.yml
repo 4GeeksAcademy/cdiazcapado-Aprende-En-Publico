@@ -1,0 +1,143 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "clara"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Saray
+    last_name: Ruiz
+    
+    # Define yourself in 4-5 words
+    motto: Aprender cosas nuevas es mi pasión
+    
+    # Focus
+    focus: Aprender
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Asesora financiera con 18 años de experiencia en la administración y gestión integral de finanzas. 
+      Con un historial probado en la optimización de carteras de inversión y la implementación de estrategias que han resultado 
+      en un crecimiento sostenido para los clientes. Habilidosa en el análisis de mercado y datos, la planificación estratégica y 
+      el liderazgo de equipos, busco aportar mi experiencia y conocimiento para impulsar el éxito de una empresa innovadora en el sector tecnológico.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/<your file name>
+
+    # Contact Information
+    email: sarayruizr@gmail.com
+    phone: +34 693,,,,,
+    linkedin: www.linkedin.com/in/saray-ruiz
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Saray Ruiz
+    
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional 
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Ley Reguladora de los Contratos de Crédito Inmobiliario (LCCI)
+      university: Universidad de Valencia
+      time: 2023 - 2023
+
+          - Bullet point
+          - Bullet point
+
+     - degree: European Investment Practitioner (Profesional Europeo de Inversiones, EIP)
+      university: Universidad de Valencia
+      time: 2023 - 2023
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Formaciones complementarias de: administración, formadora ocupacinal e inversiones y estrategias.
+         
+          - Bullet point
+          - Bullet point
+          
+    - degree: Bachiller
+    
+          - Bullet point
+          - Bullet point
+          
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Asesora Financiera
+      time: 2023 - Present
+      company: Banco Mediolanum
+     
+      details: |
+        Profesional dedicada a la consultoría y planificación financiera estratégica para individuos y empresas. 
+        Mi rol consistió en el desarrollo de planes financieros integrales, abarcando inversiones, planificación de jubilación y gestión de deudas. 
+        Utilicé mi profundo conocimiento del análisis de mercado para guiar a los clientes en la toma de decisiones informadas, 
+        garantizando la consecución de sus objetivos financieros a largo plazo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Gerente Senior de Salud y Bienestar
+      time: Noviembre 2021 – Enero 2023
+      company: New Age by Ariix
+
+      details: |
+        Responsable del asesoramiento personalizado y la venta de productos de suplementación, garantizando que las soluciones ofrecidas se alinearan 
+        con las necesidades específicas de los clientes. Mi rol incluyó la gestión integral de estrategias de marketing digital y la creación de campañas 
+        publicitarias en redes sociales para aumentar la visibilidad de la marca y la captación de nuevos clientes.
+
+        Asimismo, me encargué de la captación, formación y desarrollo de un equipo de distribuidores, proporcionando las herramientas y el conocimiento necesarios 
+        para potenciar su crecimiento profesional. Para optimizar la gestión del equipo, clientes y productos, diseñé e implementé desarrollos personalizados utilizando el paquete Office.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Administrativa Contable y de RR.HH.
+      time: Marzo 2018 - Abril 2022
+      company: Lumos Energía SL y Asercom Campos, S.L.
+     
+      details: |
+        Profesional con amplia experiencia en la gestión administrativa, financiera y de personal en los sectores de energía y telecomunicaciones. 
+        Mi rol incluyó la contabilidad integral, desde la elaboración de facturas automáticas y el seguimiento de cobros, hasta la gestión de pagos a proveedores, 
+        colaboradores y compañías. Fui responsable de la preparación y contabilización de facturas, asegurando un flujo de trabajo eficiente y la precisión de los datos para la gestoría.
+        En el área de Recursos Humanos, me encargué de todo el ciclo del empleado, desde la contratación y la gestión documental hasta el control de personal, vacaciones 
+        y pagos de nóminas. Además, implementé mejoras clave en los procedimientos de liquidación y gestión con el uso de macros en el paquete Office, 
+        lo que optimizó significativamente las operaciones. Mis responsabilidades también se extendieron a la gestión operativa, como el control de inventarios, la organización de viajes 
+        y la administración de bases de datos para el equipo de BackOffice
+
+          - Bullet point
+          - Bullet point
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: Office
+        level: 100%
+
+      - name: Google
+        level: 100%
+
+      - name: Procreate
+        level: 60%
