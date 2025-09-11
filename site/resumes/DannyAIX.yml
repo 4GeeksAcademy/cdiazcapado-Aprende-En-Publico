@@ -57,86 +57,77 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Master in Business Administration
+      university: INCAE Business School
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      university_logo: https://share.google/images/qtsNPXsn9WnUJSxjV
+      time: 2014 - 2015
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+            Completed an MBA program with a specialization in Marketing and Innovation. 
+            Gained expertise in developing customer-centric strategies, brand management, 
+          and digital marketing while applying innovative approaches to business growth. 
+          Strengthened leadership and problem-solving skills through real-world projects 
+          and case studies across diverse industries.
 
-          - Bullet point
-          - Bullet point
+      - Specialized in marketing strategy, digital transformation, and consumer insights
+      - Applied innovative frameworks to solve business challenges in Latin America
+      - Developed hands-on experience through consulting and entrepreneurial projects
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+
+    - degree: BSc in Systems Engineering, Computer Science and Informatics
+      university: Universidad Mesoamericana
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      university_logo: https://share.google/images/4oBUtvQL4OO6XFEKY
+      time: 2006 - 2011
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+      Earned a comprehensive degree in Systems Engineering and Computer Science with 
+      strong foundations in software development, databases, networks, and information 
+      systems. Focused on designing, implementing, and optimizing technology solutions 
+      for real-world applications. Developed a solid balance of technical, analytical, 
+      and problem-solving skills.
 
-          - Bullet point
-          - Bullet point
 
 # Your previous job experiences or volunteer
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Data Base Administrator Senior
+      time: 2025 - Present
+      company: Registro de Información Catastral
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: https://share.google/images/bIVDBgfSNBEpWw31u
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+       Lead the administration, optimization, and security of enterprise-level 
+      databases supporting the national cadastral information system. Ensure 
+      high availability, performance tuning, and data integrity across mission-
+      critical applications. Collaborate with cross-functional teams to design 
+      and implement solutions that enhance data management and accessibility.
 
-          - Bullet point
-          - Bullet point
+      - Manage, monitor, and optimize large-scale Oracle databases
+      - Implement backup, recovery, and disaster recovery strategies
+      - Support development teams with database design and query optimization
+      - Ensure compliance with security policies and data governance standards
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Country Manager
+      time: 2021 - 2024
+      company: Wellet
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: https://share.google/images/DOhyWCLkKp3qMEq6S
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Directed the operations and business development strategy for Wellet in the 
+        local market. Oversaw commercial growth, strategic partnerships, and regulatory 
+        compliance while leading cross-functional teams to expand the company’s footprint. 
+        Delivered sustainable revenue growth and strengthened the brand presence in a 
+        competitive fintech ecosystem.
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Key Account Manager
+      time: 2019 - 2020
+      company: Samsung, Guatemala
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: https://share.google/images/MFERmZSAdlokvN2DT
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+    Managed strategic B2B relationships and retail partnerships for Samsung Guatemala,
+    driving revenue growth through key account development and customer retention strategies. 
+    Focused on maximizing sales opportunities across corporate and retail segments
+    while ensuring exceptional customer satisfaction.
 
 # Your project portfolio
 projects:
@@ -178,8 +169,8 @@ projects:
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python 
+        level: 90%
 
       - name: JavaScript & jQuery
         level: 98%
