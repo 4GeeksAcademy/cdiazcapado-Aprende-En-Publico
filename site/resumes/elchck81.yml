@@ -1,0 +1,99 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Eduardo
+    last_name: Buysse
+    
+    # Define yourself in 4-5 words
+    motto: I like helping others
+    
+    # Focus
+    focus: Programming and coaching
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I hold a Bachelor's degree in Computer Science from theUniversidad Central de Venezuela, 
+      specializing in Computer Graphics. I published my thesis and presented it at CLEI. 
+      I dedicated 10 years to web development and am now exploring data science
+    
+    # Contact Information
+    email: elchuck81@gmail.com #optional
+    linkedin: linkedin.com/in/eduardo-buysse-3a51b296 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: elchck81
+    
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Conversational
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Programming
+
+      - item: Chess
+
+      - item: Strategic games
+
+# Your previous education
+education:
+    - degree: Bachelor's degree in Computer Science 
+      university: Universidad Central de Venezuela
+      # optional
+      time: 2005 - 2012
+        
+
+    
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Developer
+      time: 2016 - 2021
+      company: Recursiva, Buenos Aires, Argentina
+      details: |
+        Project developement in PHP, Java, HTML5, JavaScript, SQL, etc
+
+    - role: Software Developer
+      time: 2014 - 2015
+      company: BairesDev, Buenos Aires, Argentina
+     
+      details: | 
+        Developer in PHP, Zend, Jaavascript, jQuery, Bootstrap,etc
+
+    - role: Software Developer
+      time: 2012 - 2014
+      company: Hecticus Software, Caracas, Venezuela
+      details: |
+        Developement in PHP, XML/XLS, Javascript, SQL, MongoDB
+
+# Your project portfolio
+
+skills:
+    toolset:
+      - name: Python 
+        level: 68%
+
+      - name: JavaScript & jQuery
+        level: 75%
+
+      - name: PHP
+        level: 98%
+
+      - name: SQL
+        level: 95%
+
+      - name: Java
+        level: 85%
