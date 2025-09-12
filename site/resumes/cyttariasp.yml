@@ -1,0 +1,155 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Cristóbal Alonso
+    last_name: Espinoza Pinochet
+    
+    # Define yourself in 4-5 words
+    motto: Solving problems through adaptive thinking
+    
+    # Focus
+    focus: I turn ideas into impactful solutions
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     Versatile and collaborative professional with a passion for technology and problem-solving. 
+     I bring adaptability, precision, and a strong sense of purpose to every project I join. Known 
+     for turning ideas into impactful solutions, I thrive in fast-paced environments where agility 
+     and real value delivery are key.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: crispinochet@outlook.cl #optional
+    phone: +569 4495 4280 #optional
+    website: #optional
+    linkedin: cristobalespinozap #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Cyttariasp
+    
+    twitter: 'Cyttaria__' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermediate
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Photography
+
+      - item: Medicina
+
+      - item: Gaming
+
+# Your previous education
+education:
+    - degree: Medical Technologist with a specialization in Clinical Bioanalysis and Transfusional Medicine
+      university: National University Andres Bello
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/f/ff/Logo-Universidad-Andres-Bello-2013-Nuevo.jpg
+      time: 2016 - 2022
+      details: |
+        I have solid experience in key laboratory areas such as microbiology, clinical biochemistry, transfusion medicine, 
+        hematology, and coagulation. My work has focused on the analysis and processing of biological samples, ensuring
+        precision and consistency across all analytical phases. I am also skilled in the management and quality control 
+        of medical laboratory equipment, including Vitros II, Beckman Coulter, and Vitek systems, with a strong commitment 
+        to maintaining high standards and regulatory compliance throughout every stage of laboratory workflow.
+
+          - Participated in the design of outbreak control strategies during increased case rates
+          - Strengthened crisis response and adaptability while working under high-pressure sanitary scenarios
+
+    - degree: Basic Life Support (BLS) 
+      university: American Heart Association
+      # optional
+      university_logo: https://1000logos.net/wp-content/uploads/2020/02/symbol-American-Heart-Association.jpg
+      time: 2022
+      details: |
+        Comprehensive course focused on the immediate assessment and response to medical emergencies.
+        Covered techniques for CPR, wound care, fracture immobilization, choking assistance, and emergency
+        scene management. Emphasized fast decision-making, personal safety, and coordination with professional 
+        medical services
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Medical Technologist specialized in Transfusion Medicine 
+      time: 2023 - Present
+      company: Indisa Clinic, Santiago
+      # optional
+      company_logo: https://circulo.bicevida.cl/imgCMS/60d4d998d94c2_conv.jpg
+      details: |
+        Responsibilities included donor screening and interviews in compliance with current 
+        regulations, ensuring the efficient selection of eligible donors and high-quality blood 
+        units for safe and effective transfusion therapy. Managed the immunohematology laboratory, 
+        performing patient sample analysis and applying specialized testing techniques. Oversaw 
+        transfusion medicine processes, conducting compatibility testing, managing special cases,
+        and making critical decisions to support optimal patient recovery.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Medical Technologist specialized in deetection of SARS-CoV-2
+      time: 2020 - 2022
+      company: Tecnigen, Santiago
+      # optional
+      company_logo: https://media.licdn.com/dms/image/v2/C4D0BAQGjPOcwQeuhbQ/company-logo_200_200/company-logo_200_200/0/1631345665072?e=2147483647&v=beta&t=C65VoSZNjRrROWqYNq4CL4pcqyGe4Z-mmtfslet1sks
+      details: |
+        Experience in coordinating logistics and managing clinical sample collection during field operations across 
+        multiple regions. Responsible for organizing teams and allocating available resources efficiently, with a 
+        strong sense of responsibility and commitment to patient care. Demonstrated ability to work collaboratively 
+        within multidisciplinary teams and contribute to the identification of potential COVID-19 cases among laboratory 
+        staff. Actively participated in the development of strategies to control the rise in positive cases, strengthening 
+        crisis-management and decision-making skills under critical public health conditions.
+
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Full-Stack development projects completed during training.
+
+    assignments:
+      - title: Instagram Photo Feed with Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/instagram-photo-feed-con-bootstrap-cyttariasp"
+        tagline: "Project focused on learning and applying Bootstrap, HTML, and CSS through functional structure, concept implementation, and the use of key elements acquired during training."
+
+      - title: Form HTML5
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/form-html5-cyttariasp"
+        tagline: "Basic form project built using HTML and Bootstrap, applying foundational layout and styling concepts learned during training."
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 70%
+
+      - name: JavaScript & jQuery
+        level: 75%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Sketch & Photoshop
+        level: 70%
