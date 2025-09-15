@@ -1,0 +1,191 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ineta
+    last_name: Keryte
+    
+    # Define yourself in 4-5 words
+    motto: "All you can imagine is real."
+    
+    # Focus
+    focus: Continuous professional growth and development
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Adaptive and creative individual with passion for professional growth. Skilled in 
+      problem-solving, teamwork and learning new technologies to drive meaningful solutions. 
+
+      Passionate about tourism and currently specializing in Revenue Management, I have recently
+      decided to expand my skills by learning Data Science, combining analytical thinking with
+      a new technical perspective for continuous personal and professional growth. 
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/43.jpg
+
+    # Contact Information
+    email: ineta@**.com #optional
+    phone: 333 4444 555 #optional
+    website: -- #optional
+    linkedin: https://www.linkedin.com/in/ineta-keryte/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: inetke
+    
+    twitter: -- #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Lithuanian
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Sports
+
+      - item: Traveling 
+
+      - item: Reading 
+
+# Your previous education
+education:
+    - degree: Hotel Revenue Management Expert
+      university: Cesae business & tourism school 
+      # optional
+      university_logo: https://cesae.campuslearning.es/login/custom/img/logo.png
+      time: 2021 - 2022
+      details: |
+        The Hotel Revenue Management course focuses on aplying strategies to maximize hotel revenue, 
+        taking into account factors such as demand, market segmentation and price optimization. 
+      
+          - Understand the fundamental principles of Revenue Management
+          - Use analytical tools for informed decision-making
+          - Improve profitability through upselling and cross-selling strategies
+          - Apply segmentation techniques and dynamic pricing strategies
+
+
+    - degree: Auxiliary Operations in Administrative and General Services
+      university: Grupo Albatros
+      # optional
+      university_logo: https://grupoalbatros.org/wp-content/uploads/2025/05/logotipo_grupoalbatros_solucionesintegralesenformacion.svg
+      time: 2018 - 2019
+      details: |
+        This course focuses on acquiring competencies to manage administrative tasks related 
+        to correspondence, document handling, and economic-administrative documentation.
+        
+          - Understand the fundamental principles of administration and management
+          - Apply effective communication techniques in a professional setting
+          - Efficiently manage correspondence and documentation
+          - Perform basic filing and document reproduction operations
+          
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Junior Revenue Manager 
+      time: 2022 - 2025
+      company: Aibo Solutions, Canary Islands
+      # optional
+      company_logo: https://aibosolutions.com/_images/sites/aibo-solutions1601/img/logo/logo-375.png?w=350&h=150&c=0
+      details: |
+        I supported companies in maximizing sales profitability through market analysis, 
+        competitor research, and strategic pricing.
+        
+          - Manage and maintain Channel Manager, PMS, and booking engine systems
+          - Optimize systems and tools to maximize revenue
+          - Resolve integration issues and provide technical support to hotels
+
+    - role: Guest Experience Manager 
+      time: 2022 - 2022
+      company: Vincci Hotels, Canary Islands 
+      # optional
+      company_logo: https://cdn.brandfetch.io/idj6fy4-h_/w/360/h/360/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B
+      details: |
+        Ensured every guest interaction was seamless, memorable, and aligned with company standards. 
+        Oversaw all aspects of the guest journey, from initial contact to departure.
+
+          - Deliver customized and personalized services to enhance guest satisfaction
+          - Analyzed customer feedback to identify trends and improvement opportunities
+          - Anticipated visitor needs to provide exceptional, tailored experiences
+
+    - role: Customer Success Manager 
+      time: 2020 - 2022
+      company: Parcel ABC, Spain
+      # optional
+      company_logo: https://www.parcelabc.com/images/logo.png
+      details: |
+        Ensured customers achieved their desired outcomes while using company products,
+        building strong relationships, driving adoption, and enhancing overall satisfaction.
+        Acted as the bridge between customers and internal teams, advocating for their needs
+        and maximizing product value.
+        
+          - Serve as primary point of contact for customer inquiries, feedback, and concerns
+          - Collaborate with sales, support, and product teams to align offerings with customer needs
+          - Develop and maintain strong customer relationships to foster loyalty and retention
+          - Proactively resolve issues to prevent churn and ensure satisfaction
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Loading...
+      
+      
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: 
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: 
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: 
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: 
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python 
+        level: 10%
+
+      - name: Sketch & Photoshop
+        level: 20%
+       
