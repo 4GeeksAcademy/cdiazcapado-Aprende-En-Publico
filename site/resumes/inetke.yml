@@ -16,14 +16,14 @@ basic_info:
     motto: "All you can imagine is real."
     
     # Focus
-    focus: Continuous prefossional growth and development
+    focus: Continuous professional growth and development
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
       Adaptive and creative individual with passion for professional growth. Skilled in 
       problem-solving, teamwork and learning new technologies to drive meaningful solutions. 
-      
-      Passionte about tourism and currently specializing in Revenue Management, I have recently
+
+      Passionate about tourism and currently specializing in Revenue Management, I have recently
       decided to expand my skills by learning Data Science, combining analytical thinking with
       a new technical perspective for continuous personal and professional growth. 
 
@@ -74,7 +74,7 @@ education:
       university_logo: https://cesae.campuslearning.es/login/custom/img/logo.png
       time: 2021 - 2022
       details: |
-        The Hotel Revenue Mangement course focuses on aplying strategies to maximize hotel revenue, 
+        The Hotel Revenue Management course focuses on aplying strategies to maximize hotel revenue, 
         taking into account factors such as demand, market segmentation and price optimization. 
       
           - Understand the fundamental principles of Revenue Management
@@ -119,17 +119,14 @@ experiences:
       # optional
       company_logo: https://cdn.brandfetch.io/idj6fy4-h_/w/360/h/360/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B
       details: |
-        A Guest Experience Manager (GEM) is a pivotal role in the hospitality industry, 
-        dedicated to ensuring that every guest interaction is seamless, memorable,
-        and exceeds expectations. This position involves overseeing all aspects of
-        the guest experience, from initial contact through departure, ensuring that
-        each interaction aligns with the company's standards of service and satisfaction.
+        Ensured every guest interaction was seamless, memorable, and aligned with company standards. 
+        Oversaw all aspects of the guest journey, from initial contact to departure.
 
           - Deliver customized and personalized services to enhance guest satisfaction
-          - Analyze customer feedback to identify trends and opportunities for improvement
-          - Identify and anticipate visitor needs to provide exceptional, tailored experiences
+          - Analyzed customer feedback to identify trends and improvement opportunities
+          - Anticipated visitor needs to provide exceptional, tailored experiences
 
-    - role: Customer Seccess Manager 
+    - role: Customer Success Manager 
       time: 2020 - 2022
       company: Parcel ABC, Spain
       # optional
