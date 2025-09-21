@@ -1,0 +1,37 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: "Dori"
+  last_name: "Téllez"
+  motto: "Aprendiendo siempre"
+  avatar: "profile.png"
+  email: "tuemail@example.com"
+  phone: "123456789"
+  github: "dori1888"
+  linkedin: "https://www.linkedin.com/in/tu-perfil/"
+  twitter: "https://twitter.com/tu_usuario"
+
+education:
+  - degree: "Diplomatura en Ciencias Empresariales"
+    university: "Tu Universidad"
+    time: "2000 - 2004"
+
+experiences:
+  - role: "Auxiliar Administrativo"
+    company: "Empresa Actual"
+    time: "2020 - presente"
+    details: "Apoyo en gestión documental, atención al cliente y soporte administrativo."
+
+projects:
+  - title: "Proyecto de Corrección Ortográfica"
+    description: "Repositorio en GitHub como parte del prework de 4Geeks."
+    url: "https://github.com/dori1888/exercise-family-static-api-William-Tellez"
+
+skills:
+  - skill: "Python"
+    level: 40
+  - skill: "Git & GitHub"
+    level: 60
+  - skill: "Excel"
+    level: 80
