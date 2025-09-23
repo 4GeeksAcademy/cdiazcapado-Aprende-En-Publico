@@ -1,0 +1,90 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Elius Fernando
+    last_name: Trujillo Albarracin
+    
+    # Define yourself in 4-5 words
+    motto: I like to take a break :)
+    
+    # Focus: Personal growth
+    
+    avatar: https://media.licdn.com/dms/image/v2/D4D03AQGNJkUIVQbIew/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1699604527566?e=1761782400&v=beta&t=wHiSGlIqLU9qWxg0Cw7_LYGVTTL4EQ7NwjETGH2OjmI
+
+    # Contact Information
+    email: trabajos.elius@gmail.com
+    phone: +34 631 935 181
+    linkedin: https://www.linkedin.com/in/elius-trujillo/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/elius123ef
+   
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B1
+
+      - idiom: German  
+        level: A1.2
+
+    # Interests or hobbies
+    interests:
+      - item: Technology
+
+      - item: Soccer
+
+      - item: Dance
+
+# Your previous education
+education:
+    - degree: bachelor
+    - Institute: College Dr. Julio Suarez Lozada, Tachira - Venezuela
+    
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+          - Without experiences in the IT area
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      For the moment, I haven't project to show you:(
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 10%
+
+      - name: JavaScript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level:0%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
