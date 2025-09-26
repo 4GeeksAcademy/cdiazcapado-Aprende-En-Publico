@@ -1,0 +1,91 @@
+template: online-cv
+skin: blue
+basic_info:
+  name: Fabri
+  email: fabri.dev@hotmail.com
+  location: Madrid, España
+  github: https://github.com/fabri-dev
+  twitter: https://twitter.com/fabri_dev
+  linkedin: https://www.linkedin.com/in/fabri-dev/
+  tagline: Desarrollador Full Stack en formación, amante del código limpio y el
+    aprendizaje en público
+  languages:
+    - idiom: Español
+      level: Nativo
+    - idiom: frances
+      level: Intermedio
+education:
+  - degree: Full Stack Developer Bootcamp
+    university: 4Geeks Academy
+    time: 2025 - Presente
+    details: >
+      Fundamentos de programación, estructuras de datos, JavaScript, React,
+      Python,
+
+      Flask, bases de datos SQL/NoSQL, Git/GitHub, pruebas y despliegue.
+  - degree: Grado en Administración y Dirección de Empresas
+    university: Universidad de Madrid
+    time: 2018 - 2022
+    details: |
+      Enfoque en análisis de datos, finanzas básicas y gestión de proyectos.
+      Participación en club de tecnología y emprendimiento.
+experiences:
+  - role: Soporte Técnico Freelance
+    company: Autónomo
+    time: 2023 - 2024
+    details: |
+      • Resolución de incidencias hardware/software para pymes.
+      • Automatización de tareas repetitivas con scripts (bash y Python).
+      • Documentación de procedimientos y formación básica a usuarios.
+  - role: Becario de Operaciones
+    company: LogistiK Solutions
+    time: 2022 - 2023
+    details: |
+      • Limpieza y análisis de datos en hojas de cálculo (CSV/Excel).
+      • Creación de dashboards simples para seguimiento de KPIs.
+      • Coordinación con el equipo de TI para integrar nuevas herramientas.
+projects:
+  - name: TaskPilot
+    description: Gestor de tareas con autenticación, etiquetas y vista kanban.
+    url: https://github.com/fabri-dev/taskpilot
+    technologies:
+      - React
+      - Vite
+      - TailwindCSS
+      - Node.js
+      - Express
+      - MongoDB
+  - name: WeatherSnap
+    description: App del tiempo con búsqueda por ciudad y favoritos; usa API pública.
+    url: https://github.com/fabri-dev/weathersnap
+    technologies:
+      - HTML
+      - CSS
+      - JavaScript
+      - Fetch API
+  - name: API de Notas
+    description: API REST para notas con CRUD, JWT y pruebas unitarias.
+    url: https://github.com/fabri-dev/notes-api
+    technologies:
+      - Python
+      - Flask
+      - SQLite
+      - Pytest
+      - Docker
+skills:
+  - name: HTML
+    level: 85
+  - name: CSS
+    level: 75
+  - name: JavaScript
+    level: 1000
+  - name: React
+    level: 65
+  - name: Python
+    level: 70
+  - name: Flask
+    level: 60
+  - name: Git & GitHub
+    level: 80
+  - name: SQL
+    level: 60
