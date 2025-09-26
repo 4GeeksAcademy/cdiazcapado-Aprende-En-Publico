@@ -1,0 +1,76 @@
+---
+template: online-cv
+skin: ceramic
+basic_info:
+  first_name: Jose
+  last_name: Isidro
+  focus: Desarrollador Full Stack | Especializado en Soluciones Tech para el
+    Sector de la Construcción
+  motto: Del plano físico al código la misma precisión, diferente herramienta.
+  avatar: https://media.istockphoto.com/id/1877058149/es/foto/vista-frontal-de-un-joven-latinoamericano-haciendo-turismo-en-la-plaza-mayor-cusco-per%C3%BA.jpg?s=612x612&w=0&k=20&c=0s16uLj9FNEl0y2mKnF3b6J3WBN_79vGYNFiSiRU_0M=
+  summary: >
+    Desarrollador Full Stack con una base única de experiencia en el sector
+    de la construcción, donde consolidé habilidades clave como la disciplina, el
+    trabajo en equipo y la perseverancia para cumplir objetivos en entornos
+    desafiantes. Mi transición hacia la tecnología demuestra una fuerte
+    capacidad de aprendizaje y determinación, habiendo dominado el stack MERN
+    (JavaScript, React, Node.js, MongoDB). Busco integrarme en un equipo de
+    desarrollo donde pueda aportar mi mentalidad resolutiva y mi compromiso con
+    la calidad, aplicando y expandiendo mis conocimientos técnicos.
+  email: alonsoisidro107@gmail.com
+  phone: 918238233
+  website: null
+  linkedin: https://www.linkedin.com/in/dumitru-aurelian-voinea-030813231b2/
+  github: josealonso1
+  twitter: null
+  stack-overflow: null
+  languages:
+    - idiom: spanish
+      level: Nativo
+    - idiom: portugues
+      level: Professional
+    - idiom: ingles
+      level: basico
+  interests:
+    - item: Coding
+    - item: Gaming
+    - item: Cinema
+    - item: Deporte
+education:
+  - degree: null
+    university: null
+    time: null
+    details: null
+experiences:
+  - role: estudiante y trabajador
+    time: obrero de construcción y estudiante
+    company: 4Geeks Academy
+    details: Practicing JavaScript,HTML,CSS!
+projects:
+  intro: |
+    tengo proyectos en mi github @4GeeksAcademy!
+  assignments:
+    - title: The Postcard
+      link: https://github.com/aurelianvoinea6/Postcard
+      tagline: A responsive website template designed to input information on a
+        postcard.   --
+    - title: PayCard
+      link: https://github.com/aurelianvoinea6/PayCard
+      tagline: A model of a PayCard.  --
+    - title: The Instagram Photo Feed
+      link: https://github.com/aurelianvoinea6/The-Instagram-Photo-Feed
+      tagline: My first Instagram Photo Feed   --
+    - title: Excuse Generator
+      link: https://github.com/aurelianvoinea6/Excuse-Generator
+      tagline: Random excuse generator.   --
+    - title: InstagramPost
+      link: https://github.com/aurelianvoinea6/InstagramPost
+      tagline: This is a simple Instagram post.   --
+skills:
+  toolset:
+    - name: Python
+      level: 40%
+    - name: Javascript
+      level: 30%
+    - name: HTML5 & CSS
+      level: 70%
