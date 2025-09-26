@@ -1,0 +1,162 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Yajaidy
+    last_name: Bernal
+    
+    # Define yourself in 4-5 words
+    motto: Versatile Industrial Engineer & Data Enthusiast
+    
+    # Focus
+    focus: Data Science & Industrial Process Optimization
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Versatile professional with experience in fiber optic network construction and management, 
+      as well as production and quality control supervision in the industrial sector. 
+      I have successfully led projects ensuring their proper execution and compliance with established standards. 
+      Currently enrolled in a Data Science bootcamp, developing skills in data analysis, Python programming, 
+      database management, data visualization, and predictive modeling with machine learning. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4E03AQG710onae5H2Q/profile-displayphoto-scale_200_200/B4EZfImG1OGwAk-/0/1751417122947?e=1761782400&v=beta&t=pNOOV4Rv8tABIYNpqG_jzSUo5w76cJwUQVszxiwm-7A
+
+    # Contact Information
+    email: bernalyajaidy@gmail.com 
+    phone: +58 414-124-8667  
+    linkedin: yajaidy-bernal-0a049464
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Yajaidy
+    
+   
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2 (Currently studying C1)
+
+
+    # Interests or hobbies
+    interests:
+      - item: Data Analytics
+
+      - item: Process Optimization
+
+      - item: Continuous Learning
+
+# Your previous education
+education:
+    - degree: Bootcamp in Data Science & Machine Learning
+      university: 4Geeks Academy Latam
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time:  Aug 2025 - Present
+      details: |
+        Intensive training in Python, SQL, visualization, and predictive modeling.
+
+
+    - degree: Industrial Engineer
+      university: UNEXPO (Antonio Jose de Sucre National Polytechnic University)- Venezuela
+      time: 2007 - 2012
+      details: |
+        Engineering studies with focus on industrial processes, quality control, 
+        and operations management.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Project Engineer
+      time: Aug 2024 - Jun 2025
+      company: JM Teleco, C.A.
+      details: |
+        Led construction, execution, and monitoring of fiber optic networks (ODN). 
+        Supervised contractors to ensure compliance with standards and deadlines. 
+        Developed tools in Google Sheets for activity tracking, created databases for fault statistics, 
+        and optimized task and resource management nationwide.
+
+    - role: Area Supervisor
+      time: Aug 2023 - Aug 2024
+      company: Corporación Avilatel, C.A.
+      details: |
+        Supervised technical teams executing installations, splicing, and certifications. 
+        Ensured quality compliance and led the team toward project goals efficiently.
+
+    - role: Manager (Owner)
+      time: Apr 2016 - Jan 2023
+      company: Inversiones Daya 1921, C.A.
+      details: |
+        Supervised daily operations in the food retail sector. 
+        Managed purchasing, supplier relationships, inventory, cost analysis, and customer service. 
+        Designed and implemented systems to improve operations and distribution in the Capital Region.
+
+    - role: Area Supervisor
+      time: Dec 2014 - Mar 2016
+      company: Red Venezuela, C.A.
+      details: |
+        Managed production databases nationwide. 
+        Planned and supervised production ensuring GMP standards. 
+        Coordinated orders and distribution, generated reports and KPI analysis for continuous improvement.
+
+    - role: Plant Supervisor
+      time: Apr 2014 - Sep 2014
+      company: Remsport, C.A.
+      details: |
+        Planned production activities, supervised workers, ensured compliance with safety and hygiene standards. 
+        Coordinated raw material purchases and monitored production efficiency.
+
+    - role: Occupational Health & Safety Supervisor
+      time: Feb 2013 - Feb 2014
+      company: Pymeven Industrial, C.A.
+      details: |
+       Managed HSE programs and risk prevention. 
+       Conducted training, coordinated medical exams, and implemented safety procedures in compliance with P&G standards.
+
+    - role: Trainee Engineer
+      time: Jun 2012 - Dec 2012
+      company: Febeca, C.A.
+      details: |
+        Coordinated warehouse operations: classification, coding, storage, and distribution of materials. 
+        Ensured compliance with quality standards and implemented return and warranty policies.
+
+    - role: Intern
+      time: Nov 2011 - Jun 2012
+      company: Febeca, C.A.
+      details: |
+        Led a project for weighing and coding 9,000+ items. 
+        Coordinated logistics, supervised project phases, and ensured accurate product coding.
+
+# Your project portfolio
+projects:
+    intro: >
+      Selected academic and personal projects in process optimization, analytics,
+      and digital solutions.
+
+skills:
+    toolset:
+      - name: Python (Pandas, Numpy, Scikit-learn)
+        level: 50%
+      - name: SQL & Databases
+        level: 35%
+      - name: Data Visualization (Matplotlib, Seaborn, Power BI)
+        level: 35%
+      - name: Industrial Process Management
+        level: 90%
+      - name: Excel (Intermediate/Advanced)
+        level: 85%
+      - name: AutoCAD
+        level: 70%
+      - name: HTML, CSS, JavaScript (basic knowledge)
+        level: 50%
