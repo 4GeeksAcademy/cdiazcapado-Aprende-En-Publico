@@ -9,8 +9,8 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Johnny
-    last_name: Reyes
+    first_name: Johnny Xavier
+    last_name: Reyes Borbor
     
     # Define yourself in 4-5 words
     motto: I like numbers
@@ -27,8 +27,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/men/24.jpg
-
+    avatar: .
     # Contact Information
     email: reyesborborjohnny@gmail.com #optional
     phone: +34 684 366 014 #optional
@@ -38,7 +37,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: reyesborborjohnny
     
     twitter:  #optional
     stack-overflow: idk # Number/Username, e.g. 123456/alandoe
