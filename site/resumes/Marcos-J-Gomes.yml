@@ -1,0 +1,110 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marcos
+    last_name: Gomes
+    
+    # Define yourself in 4-5 words
+    motto: Siempre intentando mejorar cada dia
+    
+    # Focus
+    focus: Ser mi mejor version
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary:
+      Trabajando actualmente en el departamento de BI para Prosales del Grupo Constant.
+      Formaciones en Análisis y Ciencia de Datos.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/85619300?s=400&u=d8617aea4feca25a07542460f191842e8ede58fa&v=4
+    # Contact Information
+    email: marcosgomes1693@gmail.com #optional
+    phone: 675 87 14 97 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/marcos-j-gomes #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: marcos-j-gomes
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B1
+
+    # Interests or hobbies
+    interests:
+      - item: Videogames
+
+      - item: Football
+
+      - item: Anime
+
+# Your previous education
+education:
+    - degree: Data Science
+      university: 4geeks
+      # optional
+      university_logo: 
+      time: 2025 - 2026
+      details: |
+        Formacion para la ciencia de datos con inteligencia artificial.
+        Manejo de lenguajes de programcion como Python y SQL.
+        Fundamentos en estadistica y algebra
+        
+          
+    - degree: Power BI Basics
+      university: Datahack
+      # optional
+      university_logo: 
+      time: 2024
+      details: |
+        Creacion y mantenimiento de cuadros de mando en PBI.
+        Base en lenguaje DAX y M.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: BI Analyst
+      time: 2023 - Present
+      company: Prosales, Madrid
+      # optional
+      company_logo: 
+      details: |
+        Creacion y mantenimiento de cuadros de mando para clientes externos e internos en PBI.
+        Creacion de modelos para recoleccion y explotacion de datos.
+        Gestion de informacion y plazos de tiempo en proyectos de distintos clientes.
+
+
+   # Your project portfolio
+
+     
+skills:
+    toolset:
+      - name: Python 
+        level: 70%
+
+      - name: Excel
+        level: 70%
+
+      - name: Power BI
+        level: 65%
+
+      - name: SQL Server
+        level: 60%
