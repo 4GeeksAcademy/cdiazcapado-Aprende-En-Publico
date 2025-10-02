@@ -1,0 +1,133 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carlo
+    last_name: Gonzalez
+    
+    # Define yourself in 4-5 words
+    motto: I like helping people
+    
+    # Focus
+    focus: Helping Others
+
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      A 24 year old guy that loves to help people and make them smile. I am currently learning web development and looking for an opportunity to grow as a developer and as a person. I am a quick learner and I am always willing to learn new things. I am also a team player and I love to work with people.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent.fmex1-4.fna.fbcdn.net/v/t39.30808-6/505580479_2969152536577452_7280664111264604151_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeExG48o3R-u7cBxTJ9-Joq0VIhpfEjTKxJUiGl8SNMrEsr8a_O5t_H3CFE_DLh8p0nOZ6L10VdnurMasj6i-LgT&_nc_ohc=QLocCllUkg4Q7kNvwHFuBdi&_nc_oc=Adm0my27OIsFJGaUzu3D4nXriSldIt4zXsjRYCq9CcJ8SZyM4BG4bzg443OFB5OCX3NS7fxbRzgcflO3FGbPagRB&_nc_zt=23&_nc_ht=scontent.fmex1-4.fna&_nc_gid=z1cUdJvkeGvkplXHmFwVfg&oh=00_AfbvZT7s_Oxno4iVPJvq9zlqYAOtSciY_3tItGoKC2Kq1A&oe=68DF4837
+
+    # Contact Information
+    email: carlomolko@gmail.com #optional
+    phone: 5539403990 #optional
+    
+    linkedin: https://www.linkedin.com/in/carlo-gonzalez-henandez-279a80207/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: carlogh2001
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Advanced
+
+      -
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Music
+
+      - item: Videogames
+
+      - item: Comics and Manga
+
+# Your previous education
+education:
+    
+    - degree: High School Diploma
+      time: 2018 - 2019
+      university: Colegio de Bachilleres
+      details: |
+        Graduated with a focus on human resorces and administration.
+
+    - degree: Data scientist Course
+      time: 2025 - Present
+      university: 4Geeks Academy
+      details: |
+        Currently enrolled in an data scientist program . Working on multiple projects to build a strong portfolio.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: customer service and collections representative
+      time: 2024 - Present
+      company: CCSI
+      # optional
+      
+      details: |
+        Responsible for answering inbound calls from customers and assisting them with their inquiries. Also responsible for making outbound calls to customers to collect payments on overdue accounts.
+
+          - Bullet point
+          - Bullet point
+
+    - role: customer service representative
+      time: 2018 - 2020 2023-2024
+      company: Telvista
+      
+      # optional
+      
+      details: |
+        Responsible for answering inbound calls from customers and assisting them with their inquiries. Also responsible for making outbound calls to customers to collect payments on overdue accounts.
+
+          - Bullet point
+          - Bullet point
+
+    - role: customer service representative
+      time: 2021 - 2023
+      company: Teleperformance
+
+      # optional
+
+      details: |
+        Responsible for providing excellent customer service to clients, addressing their inquiries and resolving issues in a timely manner.
+
+          - Bullet point
+          - Bullet point
+
+      
+
+# Your project portfolio
+projects:
+    intro: 
+      
+
+skills:
+    toolset:
+      - name: Python 
+        level: 60%
+
+      - 
+
+     
+
+      
+
+      - name: Sabre
+        level: 70%
