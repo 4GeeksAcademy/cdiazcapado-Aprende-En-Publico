@@ -1,0 +1,81 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Conver Alejandro
+    last_name: Rico Muñoz
+    
+    # Define yourself in 4-5 words
+    motto: El tipo que ha hecho esta actividad 9 veces 
+    
+    # Focus
+    focus: Estudiar en 4geeks
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: Me encanta aprender de mis errores, soy un apasionado por la cosas distintas y una persona muy curiosa, que esta dispuesta a aprender siemopre que pueda.
+      
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: converalejo@hotmail.com
+    phone: 640120562
+    linkedin: https://www.linkedin.com/in/conver-alejandro-rico-muñoz-115163128/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: conver97
+    
+    twitter: conver97
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Catalan
+        level: Profesional
+
+      - idiom: Ingles
+        level: Profesional
+
+    # Interests or hobbies
+    interests:
+      - item: Bailar
+
+      - item: Futbol
+
+      - item: Musica
+
+# Your previous education
+education:
+    - degree: Grado en Biotecnologia 
+      university: Universidad Catolica de Valencia 
+      time: 2015 - 2019
+
+# Your project portfolio
+projects:
+    intro: 
+    Sin proyectos aun
+
+skills:
+    toolset:
+      - name: Python 
+        level: 10%
+
+      - name: Excel
+        level: 15%
+
