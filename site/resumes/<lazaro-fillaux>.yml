@@ -1,0 +1,91 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lázaro
+    last_name: Fillaux Fernández
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta ayudar a que la gente este comoda
+    
+    # Focus
+    focus: 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: fillaux33@gmail.com
+    phone: +34 722558382
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: lazaro-fillaux
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+        
+      - idiom: Ingles
+        level: A2
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Swimming
+
+# Your previous education
+education:
+    - degree: Ingenieria electrónica y automática industrial
+      university: Universidad Miguel Hernández (UMH)
+      # optional
+      time: 2023 - cursando actualmente
+      details: |
+        Conocimientos sobre Python 
+        Conocimientos sobre teoría de máquinas
+        Conociminetos sobre MATLAB , SIMULINK ...
+        Manejo avanzado de EXCEL , WORD
+
+    - degree: Grado superior de mantenimiento electrónico
+      university: CIFP POLITÉCNICO DE MURCIA
+      # optional
+      university_logo: 
+      time: 2021 - 2023
+      details: |
+        
+
+# Your project portfolio
+projects:
+    intro: >
+      
+    assignments:
+      
+
+skills:
+    toolset:
+      - name: Python 
+        level: 100%
+
+      - name: JavaScript 
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 95%
+
