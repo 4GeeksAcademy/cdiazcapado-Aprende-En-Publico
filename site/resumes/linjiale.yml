@@ -1,0 +1,46 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lin
+    last_name: Bai Jia Le Lin
+    
+    # Define yourself in 4-5 words
+    motto: If you don’t fail, you’re not learning to program.
+ 
+    # Contact Information
+    email: ljllelel7@gmail.com
+    phone: 640152751
+    website: mywebsite
+    linkedin: https://www.linkedin.com/in/tu-perfil/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: linjiale
+    
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Low
+
+      - idiom: Chinese
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Videos games
+
+      - item: Read nobel
+
+      - item: Sport
