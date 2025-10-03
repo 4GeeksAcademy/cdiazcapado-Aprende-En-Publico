@@ -1,0 +1,84 @@
+Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Conver Alejandro
+    last_name: Rico Muñoz
+    
+    # Define yourself in 4-5 words
+    motto: Loco artista apasionado por las cosas diferentes
+    
+    # Focus
+    focus: Estudiar biotecnologia 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: Estudiante de Biotecnología con experiencia en logística y hostelería, orientado al trabajo
+en equipo, la atención al cliente y la gestión eficiente de tareas. Persona responsable,
+organizada y con iniciativa. Poseo habilidades técnicas en laboratorio, conocimientos
+básicos de programación y manejo de inventarios. Interesado en seguir desarrollándome
+en entornos dinámicos y multidisciplinares
+     
+ Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: converalejo@mail.ucv.es
+    phone: +34 640120562
+    website: 
+    linkedin: https://www.linkedin.com/feed/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+    
+    twitter: 
+    stack-overflow: 
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Valencia
+        level: Medio
+
+      - idiom: Ingles
+        level: Medio
+# Interests or hobbies
+    interests:
+      - item: Futbol
+
+      - item: Baile
+
+      - item: Musica 
+
+# Your previous education
+education:
+    - degree: Grado en Biotecnoliga
+      university: universidad catolica de valencia
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2015
+      
+
+skills:
+    toolset:
+      - name: Excel 
+        level: 20%
+
+      - name: power bi
+        level: 20%
+
+      - name: python 
+        level: 10%
+      
