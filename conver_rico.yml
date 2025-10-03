@@ -1,0 +1,72 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Conver Alejandro 
+    last_name: Rico muñoz
+    
+    # Define yourself in 4-5 words
+    motto: Be a good person for the world
+    
+    # Focus
+    focus: Study biotecnology 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a passionate fot the differents things, lovely for learn thing every day, sports and family man.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: converalejo@hotmail.com
+    phone: 640 120 562
+    website: 
+    linkedin: https://www.linkedin.com/feed/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: conver97
+    
+    twitter: conver97
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Valencia
+        level: Professional
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Dance
+
+      - item: Football
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: Biotechnology Degree
+      university: Universitat Catolica de Valencia
+      # optional
+      university_logo: https://www.ucv.es
+      time: 2015-2019
+
+
