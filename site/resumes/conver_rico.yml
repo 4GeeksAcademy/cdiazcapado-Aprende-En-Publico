@@ -9,21 +9,17 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Conver Alejandro
+    last_name: Rico Muñoz
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: persona muy insistente, hasta que no me sale no dejo de hacerlo
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Estudiar en 4Geeks
     
     # You have 1 paragraph to make a great impression, summarize your career
-    summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+    summary: Persona apasionada por lo diferente, me gusta aprender cada dia y mas de los fallos que tengo, extrovertido y muy social.
 
       Second paragraph if required.
     
@@ -32,45 +28,45 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
+    email: converalejo@hotmail.com
+    phone: 640120562
     website: asd.com #optional
-    linkedin: alandoe #optional
+    linkedin: https://www.linkedin.com/in/conver-alejandro-rico-muñoz-115163128/
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: conver97 
     
-    twitter: 'webjeda' #optional
+    twitter: conver97
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
-        level: Native
+      - idiom: Español
+        level: Nativo
 
-      - idiom: French
-        level: Professional
+      - idiom: Catalan
+        level: Profesional
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: Ingles 
+        level: Profesional
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Musica
 
-      - item: Snowboarding
+      - item: Futbol
 
-      - item: Cooking
+      - item: Socializar 
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Grado en Biotecnologia 
+      university: Universidad Catolica de Valencia 
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 2015 - 2019
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -187,11 +183,11 @@ projects:
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python 
+        level: 10%
 
-      - name: JavaScript & jQuery
-        level: 98%
+      - name: Excel
+        level: 15%
 
       - name: Angular
         level: 98%
