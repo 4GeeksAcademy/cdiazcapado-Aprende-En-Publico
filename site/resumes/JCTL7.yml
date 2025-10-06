@@ -1,0 +1,85 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Julio Cesar
+    last_name: Trujillo Lugo
+    motto: Full-stack Developer
+    avatar: 
+    summary: |
+      Starting a career as junior Full-stack developer. I'm eager to learn and fullfill my curiosity 
+      with every piece of technology or information. I really like to focus on users and trying to
+      improve the experience and usability of things.
+
+    email: juliocesartrujillolugo@gmail.com
+    phone: 673 025 720
+    website: https://github.com/JCTL7
+    github: JCTL7
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English 
+        level: Professional
+
+    interests:
+      - item: Coding
+
+      - item: Fitness
+
+      - item: Diving
+
+education:
+    - degree: Mecanic Engineer
+      university: IUT
+      time: 20011-2016
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Learning and doing projects!
+    
+    - role: Bartender
+      time: 2024-2025
+      company: Bar Tripy
+      details:  
+
+    - role: Waiter
+      time: 2022-2024
+      company: Supermercados Dia
+      details: 
+    
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+    
+    assignments:
+      - title: Postal
+        link: https://github.com/4GeeksAcademy/JCTL-exercise-postcard
+        tagline: "A simple Postcard  --"
+
+      - title: Instagram Feed Bootstrap
+        link: https://github.com/4GeeksAcademy/Proyect-Bootstrap-JCTL-Instagram
+        tagline: "A Bootstrap IG feed   --"
+
+      - title: Instagram Feed 
+        link: https://github.com/4GeeksAcademy/JCTL-PostdeInstagram
+        tagline:  "A simple IG feed  --"
+ 
+skills:
+    toolset:
+      - name: Bootstrap
+        level: 50%
+
+      - name: Javascript
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 50%
