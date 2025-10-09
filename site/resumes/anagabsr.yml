@@ -1,0 +1,90 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ana Gabriela
+    last_name: Salas
+    
+    # Define yourself in 4-5 words
+    motto: 5 am club. Early bird
+    
+  
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Project Manager with 5+ years of turning chaos into neatly delivered projects, 
+      balancing digital operations, 
+      cross-functional teams, 
+      and strategic partnerships across U.S. and Dubai markets. 
+      Fluent in Agile (Scrum, Kanban, Waterfall), 
+      leading 50+ projects a month with 15 internal teammates and 70+ global providers without losing my sanity (or the deadlines). 
+      Known for implementing AI-driven solutions that cut revision rounds by 30% and sped up delivery by 45%. 
+      Proactive, results-driven, and always looking for smarter ways to get things done (ideally with fewer all-nighters and more impact.)
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+
+    # Contact Information
+    email: anagabsr.94@gmail.com
+    phone: 678 20 5059
+    linkedin: https://www.linkedin.com/in/ana-gabriela-salas-rojas-a63b36175/
+    
+   
+    github: anagabsr
+    
+    twitter: 'anagabsr' 
+    
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Reading
+
+      - item: Eating
+
+      - item: world domination
+
+# Your previous education
+education:
+    - degree: Specialization in Operations Management
+      university: Cámara de Comercio de Valencia
+    
+
+    - degree: Project Management
+      university: Google Career Certificates
+      
+    - degree: Bachelor’s Degree in Political and Administrative Sciences 
+      university: Universidad Central de Venezuela
+     
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Production Manager (PMO)
+      time: 2021 - Present
+      company: Duke Renders
+
+    - role: Project Manager
+      time: 2019 - 2021
+      company: Juan Germán Roscio Foundation
+
+    - role: Project Manager
+      time: 2019 - 2021
+      company: FORMA Institute
+
+    - role: Public Opinion Coordinator
+      time: 2018 - 2019
+      company: MORE Consulting
+
