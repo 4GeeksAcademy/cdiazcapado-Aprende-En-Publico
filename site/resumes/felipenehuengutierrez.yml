@@ -1,0 +1,111 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Felipe
+    last_name: Gutiérrez
+    
+    # Define yourself in 4-5 words
+    motto: Una persona muy cariñosa
+    
+    # Focus
+    focus: Ser full stack 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     Tengo 26 años, desde los 15 años me dedico a cortar cabello, me ha ido muy bien 
+     siendo reconocido por cortar a los artistas urbanos que visitan o viven en chile.
+     Desde pequeño quise estudiar programacion pero fui padre a temprana edad por lo que 
+     tuve que decidir por trabajar. Ahora mi hijo tiene 9 años y es mas independiente.
+     Asique me meti a estudiar a 4geeks para poder aprender programacion y cambiar un 
+     poco mi rubro, ya que quiero tener mas tiempo de calidad con mi hijo.
+
+     Llevo 4 semanas estudiando Full Stack en 4geeks y me a parecido increible.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://mail.google.com/mail/u/0?ui=2&ik=f9843fa72f&attid=0.1&permmsgid=msg-a:r1591722005651020791&th=199d07f1116a824e&view=fimg&fur=ip&permmsgid=msg-a:r1591722005651020791&sz=s0-l75-ft&attbid=ANGjdJ_2Y1BvyXpu5XpdJHpARqLapj4g8lxu3dmJSgxykTX55xTSfM1glJx-vjxYIUS_1M1JS8J4oIwm5TbO8TwczdaSgc9F8bXjpWlQlA_ht9ocx__CSX-pqYdc8p0&disp=emb&realattid=ii_199d07ea2594f538f741&zw
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: felipenehuengutierrez
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Ingles 
+        level: Basico
+
+      
+
+    # Interests or hobbies
+    interests:
+      - item: Futbol
+
+      - item: Tenis
+
+      - item: Cocinar 
+
+# Your previous education
+education:
+    - degree: 4 medio tecnico profesional
+      university: salesianos alameda 
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2013 - 2017
+      details: |
+        Escuela donde estudie y me capacite para ser tecnico profesional en el area de electronica.
+        viendo circuitos de bajo voltaje.
+
+    
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: barbero
+      time: 2015 - Present
+      company: Barberia Santiago de chile.
+      # optional
+      company_logo: https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/bc/5b/95/bc5b95e9-bbcd-86f3-f707-5c96ee5ac9c6/AppIcon-1x_U007emarketing-0-10-0-85-220.png/1200x600wa.png
+      details: |
+        Barbero desde los 15 años ubicado en santiago de chile. 
+        con expereciencia a todo tipo de recortes.
+        a domicilio o en mi estudio ubicado en la comuna de maipu.
+        Atencion detallada con consejos de visagismo.
+
+          
+
+  
+
+# Your project portfolio 
+
+skills:
+    toolset:
+      - name: html
+        level: 98%
+
+      - name: boostrap
+        level: 88%
+
+      - name: css
+        level: 88%
+
+      - name: formularios
+        level: 98%
+
+      - name: github
+        level: 90%
+
+     
