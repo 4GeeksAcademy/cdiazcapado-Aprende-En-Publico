@@ -1,0 +1,132 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "turquoise"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Vanessa
+    last_name: Rizo
+    
+    # Define yourself in 4-5 words
+    motto: Creative, Committed, Curious, Supportive, Versatile.
+    
+    # Focus
+    focus: Improving coding skills
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a proactive, diligent, and creative professional with adaptability in dynamic environments. I have technical knowledge in IT infrastructure management, including ticketing systems, software installation, and mastery of advanced office applications. I also have practical skills in front-end development (HTML, CSS) and version control (Git), which allows me to collaborate effectively with development teams.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://static.vecteezy.com/system/resources/previews/001/993/889/non_2x/beautiful-latin-woman-avatar-character-icon-free-vector.jpg
+
+    # Contact Information
+    email: vanessa.rizop@hotmail.com #optional
+    phone:  6822644574 #optional
+    website:  #optional
+    linkedin: www.linkedin.com/in/vanessa-rp #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: vanessarp
+    
+    twitter: 'vrp' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+   
+  
+    # Interests or hobbies
+    interests:
+      - item: Cooking
+
+      - item: Painting
+
+      - item: Traveling
+
+# Your previous education
+education:
+    - degree: Bachelor's Degree in Computer Engineering
+      university:  Universidad Nororiental Gran Mariscal de Ayacucho.
+      time: 2009 - 2015
+      
+# Your previous job experiences or volunteer
+experiences:
+    - role:  Deskside Support Engineer I
+      time: Nov 2020 - Oct 2023
+      company: Yield Delivery Spain -DXC (Madrid Digital)
+      # optional
+      details: |
+       I provided technical support to users, managing incidents related to applications, networks, and operating systems. I provided remote support, configured email accounts, and performed data backups, ensuring system continuity and security. I diagnosed and resolved security incidents in IT systems, helping to mitigate vulnerabilities.
+        - I provided technical support to users for hardware, software, and security issues.
+
+    - role: Teleoperator
+      time: may 2018 - Oct 2020
+      company: Telecy, Spain
+      # optional
+      details: |
+        I provided customer service and sales assistance, developing skills in technical communication for telecommunications products and services.
+          - Assisted customers with questions and product information.
+          - Supported sales processes and promoted the company's services.
+          - Developed strong communication and problem-solving skills.
+
+    - role: Technical Analyst
+      time: 2012 - 2015
+      company: Seguros Caroní, C.A. (Venezuela)
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        I managed the processing of confidential data and information for the creation and modification of policies, ensuring data integrity and security. I performed quality control testing and collaborated in the implementation of digital document management systems.
+          - I processed and maintained confidential data.
+          - I performed quality control testing on internal systems.
+          - I assisted in the implementation of digital document management solutions.
+
+# Your project portfolio
+projects:
+    intro: >
+      In this section, I present my academic projects that demonstrate my skills in web development.
+
+    assignments:
+      - title: HTML5 form
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/vanessarp-form-HTML5"
+        tagline: "I created a form for collecting various data using the Bootstrap framework and HTML and CSS languages."
+
+      - title: Photo Feed with Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/vanessar-Instagram-Photo-Feed-with-Bootstrap"
+        tagline: "I created an Instagram-like photo website using HTML, CSS, and Bootstrap for a responsive and modern design."
+
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 30%
+
+      - name: JavaScript & jQuery
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Git & Github  
+        level: 50%
+
+      - name: Sketch & Photoshop
+        level: 60%
