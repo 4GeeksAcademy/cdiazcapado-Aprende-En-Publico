@@ -1,0 +1,112 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Santiago
+    last_name: Corales
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta poner a prueba mis limites
+    
+    # Focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy un estudiante de la academia 4geeks dispuesto a aprender todo sobre el mundo de la programación.
+      Adquiri experiencia sobre HTML, CSS, JS de forma autonoma y busco formarme como desarrollador full stack enfocado en el area de base de datos. 
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://imgur.com/a/yqjvzs6
+
+    # Contact Information
+    email: santiagocoralessud@gmail.com #optional
+    phone: +598 99 307 266 #optional
+    linkedin: Santiago Corales #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: santiagocorales
+    
+    #optional
+    # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Videogames
+
+      - item: Play football
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Licenciado en economía 
+      university: Universidad de la republica (Udelar)
+      # optional
+      time: 2019 - 2021
+      details: |
+        Carrera enfocada en formarme como Licenciado en economia para las macroeconomías.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Operador
+      time: 2023 - Present
+      company: CIEMSA
+      # optional
+      company_logo: https://ciemsa.com.uy/wp-content/uploads/2025/08/CIEMSA_blanco@300x-1-scaled.png
+      details: |
+        Mi rol en el sector donde trabajo (División ambiental) es el de revisar todo el trabajo que se realizo en el día y corregir cualquier error.
+        Adicionalmente planifico toda la operativa del siguiente día.
+
+    - role: Peon
+      time: 2019 - 2023
+      company: MAROSA
+      # optional
+      details: |
+        Peon de obra en una empresa de construcción.
+
+# Your project portfolio
+projects:
+    intro: >
+      Aqui se encuentran mis proyectos personales.
+
+    assignments:
+      - title: Formulario
+        # optional
+        link: "https://github.com/4GeeksAcademy/SantiagoCorales-form-HTML"
+        tagline: "Plantilla creada a base de HTML y Boostrap para generar la pantalla del metodo de pago."
+
+      - title: Feed de Instagram
+        # optional
+        link: "https://github.com/4GeeksAcademy/SantiagoCorales-Photo-Feed-Excercise"
+        tagline: "Proyecto inspirado en el feed de Instagram."
+
+skills:
+    toolset:
+      - name: Boostrap
+        level: 45%
+
+      - name: JavaScript & jQuery
+        level: 8%
+
+      - name: HTML5 & CSS
+        level: 86%
+
+      - name: Sketch & Photoshop
+        level: 34%
