@@ -1,0 +1,126 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Andres
+    last_name: Esquivel
+    
+    # Define yourself in 4-5 words
+    motto: Wandering but not lost
+    
+    # Focus
+    focus: Learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I'm a translator, 3D artist and recently programmer with many years experience in different fields as a freelancer.
+      I've worked as an international relations consultant for an importing company for 3 years, I also have experience working as a 3D modeler for various
+      companies. And now more recently I've began programming to pursue a passion in the cybersecurity industry.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://cdna.artstation.com/p/assets/images/images/026/445/372/large/stephanie-corgi-corgi-ryu.jpg?1588794321https://cdna.artstation.com/p/assets/images/images/026/445/372/large/stephanie-corgi-corgi-ryu.jpg?1588794321
+
+    # Contact Information
+    email:  #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AEGiner
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+        
+      - idiom: Chinese
+        level: Casual
+
+
+    # Interests or hobbies
+    interests:
+      - item: Swimming
+
+      - item: Cooking
+
+      - item: Gaming
+
+# Your previous education
+education:
+    - degree: Full stack developer (coding bootcamp)
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeksacademy.com/static/dc42e38caa9db517ddea28bea5e40d02/74acc/4geeksacademy-logo-old.webp
+      time: 2025 - 2026
+      details: |
+        Learned how to use different tools to create a visually appealing and responsive website, as well as 
+        proper coding practices to be succesful in the programming industry.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: International relations consultant
+      time: 2009 - 2012
+      company: Trade Bridge America
+      # optional
+      company_logo: 
+      details: |
+        Helped facilitate the import of various construction machines from China.
+
+    - role: Freelance Translator & 3D artist
+      time: 2014 - present
+      company: The world
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Worked as a freelance translator and 3D artist for many different companies.
+
+
+
+# Your project portfolio
+projects:
+    intro: >
+      This are some projects I've made during my programming bootcamp
+
+    assignments:
+      - title: Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A simple postcard to practice HTML fundamentals"
+
+      - title: Instagram Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive instagram feed using HTML,CSS & Bootstrap."
+
+skills:
+    toolset:
+      - name: HTML & CSS
+        level: 50%
+
+      - name: JavaScript
+        level: 40%
+
+      - name: Bootstrap
+        level: 50%
+
+      - name: Blender
+        level: 70%
