@@ -1,0 +1,143 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sebastian
+    last_name: Perez
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta aprender distintas cosas
+    
+    # Focus
+    focus: De todo un poco
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Me llamo Sebastian, estoy empezando en el mundo de la programación,
+      yo vengo del sector del diseño y la animación, e incorporar conocimientos
+      sobre programación creo que puede expandir mi capacidad como profersional.
+
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: sebaperez12
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: 70%
+
+      - idiom: Spanish
+        level: Native
+        
+
+
+    # Interests or hobbies
+    interests:
+      - item: Viajar
+
+      - item: Cine
+
+      - item: Parques
+
+# Your previous education
+education:
+    - degree: Liceniatura en Diseño y Comuniación Visual
+      university: UdelaR
+      # optional
+      time: 2010 - 2018
+      details: |
+        La Licenciatura, abarca todo lo que es referido a la comunicación visual,
+        desde un aspecto social a uno comercial. Con una gran carga teórica y técnica. 
+
+    - degree: Tecnico en animación digital
+      university: ORT
+      # optional
+      time: 2007 - 2011
+      details: |
+        Tecnicatura en animación y composición digital desde
+        tecnicas tradicionales a tecnicas más modernas.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Postproducción
+      time: 2024 - 2025
+      company: Apa
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Postproducción para tv y publicidad
+
+    - role: Diseño y animación
+      time: 2017 - 2025
+      company: Canal de tv
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Animación y diseño para todo lo referido al broadcasting.
+
+
+    - role: Profesor 
+      time: 2014 - 2025
+      company: Facultad
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Profesor en una asignatura que está vinculada a la composición en medios digitales 3D
+
+# Your project portfolio
+projects:
+    intro: >
+      Proyectos de programación hechos en este inicio de curso.
+
+
+    assignments:
+      - title: Instagram Feed
+        tagline: "diseño del feed de instagram"
+
+
+      - title: Instagram with Bootstrap
+        # optional
+        link: "https://github.com/4GeeksAcademy/bootstrap---sebaperez12"
+        tagline: "Proyecto de instagram con bootstrap, aún tiene cosas para corregir"
+
+      - title: Form
+        # optional
+        link: "https://github.com/4GeeksAcademy/sebaperez12-Forms"
+        tagline: "Proyecto de forms con Bootstrap"
+
+
+skills:
+    toolset:
+      - name: Html
+        level: 20%
+
+      - name: CSS
+        level: 30%
+
+      - name: Bootstrap
+        level: 30%
+
+      - name: After effects
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
