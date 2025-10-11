@@ -1,0 +1,135 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: John
+    last_name: Ocampos
+    
+    # Define yourself in 4-5 words
+    motto: Un soñador empedernido
+  
+    # Focus
+    focus: Siempre en crecimiento
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Me gustan los desafíos, el trabajo en equipo, el orden y la sensación de crecimiento.
+      Me considero una persona centrada, que busca la mejora constante y que siempre quiere aportar en lo que hace aun si eso me requiere cambiar mi propia perspectiva y reconocer errores.
+      Considero que en la programación encontrare un espacio recibir esas cosas y muchas más.
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.imgur.com/DpQSDWJ.jpeg
+
+    # Contact Information
+    email: john.ocamposabg@gmail.com #optional
+    phone: 097 269 832 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/john-ocampos/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: johnocamposabg
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Literatura
+
+      - item: Videojuegos
+
+      - item: Cocina
+
+# Your previous education
+education:
+    - degree: Abogacía
+      university: Universidad de la República
+      # optional
+      university_logo: https://www.fder.edu.uy/sites/default/files/2025-02/logo-fder-000000-2164px.png
+      time: 2018 - 2023
+      details: |
+        Educación sobre los fundamentos del derecho en sus múltiples ramas para el correcto ejercicio del Derecho no solo en su parte teórica sino en la moral y profesional.
+
+          - Profesionalismo
+          - Responsabilidad
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Asesor Legal
+      time: 2023 - Present
+      company: Estudio Juridico ECE
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Asesoramiento legal en la resolución de los problemas financieros de los clientes y sus acreedores.
+
+          - Mediación y conciliación
+          - Multitasking
+
+    - role: Abogado
+      time: 2023 - Present
+      company: Autonomo
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Asistencia y representación legal en multiples areas como familia, penal, laboral, etc.
+
+          - Análisis 
+          - Profesionalidad         
+
+# Your project portfolio
+projects:
+    intro: >
+      Estos son los proyectos que he concluido recientemente en distintas temáticas
+
+    assignments:
+      - title: Forms
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/john-form-html"
+        tagline: "Creación de un formulario basico de para pagos web"
+
+      - title: Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/johndev-feed-Bootstrap"
+        tagline: "Uso de Bootstrap para conseguir una web responsiva con layouts determinados por el uso de Column and Row"
+
+      - title: HTML y CSS
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/johncamposabg-instagram_feed"
+        tagline: "Uso de varios elementos de HTML y CSS en conjunto para construir un layout funcional"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 30%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
