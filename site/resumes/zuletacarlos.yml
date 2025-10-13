@@ -1,0 +1,109 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carlos
+    Last_name: Zuleta
+    
+    # Define yourself in 4-5 words
+    motto: Desarrollador en formacion
+    
+    # Focus
+    focus: Aprender
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     Me considero una persona curiosa y perseverante. Disfruto entender como 
+     funcionan las cosas y convertir ideas en soluciones. Mi meta es seguir
+     aprendiendo cada dia y usar la tecnologia para mejorar la vida de las 
+     personas
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: carlosluiszuleta@yahoo.es #optional
+    phone: +1 (470) 652-67-26 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Zuletacarlos
+  
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Espanol
+        level: Native
+
+      - idiom: English
+        level: Fluid
+
+    # Interests or hobbies
+    interests:
+      - item: Sports
+
+      - item: Gaming
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Lic. Contaduria Publica
+      university: Universidad Dr. Jose G. Hernandez
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2004 - 2009
+      details: |
+        Contador especializado en análisis financiero, control fiscal y optimización de recursos.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Contador Independiente
+      time: 2009 - Present
+      company: Independent
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Profesional independiente en contaduría pública, especializado en la organización contable, planificación tributaria y control financiero de negocios. Ayudo a emprendedores y empresas a mantener sus finanzas en orden, cumplir con sus obligaciones fiscales y mejorar su rentabilidad mediante reportes claros y decisiones basadas en datos.
+          - Bullet point
+          - Bullet point
+
+    
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Instagram feed con HTML5
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/zuletacarlos/Feed-simple-de-fotos-de-Instagram-con-HTML-CSS"#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+skills:
+    toolset:
+
+      - name: JavaScript & jQuery
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 60%
