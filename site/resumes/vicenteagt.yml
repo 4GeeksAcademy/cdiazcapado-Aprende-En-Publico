@@ -1,0 +1,143 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Vicente
+    last_name: Tovar
+    
+    # Define yourself in 4-5 words
+    motto: I'm a passionate professional, constantly learning about a diverse array of subjects.
+    
+    # Focus
+    focus: Fail fast, learn faster.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I'm an enthusiastic and passionate young Mexican. I have a great love for learning new things and expressing my creativity. My formal education is in teaching, but my true passion has always been for coding and all things geek.
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.ibb.co/LDD9kXmB/imagen-profile.jpg
+
+    # Contact Information
+    email: vicen_tee@hotmail.com #optional
+    phone: +52 4433492815 #optional
+    website: none #optional
+    linkedin: Vicente Aguilar Tovar #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: vicenteagt
+    
+    twitter: 'none' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      
+
+
+    # Interests or hobbies
+    interests:
+      - item: Coding
+
+      - item: Reading books
+
+      - item: Gym workout
+
+# Your previous education
+education:
+    - degree: Education Professional
+      university: Universidad Pedagógica Nacional 
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Logo_Upn_Oficial.svg/1200px-Logo_Upn_Oficial.svg.png
+      time: 2018 - 2022
+      details: |
+        I completed my university studies as a Pedagogist, a role 
+        considered to be that of an education professional. I developed 
+        strong skills in analyzing educational phenomena and social contexts. 
+        I am capable of creating educational plans for any academic level
+
+          
+
+    
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Marketing and Sales Agent
+      time: 2022 - 2024
+      company: PaquerosMX, México
+      # optional
+      company_logo: https://i.ibb.co/ycbKqRT4/images.jpg
+      details: |
+        I was responsible for managing all client interaction through 
+        social media. My role involved closing sales for the company's 
+        products remotely via live chat, while also handling customer 
+        service and content management across our social media platforms.
+
+          
+
+    
+
+    
+
+# Your project portfolio
+projects:
+    intro: >
+      I am a web developer in training. I have developed several 
+      small-scale projects, both personal and academic. Below is a 
+      list of some of them:
+
+    assignments:
+      - title: Instagram Photo Feed 
+        # optional
+        project_logo: https://i.ibb.co/YBGfGkhk/Gemini-Generated-Image-nyvcmnyvcmnyvcmn.jpg
+        link: "https://github.com/4GeeksAcademy/vicenteagt-bootstrap-Instagram-Photo-Feed-pt-63"
+        tagline: "A responsive Instagram like photo feed, developed with Bootstrap, HTML, and CSS."
+
+      - title: HTML Form
+        # optional
+        project_logo: https://i.ibb.co/YBGfGkhk/Gemini-Generated-Image-nyvcmnyvcmnyvcmn.jpg
+        link: "https://github.com/4GeeksAcademy/vicenteagt-form-html-pt-63"
+        tagline: "A responsive HTML form built with Bootstrap and CSS."
+
+      - title: Yellow flowers latam tradition 
+        # optional
+        project_logo: https://i.ibb.co/YBGfGkhk/Gemini-Generated-Image-nyvcmnyvcmnyvcmn.jpg
+        link: "https://github.com/VicenteAGT/Flores-21-Septiembre"
+        tagline: "In Latin America, there is a tradition of giving yellow flowers on September 21st. With the help of AI, I developed a website featuring yellow flowers and the lyrics of an iconic song for that date."
+
+      
+
+skills:
+    toolset:
+      - name: HTML
+        level: 70%
+
+      - name: CSS
+        level: 70%
+
+      - name: Bootstrap
+        level: 70%
+
+      - name: Linux Shell
+        level: 50%
+
+      - name: Git & Github
+        level: 50%
+
+      - name: JavaScript
+        level: 30%
