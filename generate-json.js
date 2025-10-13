@@ -1,93 +1,73 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs").promises;
+const path = require("path");
 const jsyaml = require("js-yaml");
-// const fm = require('front-matter');
 
+// Recursively get all files in a directory
+async function walk(dir) {
+  let results = [];
+  const list = await fs.readdir(dir, { withFileTypes: true });
 
-// open a directory and find all the files inside (recursively)
-const walk = function(dir, done) {
-  var results = [];
-  fs.readdir(dir, function(err, list) {
-    if (err) return done(err);
-    var pending = list.length;
-    if (!pending) return done(null, results);
-    list.forEach(function(file) {
-      file = path.resolve(dir, file);
-      fs.stat(file, function(err, stat) {
-        if (stat && stat.isDirectory()) {
-          walk(file, function(err, res) {
-            results = results.concat(res);
-            if (!--pending) done(null, results);
-          });
-        } else {
-          results.push(file);
-          if (!--pending) done(null, results);
-        }
-      });
-    });
-  });
-};
-
-
-const buildResumesData = (resumes) => resumes
-  .map(resumeYmlContent => {
-    const { fileName, yaml } = loadYML(resumeYmlContent);
-    return {
-        ...yaml
-    };
-});
-
-const createContentJSON =(content, fileName) => {
-    const outputPath = "site/static/"
-    if (!fs.existsSync(outputPath)) fs.mkdirSync(outputPath);
-    else console.error("Output path does not exist, creating it: ", outputPath)
-
-    fs.writeFileSync(outputPath+fileName+".json", JSON.stringify(content));
-};
-
-walk('site/resumes/', function(err, results) {
-    if (err){
-        console.log("Error scanning resume (yml) files");
-        process.exit(1);
-    } 
-    
-    try{
-      // "bildResumeData" will open the resume yml and convert it to an object
-      const resumes = buildResumesData(results);
-      // console.log(resumes)
-
-        
-        createContentJSON(resumes, "resumes");
-        // console.log("The /public/static/api/lessons.json file was created!");
-        process.exit(0);
+  for (const file of list) {
+    const filePath = path.join(dir, file.name);
+    if (file.isDirectory()) {
+      const res = await walk(filePath);
+      results = results.concat(res);
+    } else {
+      results.push(filePath);
     }
-    catch(error){
-        console.log(error);
-        process.exit(1);
-    }
-});
+  }
 
+  return results;
+}
 
-const loadYML = (pathToFile) => {
-  const content = fs.readFileSync(pathToFile, "utf8");
+// Load YAML file and return { fileName, yaml } or null on error
+async function loadYML(filePath) {
   try {
+    const content = await fs.readFile(filePath, "utf8");
     const yaml = jsyaml.load(content);
 
-    // get the file name from the path
-    const fileName = pathToFile
-      .replace(/^.*[\\\/]/, "")
-      .split(".")
-      .slice(0, -1)
-      .join(".")
-      .toLowerCase();
-    
-    //if the yml parsing succeeded
-    if (typeof yaml == "undefined" || !yaml)
-      throw new Error(`The file ${fileName}.yml was impossible to parse`.red);
-    
+    if (!yaml) {
+      console.error(`YAML parsing failed for file: ${filePath}`);
+      return null;
+    }
+
+    const fileName = path.basename(filePath, path.extname(filePath)).toLowerCase();
     return { fileName, yaml };
   } catch (error) {
-    console.error(error);
+    console.error(`Error loading YAML file "${filePath}":`, error.message);
     return null;
   }
-};
+}
+
+// Convert all YAML files to JS objects
+async function buildResumesData(filePaths) {
+  const results = await Promise.all(filePaths.map(loadYML));
+  // Filter out failed parses
+  return results.filter(r => r !== null).map(({ yaml }) => ({ ...yaml }));
+}
+
+// Write JSON to file
+async function createContentJSON(content, fileName) {
+  const outputPath = path.join("site", "static");
+  try {
+    await fs.mkdir(outputPath, { recursive: true });
+    const filePath = path.join(outputPath, `${fileName}.json`);
+    await fs.writeFile(filePath, JSON.stringify(content, null, 2));
+    console.log(`Created JSON file: ${filePath}`);
+  } catch (error) {
+    console.error("Error writing JSON file:", error.message);
+  }
+}
+
+// Main function
+(async () => {
+  try {
+    const yamlFiles = await walk("site/resumes/");
+    const resumes = await buildResumesData(yamlFiles);
+    await createContentJSON(resumes, "resumes");
+    console.log("All resumes processed successfully.");
+  } catch (error) {
+    console.error("Error processing resumes:", error.message);
+    process.exit(1);
+  }
+})();
