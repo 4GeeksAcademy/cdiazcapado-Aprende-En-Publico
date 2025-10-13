@@ -10,19 +10,17 @@ basic_info:
 
     # Your full name
     first_name: Vicente
-    last_name: Aguilar
+    last_name: Tovar
     
     # Define yourself in 4-5 words
-    motto: Soy una persona apasionada y multifacética
+    motto: I'm a passionate professional, constantly learning about a diverse array of subjects.
     
     # Focus
-    focus: Aprender rápido de los errores 
+    focus: Fail fast, learn faster.
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Soy un joven mexicano entusiasta y apasionado. Me gusta mucho aprender nuevas cosas
-      y explotar mi creatividad. Mi grado educativo formal es como profesional en educación,
-      pero mi pasión siempre ha sido por la codificación y temas geeks. 
+      I'm an enthusiastic and passionate young Mexican. I have a great love for learning new things and expressing my creativity. My formal education is in teaching, but my true passion has always been for coding and all things geek.
 
       
     
@@ -62,141 +60,84 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Education Professional
+      university: Universidad Pedagógica Nacional 
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Logo_Upn_Oficial.svg/1200px-Logo_Upn_Oficial.svg.png
+      time: 2018 - 2022
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        I completed my university studies as a Pedagogist, a role 
+        considered to be that of an education professional. I developed 
+        strong skills in analyzing educational phenomena and social contexts. 
+        I am capable of creating educational plans for any academic level
 
-          - Bullet point
-          - Bullet point
+          
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+    
 
 # Your previous job experiences or volunteer
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Marketing and Sales Agent
+      time: 2022 - 2024
+      company: PaquerosMX, México
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: https://i.ibb.co/ycbKqRT4/images.jpg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        I was responsible for managing all client interaction through 
+        social media. My role involved closing sales for the company's 
+        products remotely via live chat, while also handling customer 
+        service and content management across our social media platforms.
 
-          - Bullet point
-          - Bullet point
+          
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+    
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+    
 
 # Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      I am a web developer in training. I have developed several 
+      small-scale projects, both personal and academic. Below is a 
+      list of some of them:
 
     assignments:
-      - title: Velocity
+      - title: Instagram Photo Feed 
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        project_logo: https://i.ibb.co/YBGfGkhk/Gemini-Generated-Image-nyvcmnyvcmnyvcmn.jpg
+        link: "https://github.com/4GeeksAcademy/vicenteagt-bootstrap-Instagram-Photo-Feed-pt-63"
+        tagline: "A responsive Instagram like photo feed, developed with Bootstrap, HTML, and CSS."
 
-      - title: DevStudio
+      - title: HTML Form
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        project_logo: https://i.ibb.co/YBGfGkhk/Gemini-Generated-Image-nyvcmnyvcmnyvcmn.jpg
+        link: "https://github.com/4GeeksAcademy/vicenteagt-form-html-pt-63"
+        tagline: "A responsive HTML form built with Bootstrap and CSS."
 
-      - title: Tempo
+      - title: Yellow flowers latam tradition 
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        project_logo: https://i.ibb.co/YBGfGkhk/Gemini-Generated-Image-nyvcmnyvcmnyvcmn.jpg
+        link: "https://github.com/VicenteAGT/Flores-21-Septiembre"
+        tagline: "In Latin America, there is a tradition of giving yellow flowers on September 21st. With the help of AI, I developed a website featuring yellow flowers and the lyrics of an iconic song for that date."
 
-      - title: Atom
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: HTML
+        level: 70%
 
-      - name: JavaScript & jQuery
-        level: 98%
+      - name: CSS
+        level: 70%
 
-      - name: Angular
-        level: 98%
+      - name: Bootstrap
+        level: 70%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Linux Shell
+        level: 50%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Git & Github
+        level: 50%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: JavaScript
+        level: 30%
