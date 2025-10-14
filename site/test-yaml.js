@@ -176,7 +176,8 @@ status(__dirname)
             (f) =>
                 f.path.indexOf(".yml") === -1 &&
                 f.path.indexOf("package.json") === -1 &&
-                f.path.indexOf("package-lock.json") === -1
+                f.path.indexOf("package-lock.json") === -1 &&
+                f.path.indexOf("resumes.json") === -1
         );
         //const nonYMLFiles = [];
         if (nonYMLFiles.length > 0) {
