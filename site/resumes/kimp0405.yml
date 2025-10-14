@@ -1,0 +1,96 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Kevin Israel
+    last_name: Molina Peña
+    
+    # Define yourself in 4-5 words
+    motto: Siempre podemos dar más
+    
+    # Focus
+    focus: Desarrollador Full Stack
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Profesional Junior con muchas ganas de crecer en el mundo tecnológico.
+
+    # Your profile picture URL
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: kevin.isrrael.molina@gmail.com
+    phone: +56922284007
+    linkedin: https://www.linkedin.com/in/kevin-molina-582a87143/
+    
+    # ******** IMPORTANT *******
+    github: kimp0405
+    
+    twitter: '' # optional
+    stack-overflow: '' # optional
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Escalada
+      - item: Snowboarding
+      - item: Cocina
+
+# Your previous education
+education:
+    - degree: Arquitecto
+      university: Universidad Central de Venezuela
+      time: 2017 - 2022
+      details: |
+        Carrera universitaria en arquitectura, que me ha permitido desarrollar habilidades analíticas y creativas.
+    
+# Your previous job experiences or volunteer
+experiences:
+    - role: '' # No se ha incluido experiencia laboral aún.
+      time: ''
+      company: ''
+      details: ''
+
+# Your project portfolio
+projects:
+    intro: >
+      No se han incluido proyectos aún.
+
+    assignments:
+      - title: '' # No se han incluido proyectos aún.
+        link: "#"
+        tagline: ""
+
+skills:
+    toolset:
+      - name: JavaScript
+        level: 70%
+
+      - name: Python
+        level: 70%
+
+      - name: Git
+        level: 70%
+
+      - name: React
+        level: 70%
+
+      - name: HTML5
+        level: 70%
