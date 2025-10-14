@@ -1,0 +1,20 @@
+template: "online-cv"
+skin: "berry" 
+# Personal Information
+basic_info:
+  Name : Utku
+  Surname : Seyithanoglu
+  motto : Curious, Ambitious, Persistent, Friendly
+  focus: Learning
+
+  summary: I am a curious and hard-working learner. I graduated from Doğuş University in Management Information Systems.I did an internship at SB Bilişim. I want to finish my education well and work in this field.
+  email: utkuseyithanoglu@hotmail.com
+  phone: 8633717901
+  linkedin: https://www.linkedin.com/in/utku-seyithano%C4%9Flu-b3ba47354/
+  github: utkuseyithanoglu
+  languages:
+      - idiom: English
+        level: intermediate
+
+      - idiom: turkish
+        level: Native
