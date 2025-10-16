@@ -1,0 +1,131 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alejandro
+    last_name: Martín
+    
+    # Define yourself in 4-5 words
+    motto: I like to build awesome stuff. My superpower is to learn fast.
+    
+    # Focus
+    focus: Web Development.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Driven by curiosity and a passion for creating impactful digital experiences, I have cultivated my skills as a versatile web developer through continuous learning and hands-on projects. My journey blends creative thinking, technical expertise, and agile collaboration, allowing me to tackle challenges across both front-end and back-end development, adapt quickly to new technologies, and deliver practical solutions that enrich user interaction and meet modern business needs.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: site\src\static\profilepic.png
+
+    # Contact Information
+    email: alexmartintv@gmail.com #optional
+    phone: 601 35 61 07 #optional
+    website:  #optional
+    linkedin: alexmartintv #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Asiiz127
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Sports
+
+      - item: Traveling
+
+      - item: Art & Design
+
+# Your previous education
+education:
+    - degree: Web Development Course
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2025 - 2026
+      details: |
+        In my journey through the web development bootcamp at 4Geeks Academy, I immersed myself in both theoretical foundations and practical application, dedicating extensive hours to mastering the essential technologies that drive modern web solutions. Throughout the program, I explored topics such as responsive design, client-server communication, algorithms, and frameworks, consistently applying my knowledge to real-world projects that simulated professional scenarios. This hands-on experience helped me build a strong portfolio, hone my problem-solving skills, and collaborate effectively with peers. By the end of the bootcamp, I reached a solid understanding of how to create impactful, scalable websites and web applications, prepared to tackle diverse challenges in the tech industry.
+
+# Your previous job experiences or volunteer
+experiences:
+role: Chef
+time: 2023 - Present
+company: La Mafia se sienta a la mesa, Toledo
+company_logo: 
+details: As the chef at "La Mafia se sienta a la mesa," I have been responsible for designing and perfecting a refined menu inspired by traditional Italian cuisine, blending classic recipes with innovative techniques to create memorable culinary experiences. My daily role involves managing kitchen operations, ensuring high standards of quality and consistency, and leading a dynamic culinary team through every service. I prioritize the use of fresh, authentic ingredients and foster a collaborative, creative atmosphere that brings out the best in every dish we serve. Under my direction, the restaurant has earned a reputation for outstanding flavors and exceptional dining, making every guest feel like part of the famiglia.
+
+# Your project portfolio
+projects:
+    intro: >
+      Here are some of the projects I have worked on during my web development journey. These projects showcase my skills in front-end and back-end development, as well as my ability to create responsive and user-friendly web applications.
+    
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
