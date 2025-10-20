@@ -1,0 +1,127 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Yahya
+  last_name: Lyazghi Lahssika
+  motto: Siempre mejorando y creando soluciones inteligentes
+  focus: Desarrollo web y optimización Front-end
+  summary: >
+    Programador web y multiplataforma con experiencia en desarrollo
+    Front-End, 
+
+    optimización de interfaces y mejora de aplicaciones web con HTML, CSS y JavaScript. 
+
+    Hábil para resolver problemas e implementar nuevas funcionalidades adaptadas 
+
+    a las necesidades del cliente, con un enfoque constante en la mejora continua 
+
+    y la entrega de resultados de calidad.
+
+
+    Con experiencia en entornos colaborativos y dominio de herramientas como React, 
+
+    Angular, Node.js y WordPress, me apasiona el aprendizaje constante y la creación 
+
+    de soluciones funcionales que combinen rendimiento, diseño y experiencia de usuario.
+  avatar: https://media.licdn.com/dms/image/v2/D4E03AQG8KZ5BbtsKNA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1700000000000?e=2147483647&v=beta&t=XXXXXXXXX
+  email: yahyita123@gmail.com
+  phone: 631638197
+  website: https://www.linkedin.com/in/yahya-lyazghi-lahssika/
+  linkedin: yahya-lyazghi-lahssika
+  github: yahyayatusabe
+  languages:
+    - idiom: Árabe
+      level: Nativo o bilingüe
+    - idiom: Español
+      level: Nativo o bilingüe
+    - idiom: Inglés
+      level: Fluido
+    - idiom: Catalán
+      level: Intermedio
+  interests:
+    - item: Tecnología
+    - item: Diseño web
+    - item: Videojuegos
+    - item: Ciberseguridad
+education:
+  - degree: Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)
+    university: TAME Mislata
+    time: 2023 - 2024
+    details: >
+      Formación orientada al desarrollo de software multiplataforma, con
+      especialización 
+
+      en Java, Android, bases de datos y aplicaciones híbridas.
+  - degree: Grado Superior en Desarrollo de Aplicaciones Web (DAW)
+    university: CIP FP Ausiàs March
+    time: 2020 - 2022
+    details: >
+      Especialización en desarrollo web front-end y back-end, trabajando con
+      tecnologías 
+
+      como HTML, CSS, JavaScript, PHP y MySQL.
+  - degree: Bachillerato Científico
+    university: I.E.S.
+    time: 2018 - 2020
+  - degree: Educación Secundaria Obligatoria
+    university: I.E.S. Ravatxol
+    time: 2013 - 2018
+experiences:
+  - role: Programador
+    company: Laberit
+    time: Noviembre 2023 - Junio 2024
+    details: >
+      Mejora y optimización del Front-End de una aplicación web mediante
+      HTML, CSS y JavaScript. 
+
+      Trabajo colaborativo con diseñadores y desarrolladores para crear interfaces intuitivas 
+
+      y alineadas con los requisitos del cliente. Realización de pruebas, depuración y 
+
+      documentación de nuevas funcionalidades basadas en el feedback del usuario.
+        - Implementación de nuevas funcionalidades y optimización visual.
+        - Participación en reuniones de planificación y diseño UX/UI.
+  - role: Programador
+    company: Biofutur Truck S.L.
+    time: Febrero 2023 - Abril 2024
+    details: >
+      Diseño y desarrollo del sitio web corporativo de la empresa utilizando
+      WordPress. 
+
+      Encargado de la gestión del Front-End, control de formularios de comunicación 
+
+      y creación de elementos dinámicos para mejorar la interacción del usuario.
+        - Creación de estructura visual moderna y responsive.
+        - Integración de formularios y contenidos dinámicos.
+projects:
+  intro: >
+    Algunos de los proyectos más destacados desarrollados durante mi
+    trayectoria profesional.
+  assignments:
+    - title: Sitio web Biofutur Truck S.L.
+      link: https://biofutur.net/
+      tagline: Diseño y desarrollo del sitio web corporativo de Biofutur Truck S.L.
+        utilizando WordPress y elementos dinámicos en el Front-End.
+skills:
+  toolset:
+    - name: HTML5 & CSS3
+      level: 95%
+    - name: JavaScript (ES6+)
+      level: 90%
+    - name: React & Angular
+      level: 85%
+    - name: Node.js
+      level: 80%
+    - name: MySQL & Firebase
+      level: 85%
+    - name: WordPress
+      level: 90%
+    - name: Git & GitHub
+      level: 85%
+    - name: Postman (Testing de APIs)
+      level: 75%
+    - name: AWS (Básico)
+      level: 60%
+    - name: Office (Word, Excel)
+      level: 85%
