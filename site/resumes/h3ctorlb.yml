@@ -1,0 +1,125 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: Hector
+  last_name: Legorreta
+  motto: "diseño con IA y humanidad"
+  focus: "Ingeniería en IA aplicada a experiencias"
+  summary: |
+    Estudiante de Ingeniería en Inteligencia Artificial y creador de contenido enfocado en libros, estética personal y reflexión. 
+    En proceso de transición profesional, combinando lo técnico con lo humano: desarrollo web, gestión operativa y recursos humanos. 
+    Mi enfoque se centra en aprender a diseñar experiencias y herramientas impulsadas por IA que aporten claridad, bienestar y belleza a la vida cotidiana.
+  avatar: ""
+  email: "hola@hectorlb.com"
+  phone: ""
+  website: ""
+  linkedin: "www.linkedin.com/in/h3ctor-legorreta"
+  github: "h3ctorlb"
+  twitter: "https://x.com/lb_h3ctor"
+  stack-overflow: ""
+
+  languages:
+    - idiom: Español
+      level: Native
+    - idiom: Inglés
+      level: Intermediate
+
+  interests:
+    - item: Fotografía y literatura
+    - item: UX y diseño de experiencias
+    - item: Inteligencia artificial aplicada
+    - item: Entrenamiento y nutrición funcional
+
+education:
+  - degree: Ingeniería en Inteligencia Artificial
+    university: HYBRIDGE
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2025 - Actualidad
+    details: |
+      Formación orientada a los fundamentos de IA, programación y diseño de experiencias centradas en el usuario. 
+        - Desarrollo de proyectos prácticos en HTML, CSS, JavaScript y Vite.
+        - Aplicación de modelos de interacción humano-computadora.
+
+  - degree: Especialización en Data Science
+    university: Oracle
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2025 - 2026
+    details: |
+      Especialización enfocada en análisis de datos, aprendizaje automático y estadística aplicada.
+        - Uso de Python, SQL y herramientas de visualización.
+        - Integración de procesos de toma de decisiones con datos.
+
+  - degree: Bootcamp Full-Stack Software Developer
+    university: 4Geeks Academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2025 - 2026
+    details: |
+      Desarrollo de aplicaciones web completas con enfoque en buenas prácticas de código, UI y lógica funcional.
+        - Proyectos con HTML, CSS, JavaScript, Bootstrap y GitHub.
+        - Aplicación práctica de estructuras condicionales y APIs.
+
+experiences:
+  - role: Creador de contenido visual y literario
+    time: 2023 - Actualidad
+    company: Instagram (@h3ctorlb)
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Desarrollo de contenido estético y reflexivo centrado en literatura, bienestar y diseño narrativo. 
+        - Construcción de una narrativa visual coherente y emocional. 
+        - Experimentación con formatos de texto e imagen para promover lectura y autoconocimiento.
+
+  - role: Gestión de inventario y RRHH
+    time: 2024 - Actualidad
+    company: Comercializadora AA
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Administración de inventario, recursos humanos y procesos operativos. 
+        - Diseño de un sistema de control escalable para insumos y producción. 
+        - Implementación de control de asistencia mediante QR y Google Sheets.
+
+  - role: Proyectos académicos de IA y desarrollo web
+    time: 2025 - Actualidad
+    company: HYBRIDGE / 4Geeks Academy
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Creación de proyectos prácticos en programación y diseño funcional con enfoque en aprendizaje automático y UX.
+        - Implementación de herramientas de automatización y prototipos de interfaz.
+        - Integración entre lógica, diseño y bienestar del usuario.
+
+projects:
+  intro: >
+    Selección de proyectos que reflejan la integración entre tecnología, diseño y expresión personal.
+  assignments:
+    - title: Generador de Excusas (JavaScript)
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "Aplicación web minimalista que genera excusas aleatorias con estilo tipográfico editorial."
+
+    - title: Control de Asistencia - Escáner QR
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "Sistema de registro de entradas y salidas mediante códigos QR conectado a Google Sheets."
+
+    - title: Composiciones visuales de libros (Instagram)
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "https://instagram.com/h3ctorlb"
+      tagline: "Serie fotográfica con atmósfera cálida y textualidad emocional inspirada en literatura contemporánea."
+
+    - title: UI Estilo Instagram (HTML, CSS y Bootstrap)
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "Proyecto de replicación de interfaz visual con componentes responsivos y estilo moderno."
+
+skills:
+  toolset:
+    - name: JavaScript
+      level: 60%
+    - name: HTML5 & CSS3
+      level: 60%
+    - name: Bootstrap
+      level: 60%
+    - name: Git & GitHub
+      level: 60%
+    - name: UX Basics
+      level: 70%
