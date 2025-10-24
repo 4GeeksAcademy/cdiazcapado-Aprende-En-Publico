@@ -63,12 +63,17 @@ Every location has a full hands on team with -almost- full independence:
 
 ## Alumni
 
-- As of 2022 we have graduated ~3100 students, 84% of them get a job or pay increase after the bootcamp.
+- As of 2022 we have graduated ~3100~ students, 84% of them get a job or pay increase after the bootcamp.
 - We have graduates that have been hired by Microsoft, Github, Ebay, Facebook and many other Forbes 500 companies.
 - You can read more about our graduates in our [outcomes](https://4geeksacademy.com/us/outcomes) and [testimonials](https://4geeksacademy.com/us/testimonials).
 - You can [see the projects they have built during the program here](https://4geeksacademy.com/us/students-and-projects).
 
 ## Running this project
+### Estoy tratando de editar con Markdown
+
+Estoy añadiendo un texto en **negrita** y uno en _"italic"_
+
+`console.log("Esto es un log)`
 
 There are two ways you can run the website, pick one:
 
@@ -76,4 +81,4 @@ A) If you have python:
 
 ```py
 $ npm run build
-```
+
