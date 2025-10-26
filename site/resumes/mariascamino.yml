@@ -1,0 +1,124 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Maria
+    last_name: Camino
+    
+    # Define yourself in 4-5 words
+    motto: Strategy, culture & transformation.
+    
+    # Focus
+    focus: Helping organizations evolve with clarity and purpose
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Co-founder of SALSA Growth Partners, a strategy and transformation firm that helps organizations evolve through purpose, culture, and design. 
+      Over the past decade I’ve led large-scale transformation programs in healthcare and transportation—turning complex business challenges into clear, actionable strategies. 
+      My approach blends research, systems thinking, and storytelling to create growth that feels both human and scalable.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4E03AQFRR9Fva9fY5w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731380629568?e=1762992000&v=beta&t=o6rqYVUwPWiEr6qyeqBUg70o8IXesd54JlO3EqDua-o
+
+    # Contact Information
+    email: maria@salsagrowht.la #optional
+    phone: XXX XXX XXXX #optional
+    website: www.salsapartners.la #optional
+    linkedin: https://www.linkedin.com/in/maria-camino-80688464/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: mariascamino
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Winetasting
+
+      - item: Art & design
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: B.S. in Engineering – Architectural Design
+      university: Stanford University
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/b/b5/Seal_of_Leland_Stanford_Junior_University.svg
+      time: 2008 - 2012
+      details: |
+                Focused on human-centered design, systems thinking, and innovation strategy.  Combined architecture, engineering, and business to understand how design can drive transformation at scale. Graduated with strong foundations in analytical reasoning and creative problem-solving.
+                - Integrated design and business frameworks to create sustainable, people-centered solutions
+                - Conducted multidisciplinary projects applying design thinking to real-world challenges in health, education, and urban systems.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Co-Founder
+      time: 2023 - Present
+      company: SALSA Growth Partners
+      # optional
+      company_logo: https://salsagrowth.la/wp-content/themes/salsagrowth-theme/assets/images/SALSA-logo-black.svg
+      details: |
+        Lead transformation programs for major healthcare and transportation companies.  
+          - Defined corporate purpose, cultural pillars, and leadership frameworks for main insurance company in Peru.  
+          - Designed clinical laboratory 2026 digital ecosystem: website, app, loyalty model, and AI assistant.  
+          - Built transformation blueprint for transformation company focused on service, community, and sustainability.
+
+    
+# Your project portfolio
+projects:
+    intro: >
+      Selected transformation and innovation projects.
+
+    assignments:
+      - title: Pacifico Salud "Sunqu"
+        # optional
+        tagline: "Cultural transformation program defining purpose, values, and leadership behaviors."
+
+      - title: ROE Laboratorio 2026 Ecosystem
+        # optional
+        tagline: "Omnichannel strategy connecting patients, doctors, and data through digital services."
+
+      - title: Tren Local - PeruRail 
+        # optional
+        tagline: "Experience, safety, and community blueprint for the local train service to Machu Picchu."
+
+      
+skills:
+    toolset:
+    
+      - name: Strategy Design 
+        level: 100%
+
+      - name: JavaScript
+        level: 80&
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Sketch & Photoshop
+        level: 60%
