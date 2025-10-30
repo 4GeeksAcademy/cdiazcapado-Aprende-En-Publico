@@ -50,19 +50,19 @@ basic_info:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: Portuguese
+        level: Beginner
 
       - idiom: Spanish
         level: Professional
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Cars
 
-      - item: Snowboarding
+      - item: Games
 
-      - item: Cooking
+      - item: Anime
 
 # Your previous education
 education:
@@ -85,7 +85,7 @@ education:
       university: Bristol University
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      time: 2025 - 2026
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -118,7 +118,7 @@ experiences:
           - Bullet point
 
     - role: Senior Software Engineer
-      time: 2014 - 2015
+      time: 2018 - 2020
       company: Google, London
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
