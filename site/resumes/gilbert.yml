@@ -1,0 +1,32 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  name: Gilbert Afari
+  github: gilbert
+  email: gilbertafari5@gmail.com
+  phone: "602011673"
+  location: Vic, Barcelona
+  description: Estudiante entusiasta con ganas de crecer en informática.
+
+experiences:
+  - role: Empleado
+    company: McDonald's Vic
+    time: "2024 - 2025"
+    description: Atención al cliente y trabajo en equipo.
+  - role: Empleado
+    company: Casa Tarradellas
+    time: "2025"
+    description: Producción y tareas en línea de montaje.
+  - role: Empleado
+    company: Supeco Vic
+    time: "2025"
+    description: Atención al cliente y reposición de productos.
+
+skills:
+  - name: HTML
+    level: "80%"
+  - name: CSS
+    level: "70%"
+  - name: JavaScript
+    level: "60%"
