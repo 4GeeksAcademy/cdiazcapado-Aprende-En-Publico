@@ -48,20 +48,14 @@ education:
     - degree: FullStack Web Developer
       university: 4Geeks Academy
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2019 - 2019
+      time: 20125 - present
       details:
-          -Real “Senior” Mentoring
-          All of our staff has 10+ years coding and holds senior possitions in Miami's tech industry.
-          -Top-notch Technology Stack
-          The world of Coding grows and changes EVERY DAY. Learn the newest and most demanded languages and frameworks in the current market. Your potential employers will LOVE IT.
-          -Really Part-time
-          It is not about teaching on after-hours, it requires much more! This program is meant for employed professionals. We have designed the perfect method for both flexible and blended learning in an “after-hours” setting.
-
+        -university student starting to code .
 # Your previous job experiences or voluntier
 experiences:
     - role: Lead Developer
       time: 2015 - Present
-      company: Startup Hubs, San Francisco
+      company: None
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
