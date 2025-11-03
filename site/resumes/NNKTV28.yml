@@ -1,0 +1,149 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Nikita
+  last_name: Molina Arévalo
+  motto: Committed to ongoing development
+  focus: Web & Multiplatform Development
+  summary: |
+    Higher Technician in Web Application Development and Higher
+    Technician in Multiplatform Application Development with
+    experience in module design, application creation based on
+    database systems, and problem resolution. Specialized in
+    Python, JavaScript, and frameworks such as React and Odoo
+    Framework.
+
+    Committed to ongoing development and adept at solving
+    technical issues, team collaboration, and delivering efficient
+    solutions in the field of programming.
+  avatar: https://avatars.githubusercontent.com/u/73384770?v=4
+  email: nikitamolina03@gmail.com
+  phone: 675998250
+  website: null
+  linkedin: nikita-molina-arévalo
+  github: NNKTV28
+  twitter: null
+  stack-overflow: nnktv28
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Professional
+    - idiom: German
+      level: Professional
+    - idiom: Russian
+      level: Basic
+  interests:
+    - item: Programming
+    - item: Technology
+    - item: Problem Solving
+education:
+  - degree: Higher Technician in Multiplatform Application Development
+    university: Atlantida Training Center (CICEP)
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2024 - 2025
+    details: |
+      Advanced training in multiplatform application development,
+      focusing on creating applications for multiple platforms and
+      systems integration.
+  - degree: Higher Technician in Web Application Development
+    university: Technological Institute of Granada
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2022 - 2024
+    details: |
+      Comprehensive training in web application development,
+      including frontend and backend technologies, databases,
+      and modern web frameworks.
+  - degree: Technical Baccalaureate
+    university: San Isidro High School (Granada)
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2019 - 2021
+    details: |
+      Technical education with focus on science and technology,
+      providing foundation for further studies in software development.
+experiences:
+  - role: Database Developer
+    time: January 2022 - Present
+    company: Money Consulting
+    company_logo: https://moneyconsulting.ch/wp-content/uploads/RZ_MConsulting_Logo.svg
+      Swiss company specializing in financial consulting and investments.
+
+      Responsible for database management and analytics solutions to
+
+      support investment decision-making processes.
+
+        - Created analytics dashboards for investment evaluation
+        - Designed and implemented database management solutions to ensure information reliability
+        - Optimized and refined systems, achieving a 30% improvement in data load speed
+  - role: Odoo Developer - Internship
+    time: March 2025 - July 2025
+    company: "Nanobytes: Odoo Gold Partner"
+    company_logo: https://nanobytes.es/web/image/website/9/logo/Nanobytes?unique=7d7e4c7
+    details: |
+      370-hour internship focused on Odoo development and customization
+      for business applications.
+
+        - Developed Odoo modules with Python and PostgreSQL
+        - Maintained custom modules using the Odoo Framework
+        - Conducted automation and code optimization with Git and Bash
+  - role: Odoo Developer - Internship
+    time: March 2024 - July 2024
+    company: "TREY Kilobytes de Soluciones: Odoo Experts"
+    company_logo: https://trey.es/web/image/website/1/logo/Trey%2C%20Kilobytes%20de%20Soluciones?unique=d7c56d2
+    details: |
+      370-hour internship focused on Odoo development and system optimization
+      for enterprise resource planning solutions.
+
+        - Developed Odoo modules with Python and PostgreSQL
+        - Maintained custom modules using the Odoo Framework
+        - Conducted automation and code optimization with Git and Bash
+projects:
+  intro: >
+    Projects developed during academic training and professional experience,
+    demonstrating skills in web development, database management, and enterprise
+    application customization.
+  assignments:
+    - title: Odoo Custom Modules
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: Custom Odoo modules developed with Python and PostgreSQL for business
+        process automation.
+    - title: Investment Analytics Dashboard
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: Analytics dashboards for financial consulting, enabling data-driven
+        investment evaluation.
+    - title: Database Optimization Systems
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: Database management solutions with 30% improvement in data load speed
+        and enhanced reliability.
+    - title: Web Development Projects
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: Various web applications developed using React, HTML5, CSS, and modern
+        JavaScript frameworks.
+    - title: Automation Scripts
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: Code automation and optimization scripts using Git and Bash for
+        improved development workflows.
+skills:
+  toolset:
+    - name: Python & Odoo Framework
+      level: 95%
+    - name: JavaScript & TypeScript
+      level: 90%
+    - name: React & NodeJS
+      level: 85%
+    - name: PostgreSQL & SQL
+      level: 90%
+    - name: HTML5 & CSS
+      level: 90%
+    - name: Git & Docker
+      level: 85%
+    - name: C, C++, C# & Rust
+      level: 75%
+    - name: MongoDB & Redis
+      level: 70%
