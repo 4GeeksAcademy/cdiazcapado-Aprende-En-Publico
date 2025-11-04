@@ -1,0 +1,115 @@
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Guillermo
+    last_name: Arévalo
+    
+    # Define yourself in 4-5 words
+    motto: I love walk my dog
+    
+    # Focus
+    focus: Mobile developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I originally trained and worked as an electrician, but over time I realized I wanted to pursue a more creative and intellectually stimulating career.
+      This led me to study a Higher National Degree in Multiplatform Application Development (DAM), where I discovered my true passion for programming.
+
+      Since then, I have continued to strengthen my skills in software development while working in logistics, and I am now actively preparing myself for my first professional opportunity as a programmer.
+      I am eager to keep learning and growing in this field, contributing with dedication and a hands-on mindset.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://ibb.co/fdW78Xv0
+
+    # Contact Information
+    email: guillermo3brx@gmail.com #optional
+    phone: +34 635 156 603 #optional
+    website:  #optional
+    linkedin: www.linkedin.com/in/gam33 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Guillermo3dam
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Videogames
+
+      - item: Walk my dog
+
+# Your previous education
+education:
+    - degree: Intermediate Vocational Training in Electricity and Electronics
+      university: IES La Sagra
+      time: 2014 - 2016
+      details: |
+        I was trained and certified as a low-voltage electrician, qualified to work in both residential and industrial installations.
+        This program provided me with a strong technical foundation, attention to detail, and problem-solving skills that continue to support my professional growth.
+
+    - degree: Higher National Diploma in Multiplatform Application Development (DAM)
+      university: IES Las Salinas
+      time: 2022 - 2024
+      details: |
+        I trained as a software developer and learned several programming languages such as Java, SQL, Kotlin, HTML, and CSS.
+        During this period, I developed my final project — a mobile application designed to track veterinary visits and manage all relevant information about pets, combining practicality and clean user experience.
+
+# Your previous job experiences or volunteer
+experiences:
+  - role: Electrician
+    time: 2017 - 2019
+    company: SPIN
+    details: |
+      Worked as an electrician in new construction projects and small commercial renovations.
+      Gained hands-on experience in electrical installations, maintenance, and troubleshooting, ensuring safe and efficient systems in both residential and business environments.
+
+  - role: Logistics Operator
+    time: 2024 - Present
+    company: Hermanos Recio
+    details: |
+      Currently working as a warehouse operator, handling heavy loads with mechanical equipment such as forklifts.
+      Responsible for organizing materials, optimizing storage processes, and maintaining workplace safety and efficiency.
+
+# Your project portfolio
+projects:
+  intro: >
+    My main personal project so far is a mobile application focused on pet care, which I continue to improve and refine with new ideas and features.
+    I’m also planning to develop other apps that combine practicality with creativity, expanding my experience as a developer.
+
+  assignments:
+    - title: BestFriend
+      link: "https://github.com/Guillermo3dam/TFG"
+      tagline: >
+        A mobile app that allows users to register their pets and set reminders for veterinary visits, vaccinations, and treatments.
+        It also includes helpful information such as healthy homemade recipes for dogs, designed to promote better pet care in a simple and user-friendly way.
+
+skills:
+  toolset:
+    - name: Kotlin
+      level: 95%
+
+    - name: Java
+      level: 85%  
+
+    - name: SQL
+      level: 80%
+
+    - name: HTML & CSS
+      level: 75%
