@@ -12,11 +12,11 @@ basic_info:
     motto: Me gusta aprender algo siempre que se pueda.
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Programar
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Estudiante de informática con ambición.
+      Estudiante de informática.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -25,8 +25,6 @@ basic_info:
     # Contact Information
     email: alex11ander01@gmail.com #optional
     phone: 601398988 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
     
     #
     # ******** IMPORTANT *******
@@ -38,20 +36,17 @@ basic_info:
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Gym
 
-      - item: Snowboarding
+      - item: Football
 
       - item: Cooking
 
@@ -184,14 +179,8 @@ skills:
       - name: JavaScript & jQuery
         level: 98%
 
-      - name: Angular
-        level: 98%
-
       - name: HTML5 & CSS
         level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
 
       - name: Sketch & Photoshop
         level: 60%
