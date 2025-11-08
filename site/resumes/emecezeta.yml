@@ -1,0 +1,107 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Mariana
+  last_name: Carrillo
+  motto: Curiosa, acuariana y marciana
+  focus: Ser cada día un poco mejor
+  summary:
+    Comunicadora audiovisual especializada en guiones y motion graphics,
+    entusiasta de la tecnología y de siempre aprender cosas nuevas.
+
+    he hecho cursos de diseño UX/UI, modelado 3D y filtros.
+
+    Actualmente me encuentro en un proceso de cambio laboral donde me permito explotar mi lado analítico, con el analisis de datos.
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: mariana.carrillo.zamorano@gmail.com
+  phone: 56982398015
+  website: https://www.behance.net/marciana
+  linkedin: https://www.linkedin.com/in/mariana-carrillo-zamorano/
+  github: emecezeta
+  twitter: null
+  stack-overflow: null
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Professional
+    - idiom: French
+      level: Beginner
+    - idiom: Italian
+      level: Beginner
+  interests:
+    - item: Travel
+    - item: Boardgames
+    - item: Animation
+education:
+  - degree: Comunicación audiovisual especializada en guiones para cine y televisión
+    university: UNIACC
+    university_logo: https://upload.wikimedia.org/wikipedia/commons/4/48/LOGO_UNIACC.png
+    time: 2014 - 2019
+  - degree: Diplomado en produccion ejecutiva audiovisual
+    university: Pontificia Universidad Católica de Chile
+    university_logo: https://upload.wikimedia.org/wikipedia/commons/8/84/Escudo_de_la_Pontificia_Universidad_Cat%C3%B3lica_de_Chile.svg
+    time: 2019 - 2020
+experiences:
+  - role: Diseñadora Multimedia
+    time: 2022 - 2022
+    company: Lisit
+    details: >
+      Me encargaba de plasmar en animaciones 2D, los guiones institucionales
+      de ciberseguridad interna. Animando mascotas de las empresas y
+      personajes.También graficas 2D y todo el proceso de postproducción hasta su versión final.
+
+  - role: Postproductora audiovisual
+    time: 2021 - 2022
+    company: Opendor
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >
+      Realicé Motion graphics, animación 2d para redes sociales, Youtube y
+      comerciales para televisión. 
+
+        - postproducción
+        - motion graphics
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: After effects & Premiere
+      level: 90%
+    - name: Blender
+      level: 75%
+    - name: HTML5 & CSS
+      level: 30%
+    - name: SQL
+      level: 30%
+    - name: Python
+      level: 30%
