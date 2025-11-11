@@ -9,14 +9,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Yolfrank
-    last_name: Abreu
+    first_name: Jhon
+    last_name: Doe
     
     # Define yourself in 4-5 words
-    motto: Me gusta programar
+    motto: I like saving the world
     
     # Focus
-    focus: Backend development
+    focus: Killing Bad Boys
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
