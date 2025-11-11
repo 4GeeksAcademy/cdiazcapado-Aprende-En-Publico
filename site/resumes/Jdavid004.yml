@@ -1,0 +1,92 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jese
+    last_name: Alegrias
+    # Define yourself in 4-5 words
+    motto: 
+    # Focus
+    focus: Data Science
+    #summarize your career
+    summary: |
+      In summarize, Actually I've only worked as a waiter and a plumber.
+    # Your profile picture URL
+    avatar: https://photos.app.goo.gl/yFaPvuitdGKetWos7
+
+    # Contact Information
+    email: jesedavidalegriasvelasco@gmail.com
+    phone: +34 634 100 255
+    website: 
+    linkedin:
+
+
+    # This github username
+    github: Jdavid004
+    twitter:
+    stack-overflow:
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Enslish
+        level: B1
+  
+
+    # Interests or hobbies
+    interests:
+      - item: Music
+
+      - item: Sports
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Basic Electrician
+      university: I.E Absalon Torres Camacho
+      # optional
+      university_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_nZS69Wpcg0a0IsqYnA7rXO__rQkAJcFZAA&s
+      time: 2022 - 2023
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Waiter
+      time: 2024-2025
+      company: Sirocco Restaurant
+      # optional
+      company_logo:
+      details: |
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 30%
