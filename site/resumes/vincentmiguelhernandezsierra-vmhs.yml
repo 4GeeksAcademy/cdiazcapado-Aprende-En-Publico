@@ -1,0 +1,50 @@
+basic_info:
+  first_name: "Vincent Miguel"
+  last_name: "Hernández Sierra"
+  headline: "Data Student | Python · Pandas · SQL (en aprendizaje)"
+  email: "vincent.miguel.hernandez.sierra@gmail.com"
+  location: "Monaghan, IE"
+  avatar_url: "https://avatars.githubusercontent.com/u/240306811?v=4"
+
+links:
+  github: "https://github.com/vincentmiguelhernandezsierra-vmhs"
+  linkedin: "https://www.linkedin.com/in/vincent-miguel-hernandez-sierra-0b7a11288"
+  portfolio: "https://github.com/vincentmiguelhernandezsierra-vmhs"
+
+education:
+  - degree: "Inteligencia Artificial Aplicada"
+    institution: "ENEB"
+    period: "2025"
+
+experience:
+  - role: "Data Student (Prework)"
+    company: "4Geeks Academy"
+    period: "2025–presente"
+    details:
+      - "Ejercicios de Python, NumPy, Pandas, Matplotlib y SQL."
+      - "Buenas prácticas con Git/GitHub y Pull Requests."
+  - role: "Marketing & Publicidad"
+    company: "-"
+    period: "Anterior"
+    details:
+      - "Apoyo en campañas, contenido y análisis básico."
+
+projects:
+  - name: "monthly-sales-analyzer"
+    url: "https://github.com/vincentmiguelhernandezsierra-vmhs/monthly-sales-analyzer-project"
+    summary: "KPIs de ventas, máximos/promedios y día pico."
+  - name: "python-beginner-exercises"
+    url: "https://github.com/vincentmiguelhernandezsierra-vmhs/python-beginner-programming-exercises"
+    summary: "Fundamentos: listas, bucles, funciones y diccionarios."
+
+skills:
+  - Python
+  - NumPy
+  - Pandas
+  - Matplotlib
+  - SQL
+  - Git/GitHub
+  - Marketing & Publicidad (background)
+
+template: "online-cv"
+skin: "blue"
