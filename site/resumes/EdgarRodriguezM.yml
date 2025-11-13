@@ -1,0 +1,34 @@
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Edgar
+  last_name: Rodriguez
+  motto: Aprender, servir y crecer.
+  focus: Data Science y Machine Learning
+  summary: >
+    Soy una persona analítica y orientada a resultados, apasionada por el
+    aprendizaje continuo y la aplicación de la ciencia de datos para resolver
+    problemas reales. 
+
+    Actualmente desarrollo mis habilidades en Data Science y Machine Learning en 4Geeks Academy, con el objetivo de convertirme en un profesional capaz de transformar datos en decisiones estratégicas.
+
+
+    Me motiva la búsqueda constante de conocimiento y la creación de soluciones basadas en datos que generen impacto y valor.
+  email: mases@live.com
+  linkedin: edgar-rodriguez8
+  github: EdgarRodriguezM
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Beginner
+  interests:
+    - item: Música
+    - item: Viajar
+education:
+  - degree: Ingenieria en software y redes
+    university: Universidad Tecnologica de México
+    time: 2019 - 2023
+  - degree: Master analitica e inteligencia de negocios
+    university: Universidad Tecnologica de México
+    time: 2024 - 2026
