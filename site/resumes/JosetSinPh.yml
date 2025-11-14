@@ -1,0 +1,162 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Joset
+    last_name: Santiago
+    
+    # Define yourself in 4-5 words
+    motto: Amigable, empatico, realista, creativo, consumista xD
+    
+    # Focus
+    focus: Cultivar hábitos para seguir aprendiendo constantemente.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Mi vida se ha resumido en estar dentro de una cocina creando y preparando platos para hacer sentir feliz a las personas que los prueban. Por ahora estoy buscando un cambio y quien sabe en un futuro pueda mezclar estas dos profesiones. Lo demas de este apartado ya ira viniendo. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: No tengo aun.
+
+    # Contact Information
+    email: josetsinph@gmail.com
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JosetSinPh
+    
+    twitter: 'JosetSinPh' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: videojuegos
+
+      - item: Cocinar
+
+      - item: Viajar
+
+# Your previous education
+education:
+    - degree: MSc in Computer Science
+      university: University of London
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Claims Adjuster
+      time: 2017 - Present
+      company: Assurant, Miami
+      details: |
+        Fast paced energetic environment and results driven while providing
+        exceptional customer service. Daily review of property damage claims
+        information from the Independent Adjusters, complete the investigation
+        process and resolve the claim. Exercise strong organizational abilities and
+        empathetic interpersonal skills to assist the clients.
+        Investigate and adjust claims according to applicable laws and
+        policy provisions.
+        Build and maintain effective internal and external working
+        relationships. Collaborate with internal support teams and
+        management as appropriate.
+        Collabrated with Puerto Rico field office in handling over
+        16,000 Hurricane Maria Claims.
+
+    - role: Assistant Manager
+      time: 2008 - 2017
+      company: McDonald's, Miami
+      details: |
+        Performed a variety of tasks such as planning monthly goals,
+        hire and retain quality employees, inventory management,
+        scheduling employees while adhering to Florida
+        workplace guidelines, training employees and
+        shift managers in food safety, customer service
+        and daily maintance and cleanliness
+        Food Safety Certification
+        Outstanding Assistant Manager 2015
+
+# Your project portfolio
+projects:
+    intro: >
+        Currently working in building an excuse generator with Bootstrap.
+
+    assignments:
+      - title: My Postcard
+        link: "#"
+        tagline: "My first coding project built an interactive Postcard with Html5 and Css."
+
+      - title: Instragram Feed
+        link: ""
+        tagline: "My second coding project further used my Css skills and learned how to make a responsive website."
+
+      - title: Collab Project
+        link: ""
+        tagline: "My first collboration with other students in my cohort. Built the Navbar using Bootstrap 4."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 25%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: Ruby on Rails
+        level: 25%
+
+      - name: Quickbooks
+        level: 60%
