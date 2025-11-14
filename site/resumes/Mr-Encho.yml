@@ -1,0 +1,150 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lorenzo
+    last_name: Ramis
+    
+    # Define yourself in 4-5 words
+    motto: Individuo realmente inquieto   
+    
+    # Focus
+    focus: Actualmente aprender desarrollo Web y estudiante de Grado superior de DAM
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+      Soy una perona bastante curiosa he inquieta, acualmente estudiante de un graga superior de DAM y 
+      entre en el bootcamp de 4geeks para salir lo antes posible al mecado laboral y asi ganara experiencia
+      de manera más agil y rapida. Me mueve mucho las ganas de aprender de este mundo, la comodidad de 
+      poder trabajar desde casa y "LOS SALARIO", me considero un perosonal pro-activa y un buen compañero.
+
+      Y como digo el Tío Ben "Un gran poder conlleva una gran responsabilidad"
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: lorenzoramis91@gmail.com #optional
+    phone:  #optional
+    website: https://github.com/Mr-Encho #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Mr-Encho
+    
+    twitter: Ya no uso X :S #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Casteñano
+        level: Nativo
+
+      - idiom: Inglés
+        level: Professional
+
+      - idiom: Catalan
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Gamming
+
+      - item: Codear
+
+      - item: "Deportes"
+
+# Your previous education
+education:
+    - degree: Bachillerato 
+      university: Colegio Valle Alto
+      # optional
+      university_logo: https://colegiovallealto.edu.ve/
+      time: 2008 - 2009
+      details: |
+        
+
+    - degree: Grado superior Hosteleria
+      university: ESHOB
+      # optional
+      university_logo: "No existe ya, cerraron el año pasado vaya #@|@!"
+      time: 2014 - 2016
+      details: |
+        No es ni de cercar la escuela que me pintaro, tanto así que la cerraron.
+
+# Your previous job experiences or volunteer
+
+experiences:
+    - role: DEpendiente de Tienda
+      time: 2020 - Actualmente
+      company: Tabacos "Un estanco". (POR ESTUDIO DESARROLLO DAW Y DAM!!!! XD) 
+      # optional
+      company_logo: data:image/jpeg;base64,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
+      details: |
+              - Reponer Tabacos y atender clientes no hay mucho más.
+              - Mal trabajo pero 100% sincero!! CONTRATAME SIEMPRE DIGO LA VERDAD!
+
+# Your project portfolio
+projects:
+    intro: >
+      De momento, los los proyecto de la academia de 4geeks
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 50%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 60%
