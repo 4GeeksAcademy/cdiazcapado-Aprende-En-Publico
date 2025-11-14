@@ -1,0 +1,167 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Camila
+    last_name: Gabriele
+    
+    # Define yourself in 4-5 words
+    motto: To be a great programmer
+    
+    # Focus
+    focus: Get a cool job!
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am 26 years old. I have a positive attitude towards work and get along well with others. I am committed, respectful, and a quick learner. I have a professional appearance.
+
+      I enjoy photography, editing, and content creation.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/file/d/1E8f-Id3zm5wHshFbwaLVI5Kcy2HqPK6O/view?usp=sharing
+
+    # Contact Information
+    email: camu36074@gmail.com #optional
+    phone: 648 568 544 #optional
+    website: camila_ga.com #optional
+    linkedin: Camila Gabriele #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: camila-ga
+    
+    twitter: 'camila_ga' #optional
+    stack-overflow: 256891/camila_ga # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Italian
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Photograph
+
+      - item: Travel
+
+      - item: Trekking
+
+# Your previous education
+education:
+    - degree: University Technical Degree in Travel and Tourism Management
+      university: Provincial University of Cordoba - Faculty of Tourism and Environment - Monte Pacheco
+      # optional
+      university_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.upc.edu.ar%2Fsobre-la-upc%2F&psig=AOvVaw3d-HlplErw7qrULDshvZvP&ust=1763234274937000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOCqgdat8pADFQAAAAAdAAAAABAT
+      time: 2019 - 2022
+      details: |
+        Management, planning and promotion of the tourism industry, encompassing economic, cultural, social and environmental aspects
+
+      
+    - degree: Bachelor of Social Sciences and Humanities
+      university: Our Lady of Lourdes Institute
+      # optional
+      university_logo: https://thumbs.dreamstime.com/b/nuestra-plantilla-del-esquema-de-los-ejemplos-se%C3%B1ora-vector-logo-lourdes-bendecida-dise%C3%B1o-mary-113068172.jpg
+      time: 2005 - 2016
+      details: |
+        Compulsory primary and secondary education.
+
+  
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Developer
+      time: 2023 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Define the architecture and technologies, lead and mentor other developers, review the code to ensure quality, plan the project, and act as a communication link between the technical team and other departments of the company.
+
+    - role: Senior Software Engineer
+      time: 2022 - 2023
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Design and develop high-quality software architectures, lead technical projects, review other developers' code, and solve complex problems. Responsible for mentoring junior engineers, making key technology decisions, planning tasks, and collaborating with other departments such as QA and Product Management.
+
+    - role: UI Developer
+      time: 2019 - 2023
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Transforming interface designs into functional and visually appealing code, creating the part of a website or application with which the user directly interacts. It focuses on appearance, usability, and user experience, using languages ​​such as HTML and CSS, and often implementing interface logic with JavaScript or libraries like React.js.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 85%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 100%
