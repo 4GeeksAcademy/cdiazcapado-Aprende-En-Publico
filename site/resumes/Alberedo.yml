@@ -1,0 +1,155 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alberto
+    last_name: Madrid
+    
+    # Define yourself in 4-5 words
+    motto: Passionate for tech, industrial world, programming, etc
+    
+    # Focus
+    focus: Learning programming in order to become a great programmer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy Alberto Madrid, desarrollador en crecimiento especializado en aplicaciones móviles y multiplataforma, con formación en el Grado Superior DAM y experiencia práctica en proyectos reales que integran autenticación segura, gestión de datos, mapas, automatización con Selenium y diseño de interfaces tanto en Java como en React Native con Expo. Tras varios años en un rol técnico de análisis y observación en el sector industrial, he reorientado mi carrera hacia el desarrollo de software, aportando una combinación sólida de pensamiento analítico, capacidad de resolución de problemas y pasión por la programación. Actualmente busco incorporarme como desarrollador —preferentemente en móvil, Java o front-end— para seguir creciendo y aportar valor desde la tecnología.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/C4D03AQHylG8E0J5Dpw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1620918499485?e=1764806400&v=beta&t=1rtPxXJ9so-sHpX5gaG3vWxJ9sbfxc4u8a4pJWbPscY
+
+    # Contact Information
+    email: albertomadrid93@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Alberedo
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Motorbike
+
+      - item: Music
+
+      - item: Eating
+
+# Your previous education
+education:
+  - degree: Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)
+    university: IFP Innovación en Formación Profesional (Grupo Planeta)
+    time: 2023 - Presente
+    details: |
+      Formación orientada al desarrollo de aplicaciones móviles, de escritorio y backend.  
+      Incluye programación en Java, bases de datos, aplicaciones híbridas, automatización y gestión de sistemas.
+
+        - Desarrollo de aplicaciones multiplataforma con Java.
+        - Programación de aplicaciones móviles y uso de APIs externas.
+
+  - degree: Estudios universitarios previos de carácter técnico (informática/ingenierías)
+    university: —
+    time: —
+    details: |
+      Formación previa que amplió conocimientos de programación, análisis y tecnología, aplicados posteriormente en proyectos profesionales y personales.
+
+        - Conocimientos en programación y análisis.
+        - Aplicación práctica en proyectos personales y académicos.
+
+
+experiences:
+  - role: Técnico Analista Electromecánico
+    time: 2018 - 2024
+    company: —
+    details: |
+      Análisis de equipos y maquinaria mediante diferentes métodos técnicos.  
+      Rol centrado en la observación, detección de incidencias y toma de decisiones basada en datos, capacidades que ahora aplico al desarrollo de software.
+
+        - Análisis detallado del estado de equipos y fallos.
+        - Trabajo metódico y orientado a la resolución de problemas.
+
+  - role: Desarrollador de Aplicaciones (Proyectos personales y académicos)
+    time: 2023 - Presente
+    company: —
+    details: |
+      Desarrollo de aplicaciones móviles, web y de escritorio.  
+      Experiencia práctica en React Native con Expo, Java, automatización con Selenium, autenticación con Auth0 y uso de mapas.
+
+        - Creación de apps móviles con React Native + Expo.
+        - Desarrollo de aplicaciones Java con interfaz gráfica y funcionalidad dinámica.
+
+
+projects:
+  intro: >
+    Proyectos creados durante mi formación y desarrollo profesional, centrados en aplicaciones móviles, automatización y backend.
+
+  assignments:
+    - title: My Regymstry
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "Aplicación móvil para registrar entrenamientos, consultar histórico y usar temporizador de descanso."
+
+    - title: App de actividades deportivas
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "Aplicación creada por un equipo de desarrollo para conectar personas interesadas en actividades y deportes."
+
+    - title: Sistema de autenticación con Auth0
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "Backend con Auth0, JWT, gestión de sesiones y API protegida."
+
+    - title: Automatización con Selenium
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "Automatización de creación de tickets y tareas internas mediante scripts en Python + Selenium."
+
+    - title: App de películas (React Native)
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "Aplicación móvil con carga de películas, filtrado en local y autenticación con Auth0."
+
+
+skills:
+  toolset:
+    - name: React Native & Expo
+      level: 85%
+
+    - name: Java & JavaFX/Swing
+      level: 80%
+
+    - name: Python & Selenium
+      level: 80%
+
+    - name: HTML5, CSS & JavaScript
+      level: 75%
+
+    - name: TypeScript
+      level: 70%
+
+    - name: Auth0 & JWT
+      level: 70%
+
+    - name: SQL & Bases de datos
+      level: 65%
