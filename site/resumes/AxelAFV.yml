@@ -1,0 +1,114 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Axel
+    last_name: Fernandez
+    
+    # Define yourself in 4-5 words
+    motto: Esfuerzo vence al talento.
+    
+    # Focus
+    focus: Aprender a programar.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     El esfuerzo es lo que me lleva a cumplir objetivos, siempre tendre fallos, pero no dejare de mejorar.
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: Axel.fernandezvalverde@gmail.com #optional
+    phone: 604 915 146 #optional
+    website: asd.com #optional
+    linkedin: alandoehttps://www.linkedin.com/in/shadow-hammer-3a5809299/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/AxelAFV
+    
+    twitter: '@goodAFV' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Advanced
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Music
+
+      - item: Coding
+
+      - item: Coocking
+
+# Your previous education
+education:
+    - degree: Full Stack Development
+      university: University 4geeks
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2025 - 2026
+      details: |
+         Estudio de programacion en 4GEEKSACADEMY.
+
+          - FULLSTACK
+          -front-end
+          -Back-end
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Coocker
+      time: 2024 - Present
+      company: Caramelito, Alzira
+      # optional
+      details: |
+       Cocinero en un restaurante de menu degustacion.
+# Your project portfolio
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section.
+
+    assignments:
+      - title: FORM
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/fs-pt-128GoodAFV-FORMS"
+        tagline: "A responsive website Form using HTML5 and Bootstrap."
+
+      - title: Instagram scroll & grid Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/fs-pt-128GoodAFV"
+        tagline: "A responsive website Instagram feed using bootstrap and HTML5."
+
+      - title: Instagram scroll feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/fs-pt-128-Post-Instagram-Axel"
+        tagline: "A scroll feed of Instagram using HTML5 and CSS"
+
+skills:
+    toolset:
+      - name: JavaScript
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 95%
