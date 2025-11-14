@@ -1,0 +1,58 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Miguel
+    last_name: Rodriguez
+    
+    # Define yourself in 4-5 words
+    motto: "Confía en el proceso"
+    
+    # Focus
+    focus: Ser programador
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Bachiller, estudie informatica pero no la culmine, fui vendedor de materiales de ferreteria durante 8 años en venezuela y actualmente llevo casi 10 años como dependiente de ferreteria en Tenerife, tambien empece a estudiar en 4Geeks para ser desarrollador.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: miguelrodriguez2603@gmail.com
+    phone: +34 630-804-676
+    website: No Tengo
+    linkedin: www.linkedin.com/in/miguel-rodriguez-870b3b1b2
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Miguel260383
+    
+    twitter: miguel_3891
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Ingles
+        level: A1
+
+    # Interests or hobbies
+    interests:
+      - item: Informatica
+
+      - item: Gaming
+
+      - item: Coches (Carros)
+
