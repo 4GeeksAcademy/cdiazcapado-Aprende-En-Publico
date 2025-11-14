@@ -1,0 +1,118 @@
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Aneth
+    last_name: Morantes
+    
+    # Define yourself in 4-5 words
+    motto: If you want something you have to work for it.
+    
+    # focus
+    focus: Family, Healthy work environment, never stop learning.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Solid work experience, B2 English and motivation to grow as a Full Stack developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/84743013?s=400&u=1bddd2bf7e102e748b34feebbdb84b7825ef38e7&v=4
+
+    # Contact Information
+    email: moracar.an@gmail.com #optional
+    phone: nophoneadded #optional
+    website: nowebadded #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: An-Moran
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2
+
+    # Interests or hobies
+    interests:
+      - item: Karaoke
+
+      - item: Videogames
+
+      - item: Trying new cheeses
+
+# Your previous education
+education:
+    - degree:
+      university: 
+      # optional
+      university_logo:
+      time: 
+      details: |
+       
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Butcher - Deli clerk - Fishmonger
+      time: 2024  - Present
+      company: Auchan
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8L4cPc69d2UzmtWpFIlDLKXprQ0jFQIdJ8DRdZwCibkMAvvE6Q0cIaRVieON-fywGJjc&usqp=CAU
+      details: |
+        Sale of various consumable products, ordering products five days a week under time constraints, handling various sharp cutting tools and conducting monthly inventory checks.
+          
+
+
+# Your project portfolio
+projects:
+   
+    assignments:
+      - title: Excersice Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/breatheco-de/exercise-postcard
+        tagline: "A simple Postcard made with html and a little bit of css, my very first project."
+
+      - title: Excuse Generator
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/An-Moran-Generador-de-excusas
+        tagline: "A simple Js code that could generate an excuse base on a random number from 1 to 4 and 4 objects"
+
+      - title: Insta Feed with Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/An-Moran-Bootstrap-P/commit/b35ef49706ed33c620ed21998b023a1026f71d47
+        tagline: "An instagram-like feed that is responsive, made entirely with Bootstrap"
+
+      
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 5%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 35%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
