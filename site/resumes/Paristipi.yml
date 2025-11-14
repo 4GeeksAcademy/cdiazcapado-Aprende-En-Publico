@@ -1,0 +1,145 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Pablo
+    last_name: Aristizabal
+    
+    # Define yourself in 4-5 words
+    motto: Love spending time with my daugther 
+    
+    # Focus
+    focus: To be my daugther example
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I´ve worked in customer service for over 5 years in three different BPOs when I was still living in
+       Colombia, then move to Europe and worked in Zebra Technologies CZ s.r.o. as a  technical support
+        specialist for B2B customers.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: pablo.aristizabal.p@gmail.com #optional
+    phone: 2662 644 951 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/pablo-aristizabal-809960175/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Paristipi
+    
+    twitter: 'none' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: none
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Tech
+
+      - item: Football
+
+      - item: Cooking
+
+# Your previous education
+education:
+ 
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Customer Service 
+      time: 2011 - 2015
+      company: Sutherland Global Services, San Francisco
+      # optional
+      company_logo: https://featherlitestore.com/wp-content/uploads/2021/09/sutherland-global-services-vector-logo.png
+      details: |
+        Help customers over the phone with their cellphone account in topics such as bills, payment arrangements,
+        plan changes, equipment upgrades, etc.
+          - Floor Support agent
+          - Back up Team Manager
+
+    - role: Technical Support Senior
+      time: 2014 - 2015
+      company: Zebra Technologies, Brno, Czech Republic
+      # optional
+      company_logo: https://i.pinimg.com/564x/a8/11/33/a811331cf38a86b28d0940ae7211037a.jpg
+      details: |
+        Technical support senior specialist B2B.
+
+          - Trainer
+          - Senior agent
+
+  
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Excel
+        level: 98%
+
+      - name: Jira
+        level: 98%
+
+      - name: Salesforce
+        level: 98%
+
+      - name: Service Now
+        level: 95%
