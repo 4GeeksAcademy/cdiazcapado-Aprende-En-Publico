@@ -1,0 +1,135 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alcides
+    last_name: Rivera
+    
+    # Define yourself in 4-5 words
+    motto: Hard work and consistency is the key to everything
+    
+    # Focus
+    focus: Get a good Job and develop myself 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I have studied Sistemas Microinformaticos y Redes and did the intership in Hacienda,
+      then i got hired as a Shuffler where i worked there for almost 2 years,
+      now i am currently learning to be a Full-stack developer
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: elarsi626@gmail.com #optional
+    phone: 640065015 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Arsi626
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Advanced
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: MMA
+
+      - item: Videogames
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Sistemas Microinformaticos y Redes
+      university: IES.Francisco De Goya
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021-2023
+      details: |
+        In Sistemas Microinformaticos y Redes,I learned how to install, configure, and maintain computers, operating systems, and local networks.
+        I worked on assembling and repairing equipment, managing users and permissions, and setting up basic servers.
+        I also practiced troubleshooting, providing technical support, and applying essential cybersecurity measures.
+        it was a hands-on program focused on practical IT administration and support.
+
+        
+        # Your previous education
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Shuffler
+      time: 2023 - Present
+      company: Evolution
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        my job would be to prepare and randomize the cards before they return to the game.
+         I would collect all the used cards, mix them thoroughly, and create a fresh shoe with a completely unpredictable order.
+          I’d make sure the shuffle is fair, secure, and impossible to influence. Once the new deck is ready, 
+          I’d return it to the table smoothly so the game can continue without interruptions.
+         In short, I’d be responsible for ensuring fairness, randomness, and a clean reset every time the shoe is changed.
+
+
+    - role: IT Support
+      time: 2023
+      company: Dirección General de Tributos de la Consejería de Hacienda
+      # optional
+
+
+# Your project portfolio
+projects:
+    intro: >
+      This are my current projects:
+
+    assignments:
+      - title: Form
+        # optional
+        link: "https://github.com/Arsi626/fs-pt-128-Alcides-HTMLFORM"
+        tagline: "Small responive Form using Bootstrap"
+
+      - title: Photofeed
+        # optional
+        link: "https://github.com/Arsi626/html-hello"
+        tagline: "Instagram Feed"
+
+      - title: Postcard
+        # optional
+        link: "https://github.com/Arsi626/exercise-postcard"
+        tagline: "Small Postcard in HTML"
+
+
+skills:
+    toolset:
+      - name: PacketTracer
+        level: 70%
+
+      - name: JavaScript 
+        level: 15%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Microsoft Office
+        level: 85%
+
+      - name: Photoshop
+        level: 60%
