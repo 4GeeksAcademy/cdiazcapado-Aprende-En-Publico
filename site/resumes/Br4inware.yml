@@ -1,0 +1,163 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Brayan Camilo
+    last_name: Sanchez Arenas
+    
+    # Define yourself in 4-5 words
+    motto: My motivation is to be a help to the world
+    
+    # Focus
+    focus: to feel proud and accomplished
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      My eagerness to learn is one of my most prominent characteristics.
+      When something catches my attention, I can increase my focus by 200%.
+      That's how I learned the vast majority of what I know today,
+      from repairing electronic devices to learning to play various
+      instruments like the guitar, piano, ukulele, and bass, as well as 
+      exploring different musical genres to learn new techniques.
+      All of this was self-taught.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: bsabusiness@outlook.com #optional
+    phone: +34 711 77 80 89 #optional
+    website: idonthaveanypage.com #optional
+    linkedin: iDontHaveAProfileYet #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Br4inware
+    
+    twitter: 'IDontHaveTwitter' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B1
+
+      - idiom: Valencià HAHAHAH
+        level: B1
+
+    # Interests or hobbies
+    interests:
+      - item: Guitar & Keys
+
+      - item: Roller in Line
+
+      - item: camping in the mountains
+
+# Your previous education
+education:
+    - degree: compulsory secondary education
+      university: IES Maria Moliner
+      # optional
+      university_logo: https://portal.edu.gva.es/iesmariamoliner/wp-content/uploads/sites/896/2021/03/cropped-cap%C3%A7alera-Moliner.png
+      time: 2012-2016
+      details: |
+        Compulsory Secondary Education in Spain.
+
+    - degree: Technician in microcomputer systems and networks
+      university: IES Camp De Morvedre
+      # optional
+      university_logo: https://portal.edu.gva.es/iescamp/wp-content/uploads/sites/596/2024/09/cropped-camp_version_reducida_color-e1725514391439.png
+      time: 2017 - 2019
+      details: |
+       I completed a vocational training program at the intermediate level,
+       where I learned network operating systems, computer assembly and maintenance,
+       office applications, single-user operating systems, and the creation and administration
+       of Windows and Ubuntu servers. I also learned to use the CMD and Bash command-line
+       interfaces and created scripts in text files modified from the terminal.
+
+       Also, during my mandatory unpaid internship, I overhauled the entire printing system
+       for the public network of the Sagunto City Council, the town where I live, as well as
+       configuring new computer equipment for new departments. Finally, we conducted research
+       on the deep web.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Waiter
+      time: 2017 - 2023
+      company: around 4 restaurants
+      # optional
+      company_logo: https://imgs.search.brave.com/eKeEAUyaOXOeSM8CAGx6NewhEtxi_dwpT5VHJ3Mk2TA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi92aXN0/YS1sYXRlcmFsLWRl/bC1jYW1hcmVyby1q/b3Zlbi10cmFzdG9y/bm8tcXVlLXNlLXNp/ZW50YS1lbi1iYW5j/by1hbWFyaWxsby1j/b24tZG9sb3ItZGUt/Y2FiZXphLTk5NDY5/MTY0LmpwZw
+      details: |
+        Endure customers and serve, and serve, and serve.
+
+        More holidays? Great, more work.
+
+    - role: warehouse worker
+      time: 2023 - today
+      company: Endurance Motive
+      # optional
+      company_logo: https://endurancemotive.com/wp-content/uploads/2024/01/logo-pastilla-azul-2048x664.jpg
+      details: |
+        warehouse control, shipping, order preparation. 
+
+   
+
+# Your project portfolio
+projects:
+    intro: >
+      nothing to see yet
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: HTML + CSS
+        level: 50%
+
+      - name: JavaScript & jQuery
+        level: 30%
+
+      - name: Bootstrap
+        level: 60%
+
+      
