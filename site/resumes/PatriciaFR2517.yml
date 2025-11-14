@@ -1,0 +1,103 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Patricia
+    last_name: Fopiani Roman
+    
+    # Define yourself in 4-5 words
+    motto: Me encanta escuchar música
+    
+    # Focus
+    focus: En crecer como persona
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Estudié un doble grado de filología hispánica y estudios ingleses en la Universidad de Cádiz. 
+      Tras terminar la carrera, empecé a trabajar como recepcionista, que es a lo que me 
+      dedico actualmente. 
+
+     
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: IMG_7370.HEIC
+
+    # Contact Information
+    email: patrifr2517@gmail.com #optional
+    phone: 640242577 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: PatriciaFR2517
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Inglés
+        level: Profesional
+
+      - idiom: Francés
+        level: Básico
+
+      - idiom: Español
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Tecnología
+
+      - item: Música
+
+      - item: Viajar
+
+# Your previous education
+education:
+    - degree: Doble grado de filología hispánica y estudios ingleses
+      university: Universidad de Cádiz
+      # optional
+      time: 2018 - 2023
+    
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Recepcionista
+      time: 2024 - Actualidad
+      company: Hostal La Andaluza
+
+      details: |
+        -Realizar check-in y ckeck-out.
+        -Gestionar llamadas y reservas.
+        -Atención al cliente
+        -Manejo de nuevas tecnologías
+
+
+# Your project portfolio
+projects:
+    intro: >
+      En este porfolio aparecerán varios de los trabajos que he ido haciendo como programadora.
+
+    assignments:
+      - title: Instagram Feed
+      
+      - title: Formulario HTML
+
+skills:
+    toolset:
+      - name: HTML y CSS
+        level: 90%
+
+      - name: JavaScript
+        level: 70%
+
+      - name: GitHub
+        level: 90%
+
+      - name: Bootstrap
+        level: 95%
