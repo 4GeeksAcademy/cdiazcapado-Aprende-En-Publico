@@ -1,0 +1,149 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Robinson Ferney
+    last_name: Anaguano Ortiz
+    
+    # Define yourself in 4-5 words
+    motto: Always learning, always improving.
+    
+    # Focus
+    focus: focus: Better every day, because of those who inspire me.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+        Full-Stack Software Developer student and Telephone Support Agent with over 7 years of experience in customer service across various industries. Specialized in resolving inquiries and complaints, with a proactive approach focused on customer satisfaction. Highly proficient in call center technologies, with strong adaptability, teamwork skills, 
+        and a proven track record of meeting objectives. Currently developing my Full-Stack development skills, complementing my operational experience with a technical perspective geared towards continuous improvement.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4D35AQEIL5QN7X-izQ/profile-framedphoto-shrink_400_400/B4DZqOKH44HwAc-/0/1763321610052?e=1763928000&v=beta&t=UqEio16kTWxiKnDmh8Rq83efIDmkUgZMGCixOXp_7yM
+
+    # Contact Information
+    email: rfao300@hotmail.com #optional
+    phone: +34 643 38 42 76 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/robinson-ferney-ao/ oe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Robb.ao
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: A2
+
+      - idiom: Italian
+        level: A1
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Music.
+
+      - item: Movie.
+
+      - item: Travel.
+
+# Your previous education
+education:
+    - degree: Bachiller Academico.
+      university: Institución Educativa Municipio de Funes
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2001 - 2007
+      details: |
+        Formación en educación media.
+        
+    
+# Your previous job experiences or volunteer
+experiences:
+    - role: Operador de Canales Digitales
+      time: Abril 2025 - Present
+      company: Securitas Direct SAU, Madrid. España
+      # optional
+      company_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fuser%2FSecuritasdirect&psig=AOvVaw0LoBK6vMocj9dEjo9w3c9z&ust=1763408901156000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLCmopu495ADFQAAAAAdAAAAABAE
+      details: |
+        Responder consultas de clientes de manera inmediata y clara.
+        Identificar necesidades del cliente y ofrecer soluciones o 	productos relevantes.
+        Escalar casos complejos a soporte especializado o a un canal 	offline si es necesario.
+        Registrar interacciones en el CRM para seguimiento y análisis.
+
+    - role: Analista de depósitos bancarios y atención al cliente (Call center)
+      time: Junio 2021 - Octubre 2023
+      company: Price Res SAS. Cali, Colombia
+      # optional
+      company_logo: https://www.google.com/imgres?q=tiquetesbaratos.com&imgurl=https%3A%2F%2Fimg.cdnpth.com%2Fmedia%2Fassets-tb%2F1.7.33%2Fimg%2Flogo-tiquetesbaratos.png&imgrefurl=https%3A%2F%2Fwww.tiquetesbaratos.com%2Fes%2Finfo%2Fcompra-segura&docid=Vo_9V3G7pjZ9VM&tbnid=swU5uUMZRSuNjM&vet=12ahUKEwiPztT_tveQAxUxOfsDHdR4FcIQM3oECBMQAA..i&w=157&h=143&hcb=2&ved=2ahUKEwiPztT_tveQAxUxOfsDHdR4FcIQM3oECBMQAA
+      details: |
+        Verificar y confirmar la recepción de los depósitos bancarios 	realizados por clientes y otras entidades. 
+        Revisar solicitudes y confirmar el depósito de acuerdo con la 	documentación adjunta para asegurar su autenticidad y precisión. 
+        Registrar y documentar adecuadamente los ingresos en el sistema 	correspondiente. 
+        Realizar conciliaciones diarias entre los registros internos y 	externos de los depósitos bancarios. 
+        Colaborar con el departamento de finanzas para asegurar la 	precisión y la integridad de los registros financieros. 
+        Evaluar y emitir avales de solicitudes de reembolso de clientes u 	otras partes interesadas.
+
+    
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: JavaScript 
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      
+      
