@@ -1,184 +1,130 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output
-#
-
-template: "online-cv"
-skin: "green"
-
-# Personal Information
+---
+template: online-cv
+skin: green
 basic_info:
+  first_name: Alvaro Jesus
+  last_name: Moreno
+  motto: music, sport, programing, animals.
+  focus: Achieve my goals and set new ones.
+  summary: >
+    Bachelor's degree in compulsory secondary education and high school. 
 
-    # Your full name
-    first_name: Alvaro Jesus
-    last_name: Moreno
-    
-    # Define yourself in 4-5 words
-    motto: music, sport, programing, animals.
-    
-    # Focus
-    focus: Achieve my goals and set new ones.
-    
-    # You have 1 paragraph to make a great impression, summarize your career
-    summary: |
-      Bachelor's degree in compulsory secondary education and high school. 
-      Currently working as a technical support engineer supervisor and studying for a degree in computer engineering. 
-    
-    # Your profile picture URL
-    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
-
-    # Contact Information
-    email: a.j.morenoalb@gmail.com #optional
-    phone: +34 644 392 551 #optional
-    website: asd.com #optional
-    linkedin: Alvaro Jesus Moreno #optional
-    
-    #
-    # ******** IMPORTANT *******
-    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: AJM-99
-    
-    twitter:  #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-
-    # Languages you speak, levels include: Native, Professional
-    languages:
-      - idiom: English
-        level: B2
-
-      - idiom: 
-        level: 
-
-      - idiom: Spanish
-        level: Native
-
-    # Interests or hobbies
-    interests:
-      - item: Indoor football.
-
-      - item: Cycling.
-
-      - item: Programming.
-
-# Your previous education
+    Currently working as a technical support engineer supervisor and studying for a degree in computer engineering. 
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: a.j.morenoalb@gmail.com
+  phone: +34 644 392 551
+  website: asd.com
+  linkedin: Alvaro Jesus Moreno
+  github: AJM-99
+  twitter: null
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: B2
+    - idiom: null
+      level: null
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Indoor football.
+    - item: Cycling.
+    - item: Programming.
 education:
-    - degree: High school and bachelor
-      university: I.E.S. Airen
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2019
-      details: |
+  - degree: High school and bachelor
+    university: I.E.S. Airen
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2011 - 2019
+    details: ""
+  - degree: Computer engineering degree
+    university: UNED
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2023 - Present
+    details: >
+      I am studying a computer engineering degree and actually I am in my
+      third year. 
 
-    - degree: Computer engineering degree
-      university: UNED
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2023 - Present
-      details: |
-        I am studying a computer engineering degree and actually I am in my third year. 
-        Through this years I learnt how to program with diferent languages such as C, C++, HTML and Java.
+      Through this years I learnt how to program with diferent languages such as C, C++, HTML and Java.
 
-          - Knowledge of diferent programing languages.
-          - Group projects and the use of tools such as Git and GitHub. 
-
-# Your previous job experiences or volunteer
+        - Knowledge of diferent programing languages.
+        - Group projects and the use of tools such as Git and GitHub. 
 experiences:
-    - role: Supervisor technical DevOps support engineer
-      time: 2022 - Present
-      company: Harmonic Inc.
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        I work as a supervisor technical support engineer of 24/7 coordinating the team and assigning tasks in a team  that offers 
-        support to the company customers helping them with the problems they can face with their systems and also,solving problems 
-        detected by our proactive monitoring. All of our systems are Kubernetes based, so I have a hugh knowledge.
+  - role: Supervisor technical DevOps support engineer
+    time: 2022 - Present
+    company: Harmonic Inc.
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >
+      I work as a supervisor technical support engineer of 24/7 coordinating
+      the team and assigning tasks in a team  that offers 
 
-          - Customer-facing work.
-          - Knowledgemente of Mesos and Kubernetes.
-          - Team working.
-          - Quick action in problem solving.  
+      support to the company customers helping them with the problems they can face with their systems and also,solving problems 
 
-    - role: Technical DevOps support engineer.
-      time: 2022 - Present
-      company: Harmonic Inc.
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        I worked as a technical support engineer of 24/7 team offering support to the company customers 
-        helping them with the problems they can face with their systems and also, solving problems detected by our 
-        proactive monitoring. All of our systems are Kubernetes based, so I have a hugh knowledge.
+      detected by our proactive monitoring. All of our systems are Kubernetes based, so I have a hugh knowledge.
 
-          - Customer-facing work.
-          - Knowledgemente of Mesos and Kubernetes.
-          - Team working.
-          - Quick action in problem solving.
+        - Customer-facing work.
+        - Knowledgemente of Mesos and Kubernetes.
+        - Team working.
+        - Quick action in problem solving.  
+  - role: Technical DevOps support engineer.
+    time: 2022 - Present
+    company: Harmonic Inc.
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >
+      I worked as a technical support engineer of 24/7 team offering support
+      to the company customers 
 
-    - role:
-      time:
-      company:
-      # optional
-      company_logo:
-      details: |
+      helping them with the problems they can face with their systems and also, solving problems detected by our 
 
+      proactive monitoring. All of our systems are Kubernetes based, so I have a hugh knowledge.
 
-          - 
-          -
-          - 
-          -  
+        - Customer-facing work.
+        - Knowledgemente of Mesos and Kubernetes.
+        - Team working.
+        - Quick action in problem solving.
+  - role: null
+    time: null
+    company: null
+    company_logo: null
+    details: |
+      
 
-# Your project portfolio
+      - 
+      -
+      - 
+      -  
 projects:
-    intro: >
-
-
-    assignments:
-      - title:
-        # optional
-        project_logo:
-        link:
-        tagline:
-
-      - title:
-        # optional
-        project_logo:
-        link:
-        tagline:
-
-      - title:
-        # optional
-        project_logo:
-        link:
-        tagline:
-
-      - title:
-        # optional
-        project_logo:
-        link:
-        tagline:
-
-      - title:
-        # optional
-        project_logo:
-        link:
-        tagline:
-
+  intro: ""
+  assignments:
+    - title: null
+      project_logo: null
+      link: null
+      tagline: null
+    - title: null
+      project_logo: null
+      link: null
+      tagline: null
+    - title: null
+      project_logo: null
+      link: null
+      tagline: null
+    - title: null
+      project_logo: null
+      link: null
+      tagline: null
+    - title: null
+      project_logo: null
+      link: null
+      tagline: null
 skills:
-    toolset:
-      - name: C++
-        level: 70%
-
-      - name: JavaScript & Java
-        level: 70%%
-
-      - name: HTML5 & CSS
-        level: 70%
-
-      - name: Kubernetes
-        level: 85%
-
-      - name: Mesos
-        level: 80%
-      
-      - name:
-        level:
-      
+  toolset:
+    - name: C++
+      level: 70%
+    - name: JavaScript & Java
+      level: 70%%
+    - name: HTML5 & CSS
+      level: 70%
+    - name: Kubernetes
+      level: 85%
+    - name: Mesos
+      level: 80%
+    - name: null
+      level: null
