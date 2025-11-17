@@ -4,13 +4,13 @@ skin: green
 basic_info:
   first_name: Alvaro Jesus
   last_name: Moreno
-  motto: music, sport, programing, animals.
-  focus: Achieve my goals and set new ones.
+  motto: music, sport, programing, animals
+  focus: Achieve my goals and set new ones
   summary: >
-    Bachelor's degree in compulsory secondary education and high school. 
+    Bachelor's degree in compulsory secondary education and high school
 
-    Currently working as a technical support engineer supervisor and studying for a degree in computer engineering. 
-  avatar: https://randomuser.me/api/portraits/women/24.jpg
+    Currently working as a technical support engineer supervisor and studying for a degree in computer engineering 
+  avatar: https://randomuser.me/api/portraits/men/24.jpg
   email: a.j.morenoalb@gmail.com
   phone: +34 644 392 551
   website: asd.com
@@ -26,9 +26,9 @@ basic_info:
     - idiom: Spanish
       level: Native
   interests:
-    - item: Indoor football.
-    - item: Cycling.
-    - item: Programming.
+    - item: Indoor football
+    - item: Cycling
+    - item: Programming
 education:
   - degree: High school and bachelor
     university: I.E.S. Airen
@@ -41,16 +41,16 @@ education:
     time: 2023 - Present
     details: >
       I am studying a computer engineering degree and actually I am in my
-      third year. 
+      third year
 
-      Through this years I learnt how to program with diferent languages such as C, C++, HTML and Java.
+      Through this years I learnt how to program with diferent languages such as C, C++, HTML and Java
 
-        - Knowledge of diferent programing languages.
-        - Group projects and the use of tools such as Git and GitHub. 
+        - Knowledge of diferent programing languages
+        - Group projects and the use of tools such as Git and GitHub
 experiences:
   - role: Supervisor technical DevOps support engineer
     time: 2022 - Present
-    company: Harmonic Inc.
+    company: Harmonic Inc
     company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     details: >
       I work as a supervisor technical support engineer of 24/7 coordinating
@@ -58,15 +58,15 @@ experiences:
 
       support to the company customers helping them with the problems they can face with their systems and also,solving problems 
 
-      detected by our proactive monitoring. All of our systems are Kubernetes based, so I have a hugh knowledge.
+      detected by our proactive monitoring. All of our systems are Kubernetes based, so I have a hugh knowledge
 
-        - Customer-facing work.
-        - Knowledgemente of Mesos and Kubernetes.
-        - Team working.
-        - Quick action in problem solving.  
-  - role: Technical DevOps support engineer.
+        - Customer-facing work
+        - Knowledgemente of Mesos and Kubernetes
+        - Team working
+        - Quick action in problem solving 
+  - role: Technical DevOps support engineer
     time: 2022 - Present
-    company: Harmonic Inc.
+    company: Harmonic Inc
     company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     details: >
       I worked as a technical support engineer of 24/7 team offering support
@@ -74,12 +74,12 @@ experiences:
 
       helping them with the problems they can face with their systems and also, solving problems detected by our 
 
-      proactive monitoring. All of our systems are Kubernetes based, so I have a hugh knowledge.
+      proactive monitoring. All of our systems are Kubernetes based, so I have a hugh knowledge
 
-        - Customer-facing work.
-        - Knowledgemente of Mesos and Kubernetes.
-        - Team working.
-        - Quick action in problem solving.
+        - Customer-facing work
+        - Knowledgemente of Mesos and Kubernetes
+        - Team workin
+        - Quick action in problem solving
   - role: null
     time: null
     company: null
@@ -124,7 +124,5 @@ skills:
       level: 70%
     - name: Kubernetes
       level: 85%
-    - name: Mesos
-      level: 80%
     - name: null
       level: null
