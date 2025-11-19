@@ -1,0 +1,86 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Carlos
+    last_name: Vispo
+
+    motto: Desarrollador con ganas de aprender
+
+    focus: Desarrollo de aplicaciones multiplataforma
+
+    summary: |
+      Recientemente graduado en desarrollo de aplicaciones multiplataforma, con conocimientos en Java, HTML, CSS, JavaScript, y bases de datos.
+      Mi formación e interés por la informática me han preparado para abordar problemas tanto técnicos como orientados al cliente.
+      Me interesa aplicar mis conocimientos y seguir aprendiendo en un entorno profesional. Soy una persona constante,
+      detallista y comprometida con la calidad, que disfruta de enfrentar retos y trabajar en equipo para crear software funcional
+      que realmente aporte a los usuarios.
+
+    email: carlosavispo19@gmail.com
+    phone: "665632192"
+    location: Pontevedra, España
+    driving_license: B
+    birthday: "17/12/2001"
+
+    linkedin: https://www.linkedin.com/in/carlos-vispo-320023338
+    github: itscarlosvg
+
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Intermedio
+
+    interests:
+      - item: Programación
+      - item: Aprendizaje continuo
+      - item: Tecnología
+
+education:
+  - degree: FP Desarrollo de Aplicaciones Multiplataforma
+    university: IES Anton Losada Dieguez
+    time: sept. 2023 - jun. 2025
+    details: |
+      Formación en desarrollo de aplicaciones multiplataforma, incluyendo Java, bases de datos, HTML, CSS y JavaScript.
+
+experiences:
+  - role: Servicio Técnico Hardware
+    time: marzo 2021 - marzo 2022
+    company: Servicios Integrales MEV, Santiago, Chile
+    details: |
+      Tareas relacionadas con soporte técnico, reparación y mantenimiento de hardware.
+
+  - role: Ejecutivo de ventas
+    time: marzo 2021 - abril 2023
+    company: Servicios Integrales MEV, Santiago de Chile
+    details: |
+      Atención a clientes, gestión de ventas y soporte comercial.
+
+projects:
+    intro: >
+      A continuación se pueden agregar proyectos personales o del portafolio.
+
+    assignments: []
+
+skills:
+    toolset:
+      - name: Java
+        level: 70%
+
+      - name: Bases de datos
+        level: 60%
+
+      - name: HTML
+        level: 60%
+
+      - name: CSS
+        level: 40%
+
+      - name: JavaScript
+        level: 40%
