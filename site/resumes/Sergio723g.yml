@@ -1,0 +1,131 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sergio
+    last_name: Goncalves
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta ser servicial y hacer el bien
+    
+    # Focus
+    focus: Mejorar cada
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy estudiante de ingieneria informatica en la Universidad catolica andres bello en venezuela, y estoy aprendiendo
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: sagoncalves.22@est.ucab.edu.ve #optional
+    phone: #234 2342 342 #optional
+    website: #asd.com #optional
+    linkedin: Sergio723g #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Sergio723g
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: English
+        level: semi-Professional
+
+      - idiom: Portugues
+        level: semi-Professional
+
+    # Interests or hobbies
+    interests:
+      - item: soccer
+
+      - item: gym
+
+      - item: Cooking
+
+# Your previous education
+education:
+  - degree: Ingeniería Informática
+    university: Universidad (En curso)
+    # optional
+    university_logo: https://via.placeholder.com/150
+    time: 2021 - Presente
+    details: |
+      Formación integral en ciencias de la computación.
+      Foco actual en Investigación de Operaciones (Programación Lineal),
+      Arquitectura de Redes (TCP/IP, Subnetting) y Desarrollo Web.
+
+# Your previous job experiences or volunteer
+experiences:
+  - role: Desarrollador Full Stack (En Formación)
+    time: 2024 - Presente
+    company: Proyectos Académicos / Personal
+    # optional
+    company_logo: https://via.placeholder.com/150
+    details: |
+      Desarrollo de soluciones web completas integrando Frontend y Backend.
+      Manejo de lógica de negocio compleja, conexiones a bases de datos
+      y despliegue de entornos virtuales.
+        - Uso de Git para control de versiones.
+        - Configuración de entornos Linux (Kali/VirtualBox).
+
+# Your project portfolio
+projects:
+  intro: >
+    Proyectos destacados enfocados en soluciones de gestión y consumo de APIs,
+    aplicando tecnologías modernas de desarrollo web.
+
+  assignments:
+    - title: FuelFlow
+      # optional
+      project_logo: https://via.placeholder.com/150
+      link: "#"
+      tagline: "Sistema de gestión para gasolineras (Python/Flask + PostgreSQL). Control de inventario y ventas de combustible."
+
+    - title: Star Wars Blog
+      # optional
+      project_logo: https://via.placeholder.com/150
+      link: "#"
+      tagline: "Aplicación web interactiva con React. Uso de Hooks y consumo de API externa para mostrar personajes y planetas."
+
+    - title: Simulación de Red Corporativa
+      # optional
+      project_logo: https://via.placeholder.com/150
+      link: "#"
+      tagline: "Diseño de topología de red en Cisco Packet Tracer. Configuración de routers, DHCP y segmentación de redes."
+
+skills:
+  toolset:
+    - name: Python & Flask
+      level: 90%
+
+    - name: JavaScript & React
+      level: 85%
+
+    - name: PostgreSQL & SQL
+      level: 80%
+
+    - name: HTML5, CSS3 & Bootstrap
+      level: 90%
+
+    - name: Git & Terminal (Bash/Linux)
+      level: 75%
+
+    - name: Redes & Cisco Packet Tracer
+      level: 80%
