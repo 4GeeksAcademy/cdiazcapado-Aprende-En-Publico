@@ -1,3 +1,6 @@
+template: "online-cv"
+skin: "blue"
+
 basic_info:
     first_name: Balam
     last_name: Castro
