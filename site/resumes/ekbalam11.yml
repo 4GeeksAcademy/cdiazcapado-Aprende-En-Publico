@@ -1,0 +1,153 @@
+basic_info:
+    first_name: Balam
+    last_name: Castro
+    motto: Geographer, GIS & Developer
+    focus: Spatial analysis, cartography & GIS development
+    summary: |
+      Geographer with experience in spatial analysis, cartography, remote sensing,
+      natural resource management, territorial planning, and GIS application development.
+      I have worked as a GIS analyst in national research institutes performing spatial
+      modeling, photointerpretation, land classification, and designing cartographic
+      products for urban and rural studies.
+
+      In recent years I have also developed solid skills in web development, including
+      full-stack applications using JavaScript, Node.js, Express, MongoDB, and front-end
+      technologies. I am currently strengthening my programming skills in Python and SQL,
+      focusing on GIS automation, geospatial development, and clean architecture.
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+    email: balam@example.com
+    phone: +34 600 000 000
+    website: https://portfolio-example.com
+    linkedin: balam-castro
+    github: balamcastro
+    twitter: ''
+    stack-overflow:
+
+    languages:
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Photography
+      - item: Cycling
+      - item: Urbanism
+      - item: Mapping
+
+education:
+    - degree: MSc in Sustainability Science
+      university: Universidad Nacional Autónoma de México (UNAM)
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/7/79/UNAM_logo.svg
+      time: 2014 - 2016
+      details: |
+        Graduate studies in sustainability, territorial planning, natural resource
+        management and socio-environmental analysis. Developed research projects involving
+        spatial modeling and geographic information systems.
+
+          - GIS-based territorial studies
+          - Remote sensing and spatial data analysis
+
+    - degree: BA in Geography
+      university: Universidad Nacional Autónoma de México (UNAM)
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/7/79/UNAM_logo.svg
+      time: 2008 - 2014
+      details: |
+        Academic focus on geomatics, cartography, environmental studies, and urban planning.
+        Participated in fieldwork campaigns, spatial analysis projects and scientific presentations.
+
+          - GIS & remote sensing specialization
+          - Photointerpretation and cartographic production
+
+experiences:
+    - role: GIS Analyst
+      time: 2019 - 2020
+      company: CentroGeo (Mexico)
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/4/4f/CentroGeo_logo.svg
+      details: |
+        Worked in rural development research projects performing spatial analysis, landscape
+        unit classification, cartographic design and spatial modeling using GIS and remote sensing.
+
+          - Landscape unit classification with remote sensing
+          - Spatial modeling and cartographic production
+
+    - role: GIS Analyst
+      time: 2016 - 2018
+      company: National Applied Research Center (Mexico)
+      details: |
+        Conducted landscape characterization, spatial modeling of productive systems,
+        GIS workflows and cartographic products for decision-making and rural planning.
+
+          - Remote sensing analysis
+          - Data processing and thematic cartography
+
+    - role: Full-Stack Developer
+      time: 2023 - 2024
+      company: Various personal and collaborative projects
+      details: |
+        Built full-stack applications using Node.js, Express, MongoDB, JavaScript, and EJS.
+        Developed features, data models and backend logic using MVC and clean architecture
+        principles. Focused on improving front-end specialization.
+
+          - Built full-stack web apps
+          - Team collaboration and agile development
+
+    - role: University Teacher
+      time: 2014 - 2016
+      company: UNAM
+      details: |
+        Taught geographic topics, GIS analysis, and research skills. Delivered multiple academic
+        talks and contributed to student training.
+
+          - Public speaking and knowledge communication
+          - Research mentoring
+
+projects:
+    intro: >
+      A selection of personal, academic and professional projects involving GIS analysis,
+      spatial data processing, web development and urban studies.
+
+    assignments:
+      - title: Rural Productive Landscape Analysis
+        project_logo:
+        link: "#"
+        tagline: "GIS and remote sensing modeling of rural productive systems using spatial indicators."
+
+      - title: GIS Urban Studies Cartography
+        project_logo:
+        link: "#"
+        tagline: "Design of analytical maps and spatial indicators for urban planning studies."
+
+      - title: Node.js Portfolio Website
+        project_logo:
+        link: "#"
+        tagline: "Portfolio built with Node.js, Express, MongoDB, HTML and EJS using MVC structure."
+
+      - title: Secret Santa Python App
+        project_logo:
+        link: "#"
+        tagline: "Python and SQL app that assigns random participants and sends email notifications."
+
+      - title: MovieClean Architecture Project
+        project_logo:
+        link: "#"
+        tagline: "Movie domain project integrating clean architecture, services and MongoDB."
+
+skills:
+    toolset:
+      - name: GIS (QGIS, ArcGIS, PostGIS)
+        level: 95%
+      - name: Remote Sensing
+        level: 90%
+      - name: Python (Data & GIS)
+        level: 80%
+      - name: JavaScript, Node.js, Express
+        level: 85%
+      - name: MongoDB / SQL
+        level: 80%
+      - name: HTML, CSS, Tailwind
+        level: 85%
+      - name: Cartography & Spatial Visualization
+        level: 95%
+      - name: Research & Territorial Analysis
+        level: 90%
