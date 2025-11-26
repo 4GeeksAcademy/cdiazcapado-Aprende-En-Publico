@@ -1,0 +1,114 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ruben
+    last_name: Herrera
+    
+    # Define yourself in 4-5 words
+    motto: Entusiasta, Curioso, Critico, Apasaionado y Carismatico
+    
+    # Focus
+    focus: Emplear conocimientos cientificos y herramientas tecnologicas para optimizar el entorno donde me desenvuelvo.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Ingeniero Metalurgico con conocimientos en la industria del gas licuado del petroleo
+      orientado al desarrollo de lineas de negocio promoviendo el uso de herramientas tecnologicas
+      fundamentadas en conocimientos tecnicos.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/C4E03AQHuUd8EPRFPpA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1651625667050?e=1766016000&v=beta&t=Wt-iie1U0WwDou6CUZiJUtJf-WX4DyP87fstZ08tUrU
+
+    # Contact Information
+    linkedin: https://www.linkedin.com/in/rubeneduardoo/?locale=es_ES #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Rubeneduardoo
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Inglés
+        level: Profesional.
+
+
+    # Interests or hobbies
+    interests:
+      - item: Futbol
+
+      - item: Ping-Pong
+
+      - item: Gimnasio
+
+# Your previous education
+education:
+    - degree: Ingeniería Metalúrgica Mención Química
+      university: Universidad Central de Venezuela
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/f/f4/Logo_Universidad_Central_de_Venezuela.svg
+      time: 2016 - 2023
+      details: |
+        Formación teorica y práctica en ciencias de la ingeniería con principios 
+        en metalurgia quimica y fisica. Fundamentos en ciencias de los materiales 
+        con aplicación en corrosión, electroquímica, metalografía, comportamiento mecánico,
+        análisis de fallas y ensayos no destructivos.
+
+          - Simulación por Elementos Finitos del proceso de Fundición Inyectada a Alta Presión 
+          para la manufactura de un componente de Aluminio.
+          -Desarrollo de TEG en Diseño de un componente de Aluminio y su proceso de
+          producción mediante Fundición Inyectada a Alta Presión.
+          - Desarrollo de Pasantías en tratamiento de efluentes industriales de una Fabrica
+          de Resina mediante síntesis de Nanopartículas de Fe3O4.
+
+  
+# Your previous job experiences or volunteer
+experiences:
+    - role: Ingeniero en Ventas
+      time: 2024 - Present
+      company: EQUIGAS
+      # optional
+      company_logo: https://equigas.com.ve/1_banner1/
+      details: |
+        Desarrollar estrategias y capacidad técnica dentro del equipo de Ventas
+        brindando asesoría de calidad a nuestros clientes nacionales
+        e internacionales en sus diseños, selección de equipos y sistemas
+        de consumo de combustible, enfocandonos en la solución más óptima
+        para cada aplicación.
+
+          - Diseñar procesos de Ventas
+          - Realizar investigación de mercado
+          - Analizar indicadores de desempeño y 
+          patrones de consumo.
+          - Desarrollar Catálogos, fichas técnicas y 
+          documentación de productos. 
+
+skills:
+    toolset:
+      - name: Microsoft Excel & PowerBI
+        level: 70%
+
+      - name: Autodesk Inventor
+        level: 60%
+
+      - name: Altair InspireCast
+        level: 60%
+
+      - name: Python & SQL
+        level: 50%
+
+      - name: Odoo Enterprise
+        level: 50%
