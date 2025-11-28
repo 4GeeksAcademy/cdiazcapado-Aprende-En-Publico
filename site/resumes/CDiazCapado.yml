@@ -1,0 +1,98 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Cristina
+    last_name: Diaz
+    
+    # Define yourself in 4-5 words
+    motto: Imagine Create Repeat
+    
+    # Focus
+    focus: Helping with apps
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am skilled Automation Engineer who wants to move towards development in IA and LLModels.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/AloyCV
+
+    # Contact Information
+    email: cdcapadowork@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: CDiazCapado
+    
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Basic
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Skiing
+
+      - item: Windsurfing
+
+      - item: Music
+
+# Your previous education
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Automation Engineer
+      time: 2021 - Present
+      company: Aerlingus,Ireland
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript 
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
